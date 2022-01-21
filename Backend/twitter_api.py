@@ -1,5 +1,5 @@
 import requests
-from config import config
+import config
 import tweepy as tw
 from george import George
 
@@ -33,5 +33,5 @@ class TwitterData:
 
 
 if __name__ == "__main__":
-    bot = TwitterData()
+    bot = TwitterData("Liverpool")
     print(bot)
