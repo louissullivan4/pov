@@ -12,7 +12,7 @@ class George:
         self.result = self.calculateResults()
 
     def getSentiments(self):
-        for val in self.data():
+        for val in self.data:
             val = TextBlob(val)
             for sentence in val.sentences:
                 polarity = float(sentence.sentiment.polarity)
