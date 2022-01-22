@@ -5,11 +5,11 @@ const styles = StyleSheet.create({
     container: {
         flex:1,
         alignItems: 'center',
-        marginTop: 20,
     },
     title: {
+        flex:1,
         fontSize: 40,
-        padding: 3,
+        marginTop: 40,
     },
 })
 export default styles;

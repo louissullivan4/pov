@@ -2,6 +2,7 @@ import { View, Text, SafeAreaView } from 'react-native';
 import React, { useState } from 'react';
 import SearchBar from '../../components/home/seachBar';
 import styles from "./styles";
+import CarouselCards from '../../components/home/carouselCards';
 
 
 export default function HomeScreen() {
@@ -16,6 +17,7 @@ export default function HomeScreen() {
         clicked = {clicked}
         setClicked = {setClicked}
       /> 
+      <CarouselCards/>
     </SafeAreaView>
 
   );

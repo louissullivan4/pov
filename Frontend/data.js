@@ -1,4 +1,4 @@
-export default data = [
+const data = [
     {
       title: "Aenean leo",
       body: "Ut tincidunt tincidunt erat. Sed cursus turpis vitae tortor. Quisque malesuada placerat nisl. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
@@ -15,3 +15,5 @@ export default data = [
       imgUrl: "https://picsum.photos/id/12/200/300"
     }
   ]
+
+  export default data;
