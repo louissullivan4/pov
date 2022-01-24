@@ -8,22 +8,31 @@ class George:
         self.total_negative = 0
         self.total_neutral = 0
         self.pol = 0
-        self.getSentiments()
+        self.clean_data = []
+        self.correct_spelling()
         self.result = self.calculateResults()
 
-    def getSentiments(self):
+    def correct_spelling(self):
+        newlist = []
         for val in self.data:
             val = TextBlob(val)
-            for sentence in val.sentences:
-                polarity = float(sentence.sentiment.polarity)
-                self.pol = polarity
-                self.total_sentiments += 1
-                if polarity >= 0.1:
-                    self.total_positve += 1
-                elif polarity <= -0.1:
-                    self.total_negative += 1
-                else:
-                    self.total_neutral += 1
+            spelled = val.correct()
+            newlist.append(str(spelled))
+        self.clean_data = newlist
+        self.getSentiments()
+
+    def getSentiments(self):
+        for val in self.clean_data:
+            val = TextBlob(val)
+            polarity = float(val.sentiment.polarity)
+            self.pol = polarity
+            self.total_sentiments += 1
+            if polarity >= 0.1:
+                self.total_positve += 1
+            elif polarity <= -0.1:
+                self.total_negative += 1
+            else:
+                self.total_neutral += 1
     
     def calculateResults(self):
         return (self.total_positve / self.total_sentiments) * 100
@@ -36,18 +45,3 @@ if __name__ == "__main__":
     bot = George()
     print(bot)
 
-
-
-
-
-
-
-
-
-    
-
-    
-
-
-if __name__ == "__main__":
-    bot = George
