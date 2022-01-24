@@ -14,12 +14,12 @@ class AmazonData:
 
     def get_product_asin(self):
         # as this is test data the api not being callled and so a term is not passed, only get playstation 5
-        with open('Backend/Test/amazon_asin.json') as fp:
+        with open('Backend/APIs/json/amazon_asin.json') as fp:
             data = json.load(fp)
             return data["result"][0]["asin"]
     
     def get_ratings(self):
-        with open('Backend/Test/amazon_reviews.json') as fp:
+        with open('Backend/APIs/json/amazon_reviews.json') as fp:
             data = json.load(fp)
             reviews = data["stars_stat"]
         return reviews
