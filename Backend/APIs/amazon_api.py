@@ -8,11 +8,11 @@ from analysis.george import George
 class AmazonData:
     def __init__(self, term):
         self.term = term
-        self.asin = self.get_product_asin(self.term)
+        self.asin = self.get_product_asin()
         self.ratings = self.get_ratings()
         self.result = self.analysis_reviews()
 
-    def get_product_asin(self, term):
+    def get_product_asin(self):
         # as this is test data the api not being callled and so a term is not passed, only get playstation 5
         with open('Backend/Test/amazon_asin.json') as fp:
             data = json.load(fp)
