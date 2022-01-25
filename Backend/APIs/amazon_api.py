@@ -1,5 +1,6 @@
 # import config
 import json
+import requests
 from analysis.george import George
 
 # AMAZON_KEY = config.azkey
@@ -13,25 +14,34 @@ class AmazonData:
         self.result = self.analysis_reviews()
 
     def get_product_asin(self):
-        # as this is test data the api not being callled and so a term is not passed, only get playstation 5
-        with open('Backend/APIs/json/amazon_asin.json') as fp:
-            data = json.load(fp)
+        response = requests.get("https://louissullivcs.pythonanywhere.com/amazon/asin/{}".format(str(self.term)))
+        response_type = response.headers
+        if response_type["Content-Type"] == 'application/json':
+            data = response.json()
             return data["result"][0]["asin"]
+        else:
+            return None
     
     def get_ratings(self):
-        with open('Backend/APIs/json/amazon_reviews.json') as fp:
-            data = json.load(fp)
+        if self.asin != None:
+            response = requests.get("https://louissullivcs.pythonanywhere.com/amazon/reviews/{}".format(str(self.asin)))
+            data = response.json()
             reviews = data["stars_stat"]
-        return reviews
+            return reviews
+        else:
+            return None
     
     def analysis_reviews(self):
-        for key, val in self.ratings.items():
-            if key == '4':
-                fourstars = val[:-1]
-            elif key == "5":
-                fivestars = val[:-1]
-                total = int(fourstars) + int(fivestars)
-        return str(total) + "%"
+        if self.ratings != None:
+            for key, val in self.ratings.items():
+                if key == '4':
+                    fourstars = val[:-1]
+                elif key == "5":
+                    fivestars = val[:-1]
+                    total = int(fourstars) + int(fivestars)
+            return str(total) + "%"
+        else:
+            return "Error: Amazon Product selected is not available..."
 
     def __str__(self):
         return "{}".format(self.result)
