@@ -1,9 +1,8 @@
-# import config
-import json
 import requests
-from analysis.george import George
 
-# IMDB_KEY = config.imdbkey 
+"""
+Uses data from https://rapidapi.com/apidojo/api/imdb8/
+"""
 
 class ImdbData:
     def __init__(self, term):

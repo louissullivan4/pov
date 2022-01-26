@@ -1,11 +1,8 @@
-# import config
-import json
 import requests
-from analysis.george import George
 
-# AMAZON_KEY = config.azkey
-# AZMAZON_SECERT = config.azsecret
-
+"""
+Uses data from https://rapidapi.com/restyler/api/amazon23/
+"""
 class AmazonData:
     def __init__(self, term):
         self.term = term
