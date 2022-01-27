@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import SearchBar from '../../components/home/seachBar';
 import styles from "./styles";
 import CarouselCards from '../../components/home/carouselCards';
+import CategoryMenu from '../../components/home/categoryMenu';
 
 
 export default function HomeScreen() {
@@ -17,6 +18,7 @@ export default function HomeScreen() {
         clicked = {clicked}
         setClicked = {setClicked}
       /> 
+      <CategoryMenu/>
       <CarouselCards/>
     </SafeAreaView>
 
