@@ -1,0 +1,12 @@
+{
+    "@type":"imdb.api.title.ratings",
+    "id":"/title/tt1160419/",
+    "title":"Dune",
+    "titleType":"movie",
+    "year":2021,
+    "bottomRank":9047,
+    "canRate":true,
+    "rating":8.1,
+    "ratingCount":458594,
+    "topRank":196
+}
