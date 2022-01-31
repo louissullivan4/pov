@@ -2,11 +2,13 @@ import { View, Text } from 'react-native';
 import React from 'react';
 import styles from "./styles";
 import ResultsWheel from '../../components/results/resultWheel';
+import AppTitle from '../../components/general/appTitle';
 
 
 export default function ResultsScreen() {
   return (
     <View style={styles.container}>
+      <AppTitle/>
       <View style={styles.rowContainer}>
         <View style={{flex:1,justifyContent:'space-around', height:'100%', padding:10}}>
           <Text>Result:</Text>
