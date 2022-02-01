@@ -15,7 +15,7 @@ export default function ResultsWheel() {
               duration={2000}
               color={'#8fcdba'}
           />
-          <Text style={{position: 'absolute', alignSelf:'center', bottom:50, fontSize: 55}}>9.6</Text>
+          <Text style={{position: 'absolute', alignSelf:'center', bottom:50, fontSize: 55, color:'#6e867f'}}>9.6</Text>
         </View>
 
   );

@@ -1,15 +1,15 @@
 import { View, Text } from 'react-native';
 import React from 'react';
 import { StyleSheet } from "react-native";
-import { useFonts, JuliusSansOne_400Regular } from '@expo-google-fonts/julius-sans-one';
+import { useFonts, BebasNeue_400Regular } from '@expo-google-fonts/bebas-neue';
 
-export default function AppTitle() {
+export default function AppText(props) {
     let [fontsLoaded] = useFonts({
-        JuliusSansOne_400Regular,
+        BebasNeue_400Regular,
     });
   return (
     <View style={styles.container}>
-      <Text style={[styles.text, {fontFamily: fontsLoaded ? 'JuliusSansOne_400Regular': 'sans-serif-thin'}]}>POV</Text>
+      <Text style={[styles.text, {fontFamily: fontsLoaded ? 'BebasNeue_400Regular': 'sans-serif-thin'}]}>{props.children}</Text>
     </View>
   );
 
@@ -20,14 +20,9 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
       },
       text: {
-        fontSize: 40
-        ,
+        fontSize: 22,
         color: '#6e867f',
-        letterSpacing: 12,
       },
 });
-
-
-
 
 

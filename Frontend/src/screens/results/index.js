@@ -1,32 +1,36 @@
-import { View, Text } from 'react-native';
+import { View, Text, ScrollView } from 'react-native';
 import React from 'react';
 import styles from "./styles";
 import ResultsWheel from '../../components/results/resultWheel';
 import AppTitle from '../../components/general/appTitle';
+import AppText from '../../components/general/appText';
 
 
 export default function ResultsScreen() {
   return (
     <View style={styles.container}>
-      <AppTitle/>
+      <View style={{margin:10,}}>
+        <AppTitle/>
+      </View>
+      <View style={{margin:10,}}>
+        <ResultsWheel/>
+      </View>
       <View style={styles.rowContainer}>
-        <View style={{flex:1,justifyContent:'space-around', height:'100%', padding:10}}>
-          <Text>Result:</Text>
-          <ResultsWheel/>
+        <View style={{justifyContent:'flex-start', padding:10}}>
+          <AppText>Most popular comments:</AppText>
         </View>
-        <View style={{flex:1, justifyContent:'space-around', height:'100%',padding:10 }}>
-          <Text>No. Comments:</Text>
-          <Text>Positive:</Text>
-          <Text>Negative:</Text>
+      </View>
+      <View style={styles.rowContainer}>
+        <View style={{justifyContent:'flex-start', padding:10}}>
+          <AppText>Most recent comments:</AppText>
         </View>
       </View>
+
       <View style={styles.rowContainer}>
-
+        <View style={{justifyContent:'flex-start', padding:10}}>
+          <AppText>Graph:</AppText>
+        </View>
       </View>
-      <View style={styles.rowContainer}>
-
-      </View>
-
       </View>
     
   );

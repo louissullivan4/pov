@@ -18,6 +18,10 @@ const styles = StyleSheet.create({
   container: {
     flex:1,
     paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
-    backgroundColor:'#c8e8df',
   },
 });
+
+// Colours:
+// Light Green: #c8e8df
+// Medium Green:#8fcdba
+// Dark Green: #6e867f

@@ -6,15 +6,16 @@ const styles = StyleSheet.create({
         alignItems: 'flex-start',
         backgroundColor: 'white',  
         width: '90%',
-        height: '25%',
+        height: '15%',
         borderRadius: 20, 
         marginTop: 20,  
+        backgroundColor: '#c8e8df',
     },
     container: {
         flex:1,
         alignItems:'center',
         justifyContent: 'flex-start',
-        backgroundColor:'#c8e8df',
+        backgroundColor:'white',
     }
 });
 export default styles;
