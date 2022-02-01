@@ -1,0 +1,3 @@
+[console_scripts]
+selectorlib = selectorlib.cli:main
+

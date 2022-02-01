@@ -1,0 +1,26 @@
+#!C:\Users\Louis Sullivan\Desktop\College\Software\Code\pov\.venv\Scripts\python.exe
+#!/usr/local/bin/python3
+
+import preprocessor
+import argparse
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description='File preprocessor')
+    parser.add_argument('--input',  type=str, required=True, help="The file that should be preprocessed.")
+    parser.add_argument('--output', type=str, default=None, \
+            help="The file where the results are stored. If output is none file is printed to stdout.")
+    parser.add_argument('--prefix', type=str, default="pyp", help="String that marks beginning of the python code")
+    parser.add_argument('--suffix', type=str, default="ypy", help="String that marks end of the python code")
+    return parser.parse_args()
+
+def main(args):
+    res = preprocessor.process_file(args.input, prefix=args.prefix, suffix=args.suffix)
+    if args.output is not None:
+        with open(args.output, "wt") as f:
+            f.write(res)
+    else:
+        print(res)
+
+if __name__ == '__main__':
+    main(parse_args())

@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: selectorlib
+Version: 0.16.0
+Summary: A library to read a YML file with Xpath or CSS Selectors and extract data from HTML pages using them
+Home-page: https://github.com/scrapehero/selectorlib
+Author: scrapehero
+Author-email: pypi@scrapehero.com
+License: MIT license
+Keywords: selectorlib
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: Click (>=6.0)
+Requires-Dist: pyyaml (>=3.12)
+Requires-Dist: parsel (>=1.5.1)
+
+===========
+selectorlib
+===========
+
+
+.. image:: https://img.shields.io/pypi/v/selectorlib.svg
+        :target: https://pypi.python.org/pypi/selectorlib
+
+.. image:: https://img.shields.io/travis/scrapehero/selectorlib.svg
+        :target: https://travis-ci.org/scrapehero/selectorlib
+
+.. image:: https://readthedocs.org/projects/selectorlib/badge/?version=latest
+        :target: https://selectorlib.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+.. image:: https://pyup.io/repos/github/scrapehero/selectorlib/shield.svg
+     :target: https://pyup.io/repos/github/scrapehero/selectorlib/
+     :alt: Updates
+
+
+
+A library to read a YML file with Xpath or CSS Selectors and extract data from HTML pages using them
+
+* Free software: MIT license
+* Documentation: https://selectorlib.readthedocs.io.
+
+
+Example
+--------
+
+>>> from selectorlib import Extractor
+>>> yaml_string = """
+    title:
+        css: "h1"
+        type: Text
+    link:
+        css: "h2 a"
+        type: Link
+    """
+>>> extractor = Extractor.from_yaml_string(yaml_string)
+>>> html = """
+    <h1>Title</h1>
+    <h2>Usage
+        <a class="headerlink" href="http://test">¶</a>
+    </h2>
+    """
+>>> extractor.extract(html)
+{'title': 'Title', 'link': 'http://test'}
+
+
+=======
+History
+=======
+
+
