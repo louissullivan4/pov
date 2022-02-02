@@ -5,13 +5,15 @@ import styles from "./styles";
 import CarouselCards from '../../components/home/carouselCards';
 import CategoryMenu from '../../components/home/categoryMenu';
 
+import AppTitle from '../../components/general/appTitle';
 
-export default function HomeScreen() {
+
+export default function HomeScreen({ }) {
   const [clicked, setClicked] = useState(false);
   const [searchPhrase, setSearchPhrase] = useState("");
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>POV</Text>
+      <AppTitle/>
       <SearchBar
         searchPhrase = {searchPhrase}
         setSearchPhrase = {setSearchPhrase}
