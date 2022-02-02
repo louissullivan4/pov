@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { View, Text, ScrollView, Image, Button } from 'react-native';
 import { IconButton } from 'react-native-paper';
 
@@ -7,15 +7,23 @@ import styles from "./styles";
 import ResultsWheel from '../../components/results/resultWheel';
 import AppTitle from '../../components/general/appTitle';
 import AppText from '../../components/general/appText';
-
+import SearchBar from '../../components/home/seachBar';
 
 export default function ResultsScreen({ navigation }) {
+  const [clicked, setClicked] = useState(false);
+  const [searchPhrase, setSearchPhrase] = useState("");
   return (
     <View style={styles.container}>
       <View style={{margin:10,}}>
         <AppTitle/>
       </View>
-      <View style={{position: "absolute", alignSelf: "left", margintop: 5}}>
+      <SearchBar
+        searchPhrase = {searchPhrase}
+        setSearchPhrase = {setSearchPhrase}
+        clicked = {clicked}
+        setClicked = {setClicked}
+      />
+      <View style={{position: "absolute", top: 0, right: 30}}>
         <IconButton
             icon="home"
             size={30}
