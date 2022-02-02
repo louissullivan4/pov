@@ -4,12 +4,13 @@ import { StyleSheet } from "react-native";
 import { useFonts, BebasNeue_400Regular } from '@expo-google-fonts/bebas-neue';
 
 export default function AppText(props) {
+    let fontOS = Platform.OS === "android" ? "sans-serif-thin" : "Arial"
     let [fontsLoaded] = useFonts({
         BebasNeue_400Regular,
     });
   return (
     <View style={styles.container}>
-      <Text style={[styles.text, {fontFamily: fontsLoaded ? 'BebasNeue_400Regular': 'sans-serif-thin'}]}>{props.children}</Text>
+      <Text style={[styles.text, {fontFamily: fontsLoaded ? 'BebasNeue_400Regular': fontOS}]}>{props.children}</Text>
     </View>
   );
 
