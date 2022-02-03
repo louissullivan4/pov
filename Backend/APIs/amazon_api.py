@@ -4,6 +4,10 @@ import requests
 Uses data from https://rapidapi.com/restyler/api/amazon23/
 """
 class AmazonData:
+    """
+    Gets reviews from amazon api using a inputted search term
+    *Currently requests to a custom server due to API payment issues*
+    """
     def __init__(self, term):
         self.term = term
         self.asin = self.get_product_asin()
@@ -11,24 +15,41 @@ class AmazonData:
         self.result = self.analysis_reviews()
 
     def get_product_asin(self):
-        response = requests.get("https://louissullivcs.pythonanywhere.com/amazon/asin/{}".format(str(self.term)))
+        """
+        Get the related amazon asin (product id) number from the search term
+        """
+        response = requests.get("https://louissullivcs.pythonanywhere.com/amazon/asin/{}".format(str(self.term))) 
         response_type = response.headers
+        #if the value returned is a json file
         if response_type["Content-Type"] == 'application/json':
+            #get the json values from what was returned
             data = response.json()
+            #get asins value from the first result
             return data["result"][0]["asin"]
         else:
+            #else we did not find the value so we return nothing
             return None
     
     def get_ratings(self):
+        """
+        Get the star ratings of a product from the related asin number
+        """
+        #if the asin is not none
         if self.asin != None:
+            # get the reviews from the custom server using the asin number
             response = requests.get("https://louissullivcs.pythonanywhere.com/amazon/reviews/{}".format(str(self.asin)))
             data = response.json()
+            #get the star ratings from the returned json
             reviews = data["stars_stat"]
             return reviews
         else:
+            #else we could not find the stars so we return none
             return None
     
     def analysis_reviews(self):
+        """
+        Return value of 4 and 5 star ratings together, which is our positive rating result
+        """
         if self.ratings != None:
             for key, val in self.ratings.items():
                 if key == '4':
