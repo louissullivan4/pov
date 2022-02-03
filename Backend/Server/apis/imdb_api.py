@@ -47,7 +47,7 @@ class ImdbData:
         if self.ratings != None:
             result = float(self.ratings) * 10
             result = str(result)
-            result_string = '{"result": "'+result[:-2]+'%"}'
+            result_string = '{"result": "'+result[:-2]+'"}'
             result = json.loads(result_string)
             return result
         else:
