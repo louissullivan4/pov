@@ -27,7 +27,7 @@ def results(term: str, category: str):
     elif category == "movie":
         variables = ImdbData(term).getResult()
     else:
-        variables = {"result": "Error: Value selected is not available."}
+        variables = {"result": 503}
     
     output_list = []
     for result, rating in variables.items():
