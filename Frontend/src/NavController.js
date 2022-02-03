@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SafeAreaView, StyleSheet, StatusBar, Text, Button} from 'react-native';
+import { SafeAreaView, StyleSheet, StatusBar} from 'react-native';
 
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
@@ -13,12 +13,12 @@ const Stack = createStackNavigator()
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-    <NavigationContainer>
-      <Stack.Navigator screenOptions={{headerShown: false}} initialRouteName="Home">
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Results" component={ResultsScreen} />
-      </Stack.Navigator>
-    </NavigationContainer>
+      <NavigationContainer>
+        <Stack.Navigator screenOptions={{headerShown: false}} initialRouteName="HomeScreen">
+          <Stack.Screen name="Home" component={HomeScreen} />
+          <Stack.Screen name="Results" component={ResultsScreen} />
+        </Stack.Navigator>
+      </NavigationContainer>
     </SafeAreaView>
   );
 }

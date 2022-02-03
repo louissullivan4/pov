@@ -8,10 +8,5 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: "#FFF"
     },
-    title: {
-        flex:1,
-        fontSize: 40,
-        
-    },
 })
 export default styles;

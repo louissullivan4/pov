@@ -23,7 +23,8 @@ export default function CategoryMenu() {
       containerStyle={{
         flex:1,
         width: '50%',
-        alignSelf: 'center', 
+        alignSelf: 'flex-start', 
+        left: 35
       }}
     />
   );
