@@ -61,7 +61,7 @@ class AmazonData:
                 elif key == "5":
                     fivestars = val[:-1]
                     total = int(fourstars) + int(fivestars)
-                    # result_string = '{"status": "'+str(status)+'", "result": "'+str(total)+'%"}'
+                    # result_string = '{"status": "'+str(status)+'", "result": "'+str(total)+'"}'
                     result_string = '{"result": "'+str(total)+'%"}'
                     result = json.loads(result_string)
             return result
