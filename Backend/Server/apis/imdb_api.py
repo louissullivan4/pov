@@ -1,4 +1,5 @@
 import requests
+import json
 
 """
 Uses data from https://rapidapi.com/apidojo/api/imdb8/
@@ -15,8 +16,10 @@ class ImdbData:
         self.ratings = self.get_ratings()
         self.result = self.analysis_reviews()
 
+    def getResult(self):
+        return self.result
+
     def get_movie_id(self):
-        #
         response = requests.get("https://louissullivcs.pythonanywhere.com/imdb/id/{}".format(str(self.term)))
         response_type = response.headers
         if response_type["Content-Type"] == 'application/json':
@@ -44,9 +47,13 @@ class ImdbData:
         if self.ratings != None:
             result = float(self.ratings) * 10
             result = str(result)
-            return result[:-2] + "%"
+            result_string = '{"result": "'+result[:-2]+'%"}'
+            result = json.loads(result_string)
+            return result
         else:
-            return "Error: Movie selected is not available..."
+            result_string = '{"result": "Error: Value selected is not available."}'
+            result = json.loads(result_string)
+            return result
 
     def __str__(self):
         return "{}".format(self.result)

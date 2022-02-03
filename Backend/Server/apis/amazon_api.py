@@ -1,4 +1,5 @@
 import requests
+import json
 
 """
 Uses data from https://rapidapi.com/restyler/api/amazon23/
@@ -13,6 +14,9 @@ class AmazonData:
         self.asin = self.get_product_asin()
         self.ratings = self.get_ratings()
         self.result = self.analysis_reviews()
+
+    def getResult(self):
+        return self.result
 
     def get_product_asin(self):
         """
@@ -57,15 +61,22 @@ class AmazonData:
                 elif key == "5":
                     fivestars = val[:-1]
                     total = int(fourstars) + int(fivestars)
-            return str(total) + "%"
+                    # result_string = '{"status": "'+str(status)+'", "result": "'+str(total)+'%"}'
+                    result_string = '{"result": "'+str(total)+'%"}'
+                    result = json.loads(result_string)
+            return result
         else:
-            return "Error: Amazon Product selected is not available..."
+            result_string = '{"result": "Error: Value selected is not available."}'
+            result = json.loads(result_string)
+            return result
+
 
     def __str__(self):
-        return "{}".format(self.result)
+        return "{}".format(type(self.result))
 
 if __name__ == "__main__":
     bot = AmazonData("Playstation 5")
+    print(type(bot))
     print(bot)
 
 
@@ -94,3 +105,25 @@ These functions use TextBlob to get rating (old)
 #     def analysis_reviews(self):
 #         analysis = George(self.reviews_list)
 #         return analysis
+
+
+# def analysis_reviews(self):
+#         """
+#         Return value of 4 and 5 star ratings together, which is our positive rating result
+#         """
+#         if self.ratings != None:
+#             status = "200"
+#             for key, val in self.ratings.items():
+#                 if key == '4':
+#                     fourstars = val[:-1]
+#                 elif key == "5":
+#                     fivestars = val[:-1]
+#                     total = int(fourstars) + int(fivestars)
+#                     result_string = '{"status": "'+str(status)+'", "result": "'+str(total)+'%"}'
+#                     result = json.loads(result_string)
+#             return result
+#         else:
+#             status = "401"
+#             result_string = '{"status": "'+str(status)+'", "result": "Error: Amazon Product selected is not available."}'
+#             result = json.loads(result_string)
+#             return result
