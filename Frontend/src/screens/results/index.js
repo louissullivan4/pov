@@ -27,7 +27,7 @@ export default function ResultsScreen({ navigation }) {
         <IconButton
             icon="home"
             size={30}
-            onPress={() => navigation.push("Home")}
+            onPress={() => navigation.pop()}
         />
       </View>
       <View style={{margin:10,}}>

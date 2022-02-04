@@ -4,7 +4,6 @@ import styles from "./styles";
 
 
 export default function SearchBar(props) {
-  
   return (
     <SafeAreaView style={styles.container}>
       <TextInput 
