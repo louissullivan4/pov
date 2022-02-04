@@ -1,0 +1,34 @@
+{
+	"totalProducts": "601",
+	"category": "aps",
+	"result": [
+		{
+			"position": {
+				"page": 1,
+				"position": 1,
+				"global_position": 1
+			},
+			"asin": "B09HH9GWYZ",
+			"price": {
+				"discounted": false,
+				"current_price": 0,
+				"currency": "GBP",
+				"before_price": 0,
+				"savings_amount": 0,
+				"savings_percent": 0
+			},
+			"reviews": {
+				"total_reviews": 1555,
+				"rating": 4.8
+			},
+			"url": "https://www.amazon.co.uk/Apple-Watch-GPS-41mm-Aluminium/dp/B09HH9GWYZ/",
+			"score": "75999.00",
+			"sponsored": false,
+			"amazonChoice": false,
+			"bestSeller": false,
+			"amazonPrime": false,
+			"title": "Apple Watch Series 7",
+			"thumbnail": "https://m.media-amazon.com/images/I/71PMC4DWWFL._AC_UY218_.jpg"
+		}
+	]
+}
