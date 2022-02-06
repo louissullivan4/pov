@@ -1,0 +1,12 @@
+{
+    "@type":"imdb.api.title.ratings",
+    "id":"/title/tt1375666/",
+    "title":"Inception",
+    "titleType":"movie",
+    "year":2010,
+    "bottomRank":9047,
+    "canRate":true,
+    "rating":8.8,
+    "ratingCount":4500,
+    "topRank":196
+}

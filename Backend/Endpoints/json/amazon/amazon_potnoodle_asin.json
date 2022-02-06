@@ -1,0 +1,34 @@
+{
+	"totalProducts": "356",
+	"category": "aps",
+	"result": [
+		{
+			"position": {
+				"page": 1,
+				"position": 1,
+				"global_position": 1
+			},
+			"asin": "B007XR2IOE",
+			"price": {
+				"discounted": false,
+				"current_price": 0,
+				"currency": "GBP",
+				"before_price": 0,
+				"savings_amount": 0,
+				"savings_percent": 0
+			},
+			"reviews": {
+				"total_reviews": 5729,
+				"rating": 4.6
+			},
+			"url": "https://www.amazon.co.uk/Pot-Noodle-Chicken-Mushroom-King/dp/B007XR2IOE",
+			"score": "75999.00",
+			"sponsored": false,
+			"amazonChoice": false,
+			"bestSeller": false,
+			"amazonPrime": false,
+			"title": "Pot Noodle Chicken and Mushroom Flavour",
+			"thumbnail": "https://m.media-amazon.com/images/I/71PMC4DWWFL._AC_UY218_.jpg"
+		}
+	]
+}

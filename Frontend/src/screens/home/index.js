@@ -1,26 +1,45 @@
-import { View, Text, SafeAreaView } from 'react-native';
+import { View, Text, SafeAreaView, Button } from 'react-native';
 import React, { useState } from 'react';
 import SearchBar from '../../components/home/seachBar';
 import styles from "./styles";
 import CarouselCards from '../../components/home/carouselCards';
 import CategoryMenu from '../../components/home/categoryMenu';
 
+import AppTitle from '../../components/general/appTitle';
 
-export default function HomeScreen() {
+function userSearch(navigation, searchPhrase, categoryPhrase){
+  const searchTerm = searchPhrase;
+  const category= categoryPhrase;
+  navigation.push("Results")
+}
+
+export default function HomeScreen({ navigation }) {
+
   const [clicked, setClicked] = useState(false);
   const [searchPhrase, setSearchPhrase] = useState("");
+  const [categoryPhrase, setCategoryPhrase] = useState("");
+
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>POV</Text>
+      <AppTitle/>
       <SearchBar
         searchPhrase = {searchPhrase}
         setSearchPhrase = {setSearchPhrase}
         clicked = {clicked}
         setClicked = {setClicked}
       /> 
-      <CategoryMenu/>
+      <View style={styles.buttonContainer}>
+        <View style={styles.category}>
+          <CategoryMenu
+            categoryPhrase = {categoryPhrase}
+            setCategoryPhrase = {setCategoryPhrase}
+          />
+        </View>
+        <View style={styles.button}>
+        <Button color="black" title="Search" onPress={() => {userSearch(navigation, searchPhrase, categoryPhrase)}}></Button>
+        </View>
+      </View>
       <CarouselCards/>
     </SafeAreaView>
-
   );
 }
