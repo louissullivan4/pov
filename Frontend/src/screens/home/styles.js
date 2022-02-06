@@ -1,5 +1,24 @@
 import { StyleSheet } from "react-native";
 
+// const styles = StyleSheet.create({
+
+//     container: {
+//         flex:1,
+//         flexDirection: "column",
+//         justifyContent: "center",
+//         alignItems: "center",
+//         backgroundColor: "#FFF",
+//     },
+//     navigationContainer: {
+//         flexDirection: "row"
+//     },
+//     category: {
+//     },
+//     button: {
+//     }
+// })
+// export default styles;
+
 const styles = StyleSheet.create({
 
     container: {
