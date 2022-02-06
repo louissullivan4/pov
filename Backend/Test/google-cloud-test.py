@@ -17,7 +17,6 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="C:/Users/Louis Sullivan/Desktop/Co
 
 
 data = get_ratings()
-GOOGLE_APPLICATION_CREDENTIALS = "3c5155bd647913f47f2f0b8e7fda4c189fb720c3"
 
 def sample_analyze_sentiment(data):
     total_sentiments = 0
