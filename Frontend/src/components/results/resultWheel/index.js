@@ -3,19 +3,19 @@ import React from 'react';
 import AnimatedProgressWheel from 'react-native-progress-wheel';
 import styles from './styles';
 
-export default function ResultsWheel() {
+export default function ResultsWheel(props) {
   return (
         <View style={{position: 'relative', }}>
           <AnimatedProgressWheel 
               width={100}
               size={160}
               animateFromValue={0}
-              progress={70}
+              progress={props.rating * 10}
               backgroundColor={'#c8e8df'}
               duration={2000}
               color={'#8fcdba'}
           />
-          <Text style={{position: 'absolute', alignSelf:'center', bottom:50, fontSize: 55, color:'#6e867f'}}>9.6</Text>
+          <Text style={{position: 'absolute', alignSelf:'center', bottom:46, fontSize: 55, color:'#6e867f'}}>{props.rating}</Text>
         </View>
 
   );

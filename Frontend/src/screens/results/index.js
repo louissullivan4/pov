@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import { View, Text, ScrollView, Image, Button } from 'react-native';
+
+import React, { useState, useEffect } from 'react';
+import { View, Text, ScrollView, Image, Button, ActivityIndicator } from 'react-native';
 import { IconButton } from 'react-native-paper';
 
 import styles from "./styles";
@@ -12,6 +13,24 @@ import SearchBar from '../../components/home/seachBar';
 export default function ResultsScreen({ navigation }) {
   const [clicked, setClicked] = useState(false);
   const [searchPhrase, setSearchPhrase] = useState("");
+  const [isLoading, setLoading] = useState(true);
+  const [rating, setRating] = useState(0);
+
+  const apiURL = "https://louissullivcs.pythonanywhere.com/imdb/rating/tt1160419";
+  
+  useEffect(() => {
+    fetch(apiURL)
+      .then((response) => response.json())
+      .then((json) => {
+        setRating(parseFloat(json.rating))
+      
+      })
+      .catch((error) => alert(error))
+      .finally(setLoading(false));
+  })
+  if (isLoading) {
+    return (<ActivityIndicator/>);
+  } else {
   return (
     <View style={styles.container}>
       <View style={{margin:10,}}>
@@ -36,19 +55,32 @@ export default function ResultsScreen({ navigation }) {
       <View style={styles.rowContainer}>
         <View style={{justifyContent:'flex-start', padding:10}}>
           <AppText>Most popular comments:</AppText>
+
+
         </View>
-      </View>
-      <View style={styles.rowContainer}>
-        <View style={{justifyContent:'flex-start', padding:10}}>
-          <AppText>Most recent comments:</AppText>
+        <View style={{margin:10,}}>
+          <ResultsWheel rating={rating} />
         </View>
+        <View style={styles.rowContainer}>
+          <View style={{justifyContent:'flex-start', padding:10}}>
+            <AppText>Most popular comments:</AppText>
+          </View>
+        </View>
+        <View style={styles.rowContainer}>
+          <View style={{justifyContent:'flex-start', padding:10}}>
+            <AppText>Most recent comments:</AppText>
+          </View>
+        </View>
+
+
       </View>
       <View style={styles.rowContainer}>
         <View style={{justifyContent:'flex-start', padding:10}}>
           <AppText>Graph:</AppText>
+
+
         </View>
       </View>
-      </View>
-    
-  );
+    );}
+  }
 }
