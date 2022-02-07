@@ -17,5 +17,10 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-start',
         backgroundColor:'white',
     },
+    text: {
+        paddingTop: 5,
+        fontSize: 15,
+
+    }
 });
 export default styles;
