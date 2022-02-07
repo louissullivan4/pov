@@ -26,7 +26,7 @@ export default function ResultsScreen({ navigation }) {
       
       })
       .catch((error) => alert(error))
-      .finally(setLoading(false));
+      .finally(() => setLoading(false));
   })
   if (isLoading) {
     return (<ActivityIndicator/>);
@@ -50,37 +50,25 @@ export default function ResultsScreen({ navigation }) {
         />
       </View>
       <View style={{margin:10,}}>
-        <ResultsWheel/>
+        <ResultsWheel rating={rating}
+        />
       </View>
       <View style={styles.rowContainer}>
         <View style={{justifyContent:'flex-start', padding:10}}>
           <AppText>Most popular comments:</AppText>
-
-
         </View>
-        <View style={{margin:10,}}>
-          <ResultsWheel rating={rating} />
+      </View>
+      <View style={styles.rowContainer}>
+        <View style={{justifyContent:'flex-start', padding:10}}>
+          <AppText>Most recent comments:</AppText>
         </View>
-        <View style={styles.rowContainer}>
-          <View style={{justifyContent:'flex-start', padding:10}}>
-            <AppText>Most popular comments:</AppText>
-          </View>
-        </View>
-        <View style={styles.rowContainer}>
-          <View style={{justifyContent:'flex-start', padding:10}}>
-            <AppText>Most recent comments:</AppText>
-          </View>
-        </View>
-
-
       </View>
       <View style={styles.rowContainer}>
         <View style={{justifyContent:'flex-start', padding:10}}>
           <AppText>Graph:</AppText>
-
-
         </View>
       </View>
-    );}
+      </View>
+    );
   }
 }
