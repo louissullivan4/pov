@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask
 import json
 from apis.amazon_api import AmazonData
 from apis.imdb_api import ImdbData
@@ -23,16 +23,18 @@ def results(term: str, category: str):
     term = term.upper().strip()
     term = term.replace(" ", "")
     if category == "product":
-        variables = AmazonData(term).getResult()
+        tryApi = AmazonData(term).getResult()
     elif category == "movie":
-        variables = ImdbData(term).getResult()
+        tryApi = ImdbData(term).getResult()
     else:
-        variables = {"result": 503}
-    
-    output_list = []
-    for result, rating in variables.items():
-        output_list.append({ result : rating})
-    return jsonify(json.dumps(output_list))
+        tryApi = 503
+    if tryApi == 503:
+        #HERE WE WILL USE TWITTER OR REDDIT
+        variables = {"result" : "200", "msg" : "Here we will use twitter or reddit"}
+    else:
+        variables = tryApi
+    app_json = json.dumps(variables)
+    return app_json
 
 
 if __name__ == "__main__":

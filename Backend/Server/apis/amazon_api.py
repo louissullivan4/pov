@@ -11,9 +11,12 @@ class AmazonData:
     """
     def __init__(self, term):
         self.term = term
+        self.api_response = ""
         self.asin = self.get_product_asin()
-        self.ratings = self.get_ratings()
-        self.result = self.analysis_reviews()
+        self.stars = self.get_stars()
+        self.rating = self.get_rating()
+        self.reviews = self.get_reviews()
+        self.result = self.final_result()
 
     def getResult(self):
         return self.result
@@ -34,7 +37,7 @@ class AmazonData:
             #else we did not find the value so we return nothing
             return None
     
-    def get_ratings(self):
+    def get_stars(self):
         """
         Get the star ratings of a product from the related asin number
         """
@@ -42,88 +45,60 @@ class AmazonData:
         if self.asin != None:
             # get the reviews from the custom server using the asin number
             response = requests.get("https://louissullivcs.pythonanywhere.com/amazon/reviews/{}".format(str(self.asin)))
-            data = response.json()
+            self.api_response = response.json()
             #get the star ratings from the returned json
-            reviews = data["stars_stat"]
+            reviews = self.api_response["stars_stat"]
             return reviews
         else:
             #else we could not find the stars so we return none
             return None
     
-    def analysis_reviews(self):
+    def get_rating(self):
         """
         Return value of 4 and 5 star ratings together, which is our positive rating result
         """
-        if self.ratings != None:
-            for key, val in self.ratings.items():
+        if self.asin != None:
+            for key, val in self.stars.items():
                 if key == '4':
                     fourstars = val[:-1]
                 elif key == "5":
                     fivestars = val[:-1]
                     total = int(fourstars) + int(fivestars)
-                    # result_string = '{"status": "'+str(status)+'", "result": "'+str(total)+'"}'
-                    result_string = '{"result": "'+str(total)+'%"}'
-                    result = json.loads(result_string)
+            return total
+        else:
+            return None
+
+    def get_reviews(self):
+        i = 0
+        reviews = []
+        if self.asin != None:
+            while i < len(self.api_response['result']):
+                reviews.append(self.api_response["result"][i]["review"])
+                i += 1
+            return reviews
+        else:
+            return None
+    
+
+    def final_result(self):
+        if self.asin != None:
+            total_reviews = self.api_response["total_reviews"]
+            result_string = '{"rating": "'+str(self.rating)+'", "total_stars": "'+str(self.stars)+'"}'
+            result = json.loads(result_string)
+            total = {"total_reviews": total_reviews}
+            reviews = {"reviews": self.reviews}
+            result.update(total)
+            result.update(reviews)
             return result
         else:
-            result_string = '{"result": "Error: Value selected is not available."}'
+            result_string = '{"result": "503", "msg": "Entry unavailable"}'
             result = json.loads(result_string)
             return result
 
-
     def __str__(self):
-        return "{}".format(type(self.result))
+        return "{}".format(self.result)
 
 if __name__ == "__main__":
     bot = AmazonData("Playstation 5")
-    print(type(bot))
     print(bot)
 
-
-
-"""
-These functions use TextBlob to get rating (old)
-"""
-# def get_product_asin(self, term):
-#         # as this is test data the api not being callled and so a term is not passed, only get playstation 5
-#         with open('Backend/Test/amazon_asin.json') as fp:
-#             data = json.load(fp)
-#             return data["result"][0]["asin"]
-
-    
-#     def get_reviews(self):
-#         # would use asin code here to get the specific product but currently dont as we are using test jsons
-#         with open('Backend/Test/amazon_reviews.json') as fp:
-#             data = json.load(fp)
-#             i = 0
-#             reviews = []
-#             while i < len(data['result']):
-#                 reviews.append(data["result"][i]["review"])
-#                 i += 1
-#         return reviews
-    
-#     def analysis_reviews(self):
-#         analysis = George(self.reviews_list)
-#         return analysis
-
-
-# def analysis_reviews(self):
-#         """
-#         Return value of 4 and 5 star ratings together, which is our positive rating result
-#         """
-#         if self.ratings != None:
-#             status = "200"
-#             for key, val in self.ratings.items():
-#                 if key == '4':
-#                     fourstars = val[:-1]
-#                 elif key == "5":
-#                     fivestars = val[:-1]
-#                     total = int(fourstars) + int(fivestars)
-#                     result_string = '{"status": "'+str(status)+'", "result": "'+str(total)+'%"}'
-#                     result = json.loads(result_string)
-#             return result
-#         else:
-#             status = "401"
-#             result_string = '{"status": "'+str(status)+'", "result": "Error: Amazon Product selected is not available."}'
-#             result = json.loads(result_string)
-#             return result

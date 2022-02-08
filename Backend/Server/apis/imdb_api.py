@@ -12,9 +12,12 @@ class ImdbData:
     """
     def __init__(self, term):
         self.term = term
+        self.api_response = ""
         self.id = self.get_movie_id()
-        self.ratings = self.get_ratings()
-        self.result = self.analysis_reviews()
+        self.rating = self.get_rating()
+        self.rating_count = self.get_rating_count()
+        self.top_rank = self.get_top_rank()
+        self.result = self.final_result()
 
     def getResult(self):
         return self.result
@@ -30,28 +33,42 @@ class ImdbData:
         else:
             return None
     
-    def get_ratings(self):
+    def get_rating(self):
         if self.id != None:
             response = requests.get("https://louissullivcs.pythonanywhere.com/imdb/rating/{}".format(str(self.id)))
-            data = response.json()
+            self.api_response = response.json()
             #Get rating from json
-            reviews = data["rating"]
-            return reviews
+            reviews = self.api_response["rating"]
+            result = str(float(reviews) * 10)
+            return result[:-2]
+        else:
+            return None
+
+    def get_rating_count(self):
+        if self.id != None:
+            count = self.api_response["ratingCount"]
+            return str(count)
+        else:
+            return None
+
+    def get_top_rank(self):
+        if self.id != None:
+            rank = self.api_response["topRank"]
+            return str(rank)
         else:
             return None
     
-    def analysis_reviews(self):
-        """
-        Converts rating to percentage and returns it as our total
-        """
-        if self.ratings != None:
-            result = float(self.ratings) * 10
-            result = str(result)
-            result_string = '{"result": "'+result[:-2]+'"}'
+    def final_result(self):
+        if self.id != None:
+            result_string = '{"rating": "'+str(self.rating)+'"}'
             result = json.loads(result_string)
+            count = {"rating_count": self.rating_count}
+            rank = {"peak_rank": self.top_rank}
+            result.update(count)
+            result.update(rank)
             return result
         else:
-            result_string = '{"result": "Error: Value selected is not available."}'
+            result_string = '{"result": "503", "msg": "Entry unavailable"}'
             result = json.loads(result_string)
             return result
 
