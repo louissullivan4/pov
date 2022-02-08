@@ -20,19 +20,24 @@ def welcome():
 
 @app.route('/pov/results/<string:term>/<string:category>')
 def results(term: str, category: str):
+    status = ""
     term = term.upper().strip()
     term = term.replace(" ", "")
+    category_list = ['celebrities', 'game', 'music', 'politics', 'sport', 'travel']
     if category == "product":
         tryApi = AmazonData(term).getResult()
+        status = tryApi["status"]
     elif category == "movie":
         tryApi = ImdbData(term).getResult()
-    else:
-        tryApi = 503
-    if tryApi == 503:
+        status = tryApi["status"]
+
+    if category in category_list or status == "503":
         #HERE WE WILL USE TWITTER OR REDDIT
-        variables = {"result" : "200", "msg" : "Here we will use twitter or reddit"}
-    else:
+        variables = {"status" : "200", "msg" : "Here we will use twitter or reddit"}
+    elif status == "200":
         variables = tryApi
+    else:
+        variables = {"status" : "503", "msg" : "Unavailable on all APIs"}
     app_json = json.dumps(variables)
     return app_json
 

@@ -83,7 +83,7 @@ class AmazonData:
     def final_result(self):
         if self.asin != None:
             total_reviews = self.api_response["total_reviews"]
-            result_string = '{"rating": "'+str(self.rating)+'", "total_stars": "'+str(self.stars)+'"}'
+            result_string = '{"status": "200", "rating": "'+str(self.rating)+'", "total_stars": "'+str(self.stars)+'"}'
             result = json.loads(result_string)
             total = {"total_reviews": total_reviews}
             reviews = {"reviews": self.reviews}
@@ -91,7 +91,7 @@ class AmazonData:
             result.update(reviews)
             return result
         else:
-            result_string = '{"result": "503", "msg": "Entry unavailable"}'
+            result_string = '{"status": "503", "msg": "Entry unavailable"}'
             result = json.loads(result_string)
             return result
 

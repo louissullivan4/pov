@@ -60,7 +60,7 @@ class ImdbData:
     
     def final_result(self):
         if self.id != None:
-            result_string = '{"rating": "'+str(self.rating)+'"}'
+            result_string = '{"status": "200", "rating": "'+str(self.rating)+'"}'
             result = json.loads(result_string)
             count = {"rating_count": self.rating_count}
             rank = {"peak_rank": self.top_rank}
@@ -68,7 +68,7 @@ class ImdbData:
             result.update(rank)
             return result
         else:
-            result_string = '{"result": "503", "msg": "Entry unavailable"}'
+            result_string = '{"status": "503", "msg": "Entry unavailable"}'
             result = json.loads(result_string)
             return result
 
