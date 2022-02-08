@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { View, Text, ScrollView, Image, Button, ActivityIndicator } from 'react-native';
 import { IconButton } from 'react-native-paper';
@@ -16,18 +15,21 @@ export default function ResultsScreen({ navigation }) {
   const [searchPhrase, setSearchPhrase] = useState("");
   const [isLoading, setLoading] = useState(true);
   const [rating, setRating] = useState(0);
-  const [popularComment, setPopularComment] = useState("Insane really already own 12 might buy another");
-  const [recentComment, setRecentComment] = useState("This isn't what was advertised it's better")
+  const [popularComment, setPopularComment] = useState("Insane! Already own 12 but I might buy another");
+  const [recentComment, setRecentComment] = useState("This isn't what was advertised, it's better")
 
-
-  const apiURL = "https://louissullivcs.pythonanywhere.com/imdb/rating/tt1160419";
+  const cate = false;
+  const apiURL = "http://team15.pythonanywhere.com/pov/results/playstation5/product";
   
   useEffect(() => {
     fetch(apiURL)
       .then((response) => response.json())
       .then((json) => {
-        setRating(parseFloat(json.rating))
-      
+          var popluarJson = json.reviews[0].charAt(0).toUpperCase() + json.reviews[0].slice(1);
+          var recentJson = json.reviews[3].charAt(0).toUpperCase() + json.reviews[3].slice(1);
+          setRating(parseFloat(json.rating))
+          setPopularComment(popluarJson)
+          setRecentComment(recentJson)
       })
       .catch((error) => alert(error))
       .finally(() => setLoading(false));
@@ -71,7 +73,8 @@ export default function ResultsScreen({ navigation }) {
         </View>
       </View>
       <View styles={{margin:10,}}>
-          <LineGraph/>
+          
+          {cate ? <LineGraph/> : <View></View>}
       </View>
 
    
