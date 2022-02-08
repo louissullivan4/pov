@@ -10,26 +10,35 @@ import AppText from '../../components/general/appText';
 import SearchBar from '../../components/home/seachBar';
 import LineGraph from '../../components/results/LineGraph';
 
-export default function ResultsScreen({ navigation }) {
+export default function ResultsScreen({ navigation, route }) {
   const [clicked, setClicked] = useState(false);
   const [searchPhrase, setSearchPhrase] = useState("");
   const [isLoading, setLoading] = useState(true);
   const [rating, setRating] = useState(0);
-  const [popularComment, setPopularComment] = useState("Insane! Already own 12 but I might buy another");
-  const [recentComment, setRecentComment] = useState("This isn't what was advertised, it's better")
+  const [popularComment, setPopularComment] = useState("This movie was lack luster... ");
+  const [recentComment, setRecentComment] = useState("I think people are harsh on this movie, give it a go!")
+
+  const { searchTerm, searchCategory } = route.params;
+
+  console.log(searchTerm)
+  console.log(searchCategory)
+
 
   const cate = false;
-  const apiURL = "http://team15.pythonanywhere.com/pov/results/playstation5/product";
+  const apiURL = "http://team15.pythonanywhere.com/pov/results/"+searchTerm+"/"+searchCategory+"";
   
   useEffect(() => {
     fetch(apiURL)
       .then((response) => response.json())
       .then((json) => {
+        if (searchCategory == "product"){
           var popluarJson = json.reviews[0].charAt(0).toUpperCase() + json.reviews[0].slice(1);
           var recentJson = json.reviews[3].charAt(0).toUpperCase() + json.reviews[3].slice(1);
           setRating(parseFloat(json.rating))
           setPopularComment(popluarJson)
           setRecentComment(recentJson)
+        }
+        setRating(parseFloat(json.rating))
       })
       .catch((error) => alert(error))
       .finally(() => setLoading(false));
@@ -74,7 +83,7 @@ export default function ResultsScreen({ navigation }) {
       </View>
       <View styles={{margin:10,}}>
           
-          {cate ? <LineGraph/> : <View></View>}
+          {cate ? <LineGraph/> : <View style={styles.rowContainer}></View>}
       </View>
 
    
