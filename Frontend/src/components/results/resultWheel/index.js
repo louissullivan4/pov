@@ -10,7 +10,7 @@ export default function ResultsWheel(props) {
               width={100}
               size={160}
               animateFromValue={0}
-              progress={props.rating * 10}
+              progress={props.rating}
               backgroundColor={'#c8e8df'}
               duration={2000}
               color={'#8fcdba'}

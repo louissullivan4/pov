@@ -10,7 +10,10 @@ import AppTitle from '../../components/general/appTitle';
 function userSearch(navigation, searchPhrase, categoryPhrase){
   const searchTerm = searchPhrase;
   const category= categoryPhrase;
-  navigation.push("Results")
+  navigation.push('Results', {
+    searchTerm: searchTerm, 
+    searchCategory: category,
+  })
 }
 
 export default function HomeScreen({ navigation }) {
