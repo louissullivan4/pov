@@ -61,7 +61,7 @@ export default function ResultsScreen({ navigation, route }) {
     return (<ActivityIndicator/>);
   } else {
   return (
-    <ScrollView showsVerticalScrollIndicator={false}>
+    <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{flexGrow: 1}}>
     <View style={styles.container}>
       <View style={{margin:10,}}>
         <AppTitle/>
@@ -82,6 +82,27 @@ export default function ResultsScreen({ navigation, route }) {
         <View style={{justifyContent:'flex-start', padding:10}}>
         <AppText>Most popular comments:</AppText>
           <Text style={styles.text}>"{popularComment}"</Text>
+        </View>
+      </View>
+      <View style={styles.rowContainer}>
+        <View style={{justifyContent:'flex-start', padding:10}}>
+        {/* <AppText>"{textbox2}"</AppText> */}
+        <AppText>Most recent comments:</AppText>
+          <Text style={styles.text}>"{recentComment}"</Text>
+        </View>
+      </View>
+      <View style={styles.rowContainer}>
+        <View style={{justifyContent:'flex-start', padding:10}}>
+        {/* <AppText>"{textbox2}"</AppText> */}
+        <AppText>Most recent comments:</AppText>
+          <Text style={styles.text}>"{recentComment}"</Text>
+        </View>
+      </View>
+      <View style={styles.rowContainer}>
+        <View style={{justifyContent:'flex-start', padding:10}}>
+        {/* <AppText>"{textbox2}"</AppText> */}
+        <AppText>Most recent comments:</AppText>
+          <Text style={styles.text}>"{recentComment}"</Text>
         </View>
       </View>
       <View style={styles.rowContainer}>
