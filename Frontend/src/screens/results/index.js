@@ -61,6 +61,7 @@ export default function ResultsScreen({ navigation, route }) {
     return (<ActivityIndicator/>);
   } else {
   return (
+    <ScrollView showsVerticalScrollIndicator={false}>
     <View style={styles.container}>
       <View style={{margin:10,}}>
         <AppTitle/>
@@ -94,6 +95,7 @@ export default function ResultsScreen({ navigation, route }) {
           {cate ? <LineGraph/> : <View style={styles.rowContainer}></View>}
       </View>
       </View>
+      </ScrollView>
     );
   }
 }
