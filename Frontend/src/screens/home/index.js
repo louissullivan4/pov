@@ -31,16 +31,15 @@ export default function HomeScreen({ navigation }) {
         clicked = {clicked}
         setClicked = {setClicked}
       /> 
+
       <View style={styles.buttonContainer}>
-        <View style={styles.category}>
           <CategoryMenu
-            categoryPhrase = {categoryPhrase}
-            setCategoryPhrase = {setCategoryPhrase}
+              categoryPhrase = {categoryPhrase}
+              setCategoryPhrase = {setCategoryPhrase}
           />
-        </View>
-        <View style={styles.button}>
-        <Button color="black" title="Search" onPress={() => {userSearch(navigation, searchPhrase, categoryPhrase)}}></Button>
-        </View>
+          <View>
+            <Button color="black" title="Search" onPress={() => {userSearch(navigation, searchPhrase, categoryPhrase)}} styles={styles.button}/> 
+          </View>
       </View>
       <CarouselCards/>
     </SafeAreaView>

@@ -21,7 +21,7 @@ export default function CarouselCards() {
         renderItem={CarouselCardItem}
         sliderWidth={SLIDER_WIDTH}
         itemWidth={ITEM_WIDTH}
-        inactiveSlideShift={0}
+        inactiveSlideShift={1}
       />
     </View>
   );
