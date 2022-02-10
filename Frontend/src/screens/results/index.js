@@ -54,13 +54,15 @@ export default function ResultsScreen({ navigation, route }) {
           navigation.push('Error')
         }
       })
-      .catch((error) => navigation.push('Error'))
+      // .catch((error) => navigation.push('Error'))
+      .catch((error) => alert(error))
       .finally(() => setLoading(false));
   })
   if (isLoading) {
     return (<ActivityIndicator/>);
   } else {
   return (
+    <ScrollView showsVerticalScrollIndicator={false}>
     <View style={styles.container}>
       <View style={{margin:10,}}>
         <AppTitle/>
@@ -90,10 +92,39 @@ export default function ResultsScreen({ navigation, route }) {
           <Text style={styles.text}>"{recentComment}"</Text>
         </View>
       </View>
+      <View style={styles.rowContainer}>
+        <View style={{justifyContent:'flex-start', padding:10}}>
+        {/* <AppText>"{textbox2}"</AppText> */}
+        <AppText>Most recent comments:</AppText>
+          <Text style={styles.text}>"{recentComment}"</Text>
+        </View>
+      </View>
+      <View style={styles.rowContainer}>
+        <View style={{justifyContent:'flex-start', padding:10}}>
+        {/* <AppText>"{textbox2}"</AppText> */}
+        <AppText>Most recent comments:</AppText>
+          <Text style={styles.text}>"{recentComment}"</Text>
+        </View>
+      </View>
+      <View style={styles.rowContainer}>
+        <View style={{justifyContent:'flex-start', padding:10}}>
+        {/* <AppText>"{textbox2}"</AppText> */}
+        <AppText>Most recent comments:</AppText>
+          <Text style={styles.text}>"{recentComment}"</Text>
+        </View>
+      </View>
+      <View style={styles.rowContainer}>
+        <View style={{justifyContent:'flex-start', padding:10}}>
+        {/* <AppText>"{textbox2}"</AppText> */}
+        <AppText>Most recent comments:</AppText>
+          <Text style={styles.text}>"{recentComment}"</Text>
+        </View>
+      </View>
       <View styles={{margin:10,}}>
           {cate ? <LineGraph/> : <View style={styles.rowContainer}></View>}
       </View>
       </View>
+      </ScrollView>
     );
   }
 }
