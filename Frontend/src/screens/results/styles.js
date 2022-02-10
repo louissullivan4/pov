@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
         alignItems: 'flex-start',
         backgroundColor: 'white',  
         width: '90%',
-        height: '16%',
+        height: 150,
         borderRadius: 20, 
         marginTop: 20,  
         backgroundColor: '#c8e8df',

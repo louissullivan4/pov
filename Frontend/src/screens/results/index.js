@@ -62,7 +62,7 @@ export default function ResultsScreen({ navigation, route }) {
     return (<ActivityIndicator/>);
   } else {
   return (
-    <ScrollView showsVerticalScrollIndicator={false}>
+    <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{flexGrow:1}} >
     <View style={styles.container}>
       <View style={{margin:10,}}>
         <AppTitle/>
@@ -120,6 +120,14 @@ export default function ResultsScreen({ navigation, route }) {
           <Text style={styles.text}>"{recentComment}"</Text>
         </View>
       </View>
+      <View style={styles.rowContainer}>
+        <View style={{justifyContent:'flex-start', padding:10}}>
+        {/* <AppText>"{textbox2}"</AppText> */}
+        <AppText>Most recent comments:</AppText>
+          <Text style={styles.text}>"{recentComment}"</Text>
+        </View>
+      </View>
+     
       <View styles={{margin:10,}}>
           {cate ? <LineGraph/> : <View style={styles.rowContainer}></View>}
       </View>
