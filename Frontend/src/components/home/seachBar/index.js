@@ -5,13 +5,12 @@ import styles from "./styles";
 
 export default function SearchBar(props) {
   return (
-    <SafeAreaView style={styles.container}>
+    <View style={styles.container}>
       <TextInput 
         style={styles.textInput}
         placeholder="Search"
         value={props.searchPhrase}
-        onChangeText={props.setSearchPhrase}
-        />
-    </SafeAreaView>
+        onChangeText={props.setSearchPhrase}        />
+    </View>
   );
 }

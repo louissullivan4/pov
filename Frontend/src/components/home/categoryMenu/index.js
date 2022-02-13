@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native';
 import React, { useState }from 'react';
 import DropDownPicker from 'react-native-dropdown-picker';
-
+import styles from '../carouselCards/styles';
 export default function CategoryMenu(props) {
 
   const [open, setOpen] = useState(false);
@@ -18,20 +18,15 @@ export default function CategoryMenu(props) {
   ]);
 
   return (
-    <DropDownPicker
-      open={open}
-      value={value}
-      items={items}
-      setOpen={setOpen}
-      setValue={setValue}
-      setItems={setItems}
-      onChangeValue={props.setCategoryPhrase}
-      containerStyle={{
-        flex:1,
-        width: '50%',
-        alignSelf: 'flex-start', 
-        left: 35
-      }}
-    />
+      <DropDownPicker
+        open={open}
+        value={value}
+        items={items}
+        setOpen={setOpen}
+        setValue={setValue}
+        setItems={setItems}
+        onChangeValue={props.setCategoryPhrase}
+        containerStyle={{width:'60%', margin: 5}}
+      />
   );
 }
