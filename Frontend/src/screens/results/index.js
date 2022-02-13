@@ -39,8 +39,8 @@ export default function ResultsScreen({ navigation, route }) {
             let popluarJson = json.rating_count;
             let recentJson = json.peak_rank;
             setRating(parseFloat(json.rating))
-            setPopularComment(parseInt(popluarJson))
-            setRecentComment(parseInt(recentJson))
+            // setPopularComment(parseInt(popluarJson))
+            // setRecentComment(parseInt(recentJson))
           }
           else if (category_list.includes(searchCategory)){
             cate = true;
@@ -62,7 +62,9 @@ export default function ResultsScreen({ navigation, route }) {
     return (<ActivityIndicator/>);
   } else {
   return (
+
     <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{flexGrow:1}} >
+
     <View style={styles.container}>
       <View style={{margin:10,}}>
         <AppTitle/>
@@ -87,11 +89,11 @@ export default function ResultsScreen({ navigation, route }) {
       </View>
       <View style={styles.rowContainer}>
         <View style={{justifyContent:'flex-start', padding:10}}>
-        {/* <AppText>"{textbox2}"</AppText> */}
         <AppText>Most recent comments:</AppText>
           <Text style={styles.text}>"{recentComment}"</Text>
         </View>
       </View>
+
       <View style={styles.rowContainer}>
         <View style={{justifyContent:'flex-start', padding:10}}>
         {/* <AppText>"{textbox2}"</AppText> */}
@@ -109,12 +111,14 @@ export default function ResultsScreen({ navigation, route }) {
       <View style={styles.rowContainer}>
         <View style={{justifyContent:'flex-start', padding:10}}>
         {/* <AppText>"{textbox2}"</AppText> */}
+
         <AppText>Most recent comments:</AppText>
           <Text style={styles.text}>"{recentComment}"</Text>
         </View>
       </View>
       <View style={styles.rowContainer}>
         <View style={{justifyContent:'flex-start', padding:10}}>
+
         {/* <AppText>"{textbox2}"</AppText> */}
         <AppText>Most recent comments:</AppText>
           <Text style={styles.text}>"{recentComment}"</Text>
@@ -128,6 +132,7 @@ export default function ResultsScreen({ navigation, route }) {
         </View>
       </View>
      
+
       <View styles={{margin:10,}}>
           {cate ? <LineGraph/> : <View style={styles.rowContainer}></View>}
       </View>
