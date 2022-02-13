@@ -1,4 +1,4 @@
-import { View, Text, SafeAreaView, Button } from 'react-native';
+import { View, SafeAreaView, Button, Alert  } from 'react-native';
 import React, { useState } from 'react';
 import SearchBar from '../../components/home/seachBar';
 import styles from "./styles";
@@ -10,10 +10,21 @@ import AppTitle from '../../components/general/appTitle';
 function userSearch(navigation, searchPhrase, categoryPhrase){
   const searchTerm = searchPhrase;
   const category= categoryPhrase;
-  navigation.push('Results', {
-    searchTerm: searchTerm, 
-    searchCategory: category,
-  })
+  if ((searchPhrase == "")||(categoryPhrase == "")){
+    Alert.alert(
+      "Search Error!",
+      "Please enter a value in the search bar and select a category from the dropdown menu",
+      [
+        { text: "OK"}
+      ]
+    );
+  }
+  else {
+    navigation.push('Results', {
+      searchTerm: searchTerm, 
+      searchCategory: category,
+    })
+  }
 }
 
 export default function HomeScreen({ navigation }) {
@@ -31,7 +42,6 @@ export default function HomeScreen({ navigation }) {
         clicked = {clicked}
         setClicked = {setClicked}
       /> 
-
       <View style={styles.buttonContainer}>
           <CategoryMenu
               categoryPhrase = {categoryPhrase}
