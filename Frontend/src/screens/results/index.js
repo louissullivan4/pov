@@ -61,7 +61,7 @@ export default function ResultsScreen({ navigation, route }) {
     return (<ActivityIndicator/>);
   } else {
   return (
-    <ScrollView style={styles.scrollview} showsVerticalScrollIndicator={false} contentContainerStyle={{flexGrow: 1}}>
+    <ScrollView style={{backgroundColor: "#FFF"}} showsVerticalScrollIndicator={false} contentContainerStyle={{flexGrow: 1}}>
     <View style={styles.container}>
       <View style={{margin:10,}}>
         <AppTitle/>
