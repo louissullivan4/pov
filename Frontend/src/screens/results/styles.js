@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
         alignItems: 'flex-start',
         backgroundColor: 'white',  
         width: '90%',
-        height: 150,
+        height: 130,
         borderRadius: 20, 
         marginTop: 20,  
         backgroundColor: '#c8e8df',
@@ -18,9 +18,17 @@ const styles = StyleSheet.create({
         backgroundColor:'white',
     },
     text: {
-        paddingTop: 5,
+        paddingTop: 10,
         fontSize: 15,
 
+    },
+    textlist:{
+        paddingTop: 5,
+        fontSize: 15,
+    },
+    urltext: {
+        color: "dodgerblue",
+        textDecorationLine: 'underline'
     }
 });
 export default styles;
