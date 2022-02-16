@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
       },
       image: {
         width: ITEM_WIDTH,
-        height: 500,
+        height: 480,
         borderRadius: 20,
         overflow: 'hidden',
       },

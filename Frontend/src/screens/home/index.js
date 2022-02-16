@@ -1,14 +1,19 @@
 import { View, SafeAreaView, Button, Alert, Text, LogBox, Keyboard} from 'react-native';
 import React, { useState, useEffect  } from 'react';
-import SearchBar from '../../components/home/seachBar';
 import styles from "./styles";
+
+import SearchBar from '../../components/home/seachBar';
+
 import CarouselCards from '../../components/home/carouselCards';
 import CategoryMenu from '../../components/home/categoryMenu';
 
 import AppTitle from '../../components/general/appTitle';
-import { IconButton } from 'react-native-paper';
+import AppText from '../../components/general/appText';
 
 import PickerBox from 'react-native-picker-box';
+
+import { IconButton } from 'react-native-paper';
+
 
 
 function userSearch(navigation, searchPhrase, categoryPhrase){
@@ -55,7 +60,6 @@ export default function HomeScreen({ navigation }) {
   return (
     <SafeAreaView style={styles.container}>
       <AppTitle/>
-
       <SearchBar
         searchPhrase = {searchPhrase}
         setSearchPhrase = {setSearchPhrase}
@@ -63,6 +67,9 @@ export default function HomeScreen({ navigation }) {
         setClicked = {setClicked}
         setFunction = {() => {ref.openPicker(), Keyboard.dismiss()}}
       />
+      <View style={styles.title}>
+        <Text style={styles.titleText}>Trending</Text>
+      </View>
       <CarouselCards/>
       <PickerBox
           ref={ setRef }
@@ -70,7 +77,7 @@ export default function HomeScreen({ navigation }) {
           onValueChange={categoryValue => (userSearch(navigation, searchPhrase, categoryValue))}
           selectedValue={ categoryValue }
           prevTextColor={ "#37dba9" }
-        />
+      />
     </SafeAreaView>
   );
 }

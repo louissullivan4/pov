@@ -9,20 +9,17 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: "#FFF"
     },
-    // buttonContainer: {
-    //     flexDirection: 'row',
-    //     flex:1,
-    //     justifyContent: "flex-start",
-    //     alignItems: "center",
-    //     ...(Platform.OS !== 'android' && {
-    //         zIndex: 10
-    //       }),
     
-    // },
-    // button: {
-    //     backgroundColor: "#c8e8df",
-    //     borderRadius: 20,
-    //   ,  padding: 5
-    // }
+    title: {
+        top: 50,
+        right: 100,
+        color: '#6e867f',
+        
+    },
+
+    titleText: {
+        fontSize: 25,
+        fontStyle: 'italic',
+    }
 })
 export default styles;
