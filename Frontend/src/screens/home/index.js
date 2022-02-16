@@ -1,4 +1,4 @@
-import { View, SafeAreaView, Button, Alert, Text, LogBox } from 'react-native';
+import { View, SafeAreaView, Button, Alert, Text, LogBox, Keyboard} from 'react-native';
 import React, { useState, useEffect  } from 'react';
 import SearchBar from '../../components/home/seachBar';
 import styles from "./styles";
@@ -61,13 +61,13 @@ export default function HomeScreen({ navigation }) {
         setSearchPhrase = {setSearchPhrase}
         clicked = {clicked}
         setClicked = {setClicked}
-        setFunction = {() => {ref.openPicker()}}
+        setFunction = {() => {ref.openPicker(), Keyboard.dismiss()}}
       />
       <CarouselCards/>
       <PickerBox
           ref={ setRef }
           data={ items }
-          onValueChange={categoryValue => userSearch(navigation, searchPhrase, categoryValue)}
+          onValueChange={categoryValue => (userSearch(navigation, searchPhrase, categoryValue))}
           selectedValue={ categoryValue }
           prevTextColor={ "#37dba9" }
         />
