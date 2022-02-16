@@ -1,41 +1,54 @@
-
-"""
-THIS TEST DOES NOT WORK
-"""
 import requests
-import config
-import tweepy as tw
-from george import George
+import os
+import json
+# export 'BEARER_TOKEN'='<your_bearer_token>'
+bearer_token = os.environ.get("BEARER_TOKEN")
 
-TWITTER_CLIENT = config.twittersecret
-TWITTER_KEY = config.twitterkey
-TWITTER_ACCESS_SECRET = config.twitteracceesssecret
-TWITTER_ACCESS_KEY = config.twitteraccess
+search_url = "https://api.twitter.com/2/tweets/search/recent"
 
-class TwitterData:
-    def __init__(self, term):
-        self.api = self.createApi()
-        self.term = term
-        self.tweets_list = []
-        self.result = self.analysis_tweets()
+# Optional params: start_time,end_time,since_id,until_id,max_results,next_token,
+# expansions,tweet.fields,media.fields,poll.fields,place.fields,user.fields
+query_params = {'query': '#xbox','tweet.fields': 'author_id'}
 
-    def createApi(self):
-        auth = tw.OAuthHandler(TWITTER_KEY, TWITTER_CLIENT)
-        auth.set_access_token(TWITTER_ACCESS_KEY, TWITTER_ACCESS_SECRET)
-        return tw.API(auth)
 
-    def getTweets(self):
-        for tweet in self.api.search_tweets(q=self.term,count=100,lang="en", since="2017-04-03").items():
-                self.tweets_list.append(tweet.text)
+def bearer_oauth(r):
+    """
+    Method required by bearer token authentication.
+    """
+    r.headers["Authorization"] = f"Bearer {bearer_token}"
+    r.headers["User-Agent"] = "v2RecentSearchPython"
+    return r
 
-    def analysis_tweets(self):
-        analysis = George(self.tweets_list)
-        return analysis
+def connect_to_endpoint(url, params):
+    response = requests.get(url, auth=bearer_oauth, params=params)
+    print(response.status_code)
+    if response.status_code != 200:
+        raise Exception(response.status_code, response.text)
+    return response.json()
 
-    def __str__(self):
-        return "{}".format(self.result)
+
+def main():
+    json_response = connect_to_endpoint(search_url, query_params)
+    print(json.dumps(json_response, indent=4, sort_keys=True))
+
+def csv_anal():
+    import pandas as pd
+    df = pd.read_csv('xbox.csv')
+    df.head()
+    from pprint import pprint
+    df['label']=0
+    df.loc[df['compound']> 0.2, 'label'] = 1 # positive
+    df.loc[df['compound']< 0.2, 'label'] = -1 # positive
+    df.head()
+    # df2 = df[['headline', 'label']]
+    print("Positive headlines:\n")
+    pprint(list(df[df['label'] == 1].headline)[:5], width=200)
+
+    print("Negative headlines:\n")
+    pprint(list(df[df['label'] == -1].headline)[:5], width=200)
+
 
 
 if __name__ == "__main__":
-    bot = TwitterData("Liverpool")
-    print(bot)
+    #csv_anal()
+    main()
