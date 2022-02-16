@@ -40,14 +40,18 @@ export default function ResultsScreen({ navigation, route }) {
             setVoteCount(parseInt(totalJson))
           }
           else if (searchCategory == "movie"){
+            let popluarJson = json.reviews[0].charAt(0).toUpperCase() + json.reviews[0].slice(1);
+            let recentJson = json.reviews[3].charAt(0).toUpperCase() + json.reviews[3].slice(1);
             let ratingCountJson = json.rating_count;
             let rankJson = json.peak_rank;
             setRating(parseFloat(json.rating))
+            setPopularComment(popluarJson)
+            setRecentComment(recentJson)
             setVoteCount(parseInt(ratingCountJson))
             setRank(parseInt(rankJson))
           }
           else if (category_list.includes(searchCategory)){
-            console.log("other apis")
+            navigation.push('Error')
           }
           else {
             navigation.push('Error')
