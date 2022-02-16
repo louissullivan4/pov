@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native';
 import React, { useState }from 'react';
 import DropDownPicker from 'react-native-dropdown-picker';
-import styles from '../carouselCards/styles';
+import styles from "./styles";
 export default function CategoryMenu(props) {
 
   const [open, setOpen] = useState(false);
@@ -26,7 +26,7 @@ export default function CategoryMenu(props) {
         setValue={setValue}
         setItems={setItems}
         onChangeValue={props.setCategoryPhrase}
-        containerStyle={{width:'60%', margin: 5}}
+        containerStyle={styles.container}
       />
   );
 }

@@ -1,25 +1,6 @@
 import { StyleSheet } from "react-native";
 import { Platform } from "react-native";
 
-// const styles = StyleSheet.create({
-
-//     container: {
-//         flex:1,
-//         flexDirection: "column",
-//         justifyContent: "center",
-//         alignItems: "center",
-//         backgroundColor: "#FFF",
-//     },
-//     navigationContainer: {
-//         flexDirection: "row"
-//     },
-//     category: {
-//     },
-//     button: {
-//     }
-// })
-// export default styles;
-
 const styles = StyleSheet.create({
 
     container: {
@@ -28,20 +9,20 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: "#FFF"
     },
-    buttonContainer: {
-        flexDirection: 'row',
-        flex:1,
-        justifyContent: "flex-start",
-        alignItems: "center",
-        ...(Platform.OS !== 'android' && {
-            zIndex: 10
-          }),
+    // buttonContainer: {
+    //     flexDirection: 'row',
+    //     flex:1,
+    //     justifyContent: "flex-start",
+    //     alignItems: "center",
+    //     ...(Platform.OS !== 'android' && {
+    //         zIndex: 10
+    //       }),
     
-    },
-    button: {
-        backgroundColor: "#c8e8df",
-        borderRadius: 20,
-        padding: 5
-    }
+    // },
+    // button: {
+    //     backgroundColor: "#c8e8df",
+    //     borderRadius: 20,
+    //   ,  padding: 5
+    // }
 })
 export default styles;

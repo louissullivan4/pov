@@ -9,21 +9,7 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         alignItems: "center",
         backgroundColor: "#fdfdfd",
-        shadowColor: "#757575",
-        shadowRadius: 8,
-        shadowOpacity: 0.3,
-        shadowOffset: {
-          width: 0,
-          height: 3,
-        },
-        
-    },
-    textInput: {
-        width: "80%",
-        marginLeft: 12,
-        color: "#19191a",
-        borderRadius: 20,
-      },
+    }
 
 })
 export default styles;
