@@ -17,6 +17,7 @@ class ImdbData:
         self.rating = self.get_rating()
         self.rating_count = self.get_rating_count()
         self.top_rank = self.get_top_rank()
+        self.reviews = self.get_reviews()
         self.result = self.final_result()
 
     def getResult(self):
@@ -28,7 +29,7 @@ class ImdbData:
         if response_type["Content-Type"] == 'application/json':
             data = response.json()
             #Get movie id from json
-            id = data["results"][0]["id"]
+            id = data["id"]
             return id[7:-1]
         else:
             return None
@@ -57,6 +58,19 @@ class ImdbData:
             return str(rank)
         else:
             return None
+
+    def get_reviews(self):
+        if self.top_rank != None:
+            response = requests.get("https://louissullivcs.pythonanywhere.com/imdb/review/{}".format(str("tt1160419")))
+            response_json = response.json()
+            i = 0
+            reviews = []
+            while i < len(response_json['reviews']):
+                reviews.append(response_json["reviews"][i]["reviewTitle"])
+                i += 1
+            return reviews
+        else:
+            return None
     
     def final_result(self):
         if self.id != None:
@@ -64,8 +78,10 @@ class ImdbData:
             result = json.loads(result_string)
             count = {"rating_count": self.rating_count}
             rank = {"peak_rank": self.top_rank}
+            review = {"reviews": self.reviews}
             result.update(count)
             result.update(rank)
+            result.update(review)
             return result
         else:
             result_string = '{"status": "503", "msg": "Entry unavailable"}'

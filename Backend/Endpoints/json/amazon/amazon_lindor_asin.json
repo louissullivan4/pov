@@ -1,5 +1,5 @@
 {
-	"totalProducts": "601",
+	"totalProducts": "270",
 	"category": "aps",
 	"result": [
 		{
@@ -18,17 +18,17 @@
 				"savings_percent": 0
 			},
 			"reviews": {
-				"total_reviews": 47997,
+				"total_reviews": 48625,
 				"rating": 4.7
 			},
-			"url": "https://www.amazon.co.uk/Milk-lindt-lindor-sweet-tree/dp/B00NW479QO",
-			"score": "75999.00",
+			"url": "https://www.amazon.co.uk/dp/B00NW479QO",
+			"score": "228537.50",
 			"sponsored": false,
 			"amazonChoice": false,
-			"bestSeller": false,
+			"bestSeller": true,
 			"amazonPrime": false,
 			"title": "Lindt Lindor Milk Chocolate Truffles Box with a Smooth Melting Filling, 200 g",
-			"thumbnail": "https://m.media-amazon.com/images/I/71PMC4DWWFL._AC_UY218_.jpg"
+			"thumbnail": "https://m.media-amazon.com/images/I/81Zqj+zdcVL._AC_UL320_.jpg"
 		}
 	]
 }

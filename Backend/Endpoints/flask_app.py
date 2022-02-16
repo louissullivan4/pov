@@ -137,12 +137,36 @@ def rating_val(term: str):
         json_file = open("/home/louissullivcs/mysite/json/imdb/imdb_inception_movie_rating.json")
         variables = json.load(json_file)
         json_file.close()
-    elif term == "tt0810913":
+    elif term == "tt2096673":
         json_file = open("/home/louissullivcs/mysite/json/imdb/imdb_jackandjill_movie_rating.json")
         variables = json.load(json_file)
         json_file.close()
-    elif term == "tt2096673":
+    elif term == "tt0810913":
         json_file = open("/home/louissullivcs/mysite/json/imdb/imdb_insideout_movie_rating.json")
+        variables = json.load(json_file)
+        json_file.close()
+    else:
+        variables = "<p>Error: Value passed not available...</p>"
+    return variables
+
+@app.route('/imdb/review/<string:term>')
+def rating_val(term: str):
+    term = term.lower().strip()
+    term = term.replace(" ", "")
+    if term == "tt1160419":
+        json_file = open("/home/louissullivcs/mysite/json/imdb/imdb_dune_review.json")
+        variables = json.load(json_file)
+        json_file.close()
+    elif term == "tt1375666":
+        json_file = open("/home/louissullivcs/mysite/json/imdb/imdb_inception_review.json")
+        variables = json.load(json_file)
+        json_file.close()
+    elif term == "tt2096673":
+        json_file = open("/home/louissullivcs/mysite/json/imdb/imdb_jackandjill_review.json")
+        variables = json.load(json_file)
+        json_file.close()
+    elif term == "tt0810913":
+        json_file = open("/home/louissullivcs/mysite/json/imdb/imdb_insideout_review.json")
         variables = json.load(json_file)
         json_file.close()
     else:

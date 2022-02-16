@@ -1,0 +1,464 @@
+{
+	"@type": "imdb.api.userreviews.userreviewsfortitle",
+	"base": {
+		"id": "/title/tt1375666/",
+		"image": {
+			"height": 1037,
+			"id": "/title/tt1375666/images/rm3426651392",
+			"url": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+			"width": 700
+		},
+		"title": "Inception",
+		"titleType": "movie",
+		"year": 2010
+	},
+	"paginationKey": "g4xolermtiqhejcxxxgs753i36t52q343ept56hja3b6qp5df7ftlnbherhszg7lyqr44tuo",
+	"reviews": [{
+		"author": {
+			"displayName": "MartinHafer",
+			"userId": "/user/ur2467618/"
+		},
+		"authorRating": 8,
+		"helpfulnessScore": 0.5154874787893149,
+		"id": "/title/tt1375666/userreviews/rw2347532",
+		"interestingVotes": {
+			"down": 30,
+			"up": 50
+		},
+		"languageCode": "eng",
+		"reviewText": "This review is being written by a 46 year-old guy. I mention this because clearly this is a film where age is important, as younger folks probably will enjoy the movie more--and can take the fast-paced action and frenetic pace. I assume older audiences probably will be a little less amazed and a bit overwhelmed with the film. Just something to consider as you read this.\n\nAs for the movie, I'll be up front about the fact that I did NOT love this film. It's just not the sort of movie I'd usually see and only went because my oldest daughter nagged me to go. I am glad I did, however, as I really could respect the movie in many ways. First, the story is wildly original (though, also quite confusing). Other than the Matrix films, I can't think of anything that even comes close to it in style. Second, the production looked and sounded great. The music was intense and worked great with the amazing, totally amazing, special effects. Third, it was nice to see so many kid actors show that they are NOT light-weights and could act. Leonardo DiCaprio is no longer the pretty young thing he was in \"Titanic\"--his maturity and grit were welcome. Also, seeing the kid from \"Third Rock\" suddenly playing an action hero was great--you'd barely recognize him--or the other grown child actors. Fourth, I loved the ending--it really pulled everything together very well.\n\nSo why am I not giving the film a glowing review? Well, I am simply not an action film fan. And, the insane pace, TONS of shooting and crazy plot simply lost me at times. I much preferred the slower and more introspective moments of the film. Also, while Ken Watanabe is a fine actor, I had a devil of a time understanding a lot of what he said--to the point where I wish they'd either dubbed him or had caption! Now this is NOT just because I am an old crank who is slightly hard of hearing--my daughter, too, found his thick accent difficult. On the other hand, Ms. Cotillard was VERY easy to understand and I was surprised how well she controlled her lovely French accent.\n\nI could probably go on and on about the film--as it's long, complex and VERY prone to be one to watch and re-watch and discuss with friends. However, at this point, there are already a bazillion reviews and 7 billion people have already gone to see it, so I'll call it a day.\n\nWell worth seeing....but perhaps too frenetic and confusing for many.",
+		"reviewTitle": "Amazingly original...but also a bit overwhelming.",
+		"spoiler": false,
+		"submissionDate": "2010-12-02",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "TheLittleSongbird",
+			"userId": "/user/ur20552756/"
+		},
+		"authorRating": 7,
+		"helpfulnessScore": 0.41035511806809677,
+		"id": "/title/tt1375666/userreviews/rw2394304",
+		"interestingVotes": {
+			"down": 45,
+			"up": 47
+		},
+		"languageCode": "eng",
+		"reviewText": "I heard a number of great things about Inception, including from my sister who came out saying it was one of the cleverest and best movies she'd seen. After seeing it for myself, I thought it was a good film, but not as good as I was led to believe. Out of the Christopher Nolan movies I have seen, Inception didn't wow me as much as Memento and The Prestige, and it is one of my least favourites of his so far. Does that mean the film is bad? No, I am just saying I do not think it is Nolan's best as I have heard people say.\n\nMy main problem with Inception was the lack of emotional attachment, I do understand completely anybody who says it is emotionally cold. Particularly in the characters, they are written and acted well, but not much is done to make us empathise with them and their predicaments. I loved the idea of the story, it was clever and somewhat original and it did start very compelling and intriguing, but as the film progresses it does become rather convoluted and I found myself losing a little interest. Also, the pace is uneven, as the characters became more cold and the story more convoluted, the film really does start to drag until the conclusion where the film does thankfully pick up.\n\nInception despite these faults does have a number of strengths, especially the beautifully crafted production values, dream sequences and effects and Nolan's superb direction. Hans Zimmer's score is incredibly good too, while powerful and haunting it rarely becomes overbearing, while the dialogue is on the whole clever and thought-provoking. The acting is generally very good, both Leonardo DiCaprio, with a more hardened persona which has grown even more, and Ellen Page give strong performances and while Marion Cotillard is underused she is pretty good as well and Cillian Murphy I think gives the best supporting performance as he is superb.\n\nOverall, Inception is a generally good film but not as good as it is lauded to be. 7/10 Bethany Cox",
+		"reviewTitle": "A good film, but not as good as the hype",
+		"spoiler": false,
+		"submissionDate": "2011-03-05",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "bkoganbing",
+			"userId": "/user/ur2483625/"
+		},
+		"authorRating": 9,
+		"helpfulnessScore": 0.30146427073117593,
+		"id": "/title/tt1375666/userreviews/rw2283351",
+		"interestingVotes": {
+			"down": 21,
+			"up": 17
+		},
+		"languageCode": "eng",
+		"reviewText": "Watching Inception with its futuristic emphasis on getting inside people's heads through dreams, especially hearing Leonardo DiCaprio explain the pitfalls to newbie Ellen Page, I couldn't help thinking about Forbidden Planet and that warning about monsters from the Id. Did earth manage to conquer what the Krells could not?\n\nChristopher Nolan wrote and directed Inception and though it gets a bit heavy at times, it still is an unmistakable masterpiece. Leonardo DiCaprio stars in this and he's essentially a cat burglar of the mind. His mission usually is to invade people's dreams and steal ideas which makes him an invaluable espionage agent. But Leo's also a wanted man.\n\nSome problems Leo has relating to his Id have forced him to rely on others to create dream worlds. He was working against Japanese billionaire industrialist Ken Watanabe and got caught, but then Watanabe likes his style and hires Leo and his team to do a job on the young heir to a communications conglomerate, Cillian Murphy. It's not to steal anything, but to plant an idea in his brain with the dream team. The film is essentially how DiCaprio and his crew go about this job with Watanabe incidentally along for the ride. And its how Leo has to deal with some real demons involving guilt that force him to rely on others.\n\nVery nice computer graphic generated special effects characterize Inception and it will probably earn an Oscar nomination next year in that category. Director Nolan gets his talented cast to read writer Nolan's dialog with verve and conviction. \n\nI truly hope this technology is not in our near future that would be a frightening thought.",
+		"reviewTitle": "Dream Team",
+		"spoiler": false,
+		"submissionDate": "2010-07-21",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "Leofwine_draca",
+			"userId": "/user/ur0482513/"
+		},
+		"authorRating": 8,
+		"helpfulnessScore": 0.1205840639649897,
+		"id": "/title/tt1375666/userreviews/rw3518451",
+		"interestingVotes": {
+			"down": 6,
+			"up": 3
+		},
+		"languageCode": "eng",
+		"reviewText": "Christopher Nolan is a director to be applauded. His films may be sometimes flawed \u2013 as in the case of this one \u2013 and often overrated, but at least he's a guy working in Hollywood who strives for originality. INCEPTION might well be his most original film yet, a cerebral thriller that requires audiences to use their brains for once, rather than going over the same old ground. It's not quite the masterpiece that some say it is, but it is an engaging, well-made, and exciting movie that pretty much demands repeat viewings.\n\nThe first two thirds of the movie had me spellbound. The set-up is intense, throwing out wonderful ideas at the audience and not hanging around to see whether they're accepted. It's definitely a film where you have to pay attention to every second, although saying that I had no trouble following what was going on. As our characters enter dream state after dream state, I was drawn into this world with them. Nolan is at the top of his game and even his super-fast-edited action sequences don't disappoint, with riveting gun battles and a fine car chase thrown in, too. Star Leonardo DiCaprio's back story adds an emotional core to the movie that it would have otherwise been missing and I loved being caught up in the various outlandish shenanigans.\n\nWhich is why the ending is a little bit disappointing \u2013 not a lot, but a little bit nonetheless. The whole setup with the snowbound fortress smacks of Bond, and has a seen-it-all before quality the film sidestepped for the most part. It's as if Nolan pushed himself to the edge with the concepts he introduced in his movie, and then stepped back, afraid. We needed more scenes like the bit with the train and the revolving corridor, and less conventional action. There's plenty of scope for truly mind-blowing stuff in the dream worlds he so painstakingly creates \u2013 like the awesome early scene with the folding city. But then he just delivers some sub-Bond antics and wastes what could have been a truly superb premise.\n\nI also had a slight problem with the ending, which goes on and on, with multiple scenes dragged out in a manner reminiscent of RETURN OF THE KING (although never quite as bad as that). Still, these are minor flaws in an otherwise very well made and entertaining movie. The ensemble cast are great: DiCaprio has matured nicely as a thinking man's hero, and the normally irritating Ellen Page is okay as the character whom the viewer follows into the antics. Michael Caine delivers a nice cameo, and Ken Watanabe reminds us all of what a fine actor he is. There are also good turns for up-and-coming stars like Joseph Gordon-Levitt, Tom Hardy, and Marion Cotillard, and a very nice performance from one of my favourites, Cillian Murphy. So, while it may not be the masterpiece that I was hoping for, INCEPTION is definitely a step in the right direction of intelligent Hollywood filmmaking.",
+		"reviewTitle": "A Hollywood rarity - an intelligent action film",
+		"spoiler": true,
+		"submissionDate": "2016-08-04",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "Michael_Elliott",
+			"userId": "/user/ur13134536/"
+		},
+		"helpfulnessScore": 0.3638935612236025,
+		"id": "/title/tt1375666/userreviews/rw2284288",
+		"interestingVotes": {
+			"down": 24,
+			"up": 24
+		},
+		"languageCode": "eng",
+		"reviewText": "Inception (2010) \n\n*** 1/2 (out of 4)\n\nThe \"kiss\" platform of recent years to keep it simple and stupid has pretty much ruined movies to a point as it's rare when one can walk into a movie and have a real workout on your brain. Sure, our eyes and ears are treated to amazing sites and loud noises each and every week and some would say this causes the brain just to lose any type of reality, which might be the reason certain people (cough Lohan, Hilton and countless others) are able to be hot stories while better, more worthwhile events are simply overlooked. If one doesn't want to use their brain then it's best to stay away from this thing. It's best not to know too much about the story but it deals with a troubled man (Leonardo DiCaprio) who has made it a job to break into people's dreams and steal their ideas. However, due to a personal tragedy, he is forced to take a job doing the opposite, which is breaking into a man's dream to plant an idea. That's pretty much all you need to know, storywise, as director/writer Nolan will deliver the rest and while the end result wasn't a pure masterpiece to me, there's no way you can deny the power it does contain. Dreams have always played an interesting part in movies but no other has taken you this far into them and delivered such incredible ideas. Not only does the screenplay deliver a lot to think about but we also get plenty of action and amazing scenes of destruction. The trailer showed people just a little pinch of a city turning upside down but seeing the full sequence was something truly amazing. Other amazing sequences was the entire final hour when our group of dream breakers must enter a multiple layer of dreams with one damaging effect after another. If you're familiar with Nolan then you already know what he can do and there's no question the man has talent but it is something special that a film like this could be pulled off at all. When you're dealing with multiple characters in multiple spaces and in multiple dream zones it would be easy and common for things to just fall apart under their own weight. It's very difficult to keep you guessing from one moment to another without things either falling apart or getting so complicated that the viewer simply gives up on the film and moves on. The amazing thing is that Nolan never lets up on the gas and instead just delivers one more bit of story on top of the next and I thought it was amazing that he could keep the viewing coming along for the ride and never lose us. I think some people are going to not understand what's going on or be able to figure out the multiple levels but when you kick back and think about what you've seen I think most will see that the maze had an entrance and an exit and nothing came as a cheat. DiCaprio delivers yet another wonderful performance but he's got a terrific cast around him including Ellen Page, Michael Caine, Joseph Gordon-Levitt, Marion Cotillard, Cilliam Murphy, Pete Postlethwaite and a great return from Tom Berenger. Each actor does fine work in their roles and certainly help the story move along. The nature of the story is a very good one but the visual effects are just as good. Looking at all the action and amazing effects makes one really appreciate the acting, directing and story even more simply because they didn't get lost behind everything else that was going on. I don't think there's any question that one needs more than a single viewing to catch everything happening here but that's certainly not a bad thing since each viewing will deliver bits and pieces that will probably take the film into directions that you didn't think were there.",
+		"reviewTitle": "Not Your Typical, Brainless Summer Movie",
+		"spoiler": false,
+		"submissionDate": "2010-07-23",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "SnoopyStyle",
+			"userId": "/user/ur2898520/"
+		},
+		"authorRating": 9,
+		"helpfulnessScore": 0.017876264383779136,
+		"id": "/title/tt1375666/userreviews/rw2879376",
+		"interestingVotes": {
+			"down": 9,
+			"up": 1
+		},
+		"languageCode": "eng",
+		"reviewText": "This is a world where people can go into your dreams. Some are even able to use your dreams to influence your actions. Dom Cobb (Leonardo DiCaprio) is skilled at stealing secrets by diving into your dreams. It's a dark treacherous world where he has made too many enemies. Now he is offered a chance to come in from the cold. This time his team is tasked to plant an idea into the target's mind, or in one word inception.\n\nChristopher Nolan has created something of a Penrose-stairs structure in this movie. It's complicated and may be too convoluted to be reasonable. But that's as much part of its charm. The worlds, the effects, the ideas are all first rate. It is oozing with originality.\n\nThe actors are also first rate. Nolan can command the best cast to his projects now. There is nobody better than DiCaprio to anchor this movie. Nothing about this movie is done with lesser parts. This is indeed a top movie.",
+		"reviewTitle": "Oozing with originality",
+		"spoiler": false,
+		"submissionDate": "2013-10-01",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "Hitchcoc",
+			"userId": "/user/ur0278527/"
+		},
+		"authorRating": 10,
+		"helpfulnessScore": 0.3907081955262731,
+		"id": "/title/tt1375666/userreviews/rw2288301",
+		"interestingVotes": {
+			"down": 12,
+			"up": 16
+		},
+		"languageCode": "eng",
+		"reviewText": "If one goes to an art gallery to see a provocative piece, one sees something new each time. That's what true art is. That's why a black light Elvis is not art. This film is certainly a tour de force. It requires engagement at every step. LIke most works of art, it doesn't give it all away. I look forward to seeing this the second or even third time. First of all, the premise is wonderfully engaging. Our consciousness is layered as everyone knows who thinks they have awakened, only to find themselves in another nightmare--then they awaken again. We know that the subconscious by nature is out of our control. There you have a wonderful premise. Now layer that further with people who can flip in and out and use this to their own ends. While confusing, it's exciting. The amazing thing is that the director/writer pulls it off. Every nuance and event is picked precisely for its effectiveness. We have the luxury of watching from one precipice into the abyss. We do care about the people and not just because we want them to succeed. We care about the matrix of the dream levels. Great movie.",
+		"reviewTitle": "Come Back Again!",
+		"spoiler": false,
+		"submissionDate": "2010-07-31",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "Kirpianuscus",
+			"userId": "/user/ur61197531/"
+		},
+		"helpfulnessScore": 0.20766011478025503,
+		"id": "/title/tt1375666/userreviews/rw3610153",
+		"interestingVotes": {
+			"down": 1,
+			"up": 2
+		},
+		"languageCode": "eng",
+		"reviewText": "it has the gift to become a personal story. because it is a film about dreams, about past, about memories who could stop or rule the present. in same measure, it is an ambitious project. maybe to ambitious because the story becomes a huge map in which plains and seas are mixed. not the last, it is one of demonstration of the art of Leonardo diCaprio. beautiful, precise but, maybe, too obvious. the original theme - the mind control - becomes an unlimited labyrinth. a story about spies becomes a psychological one. all in a oppressive rhythm, with explanations who are status of parts of lesson, with different levels who transforms it in a kind of video game. but its virtue is to be perfect choice for different viewers. and this does it great.",
+		"reviewTitle": "labyrinth",
+		"spoiler": true,
+		"submissionDate": "2016-12-31",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "Horst_In_Translation",
+			"userId": "/user/ur3914439/"
+		},
+		"authorRating": 8,
+		"helpfulnessScore": 0.036224213478337514,
+		"id": "/title/tt1375666/userreviews/rw6006550",
+		"interestingVotes": {
+			"down": 4,
+			"up": 1
+		},
+		"languageCode": "eng",
+		"reviewText": "The word \"Inception\" will always be associated with this 2.5-hour movie we have here and that says it all basically about how defining the outcome is. But first things first: The writer and direcctor here is of course Christopher Nolan and his British/American production from 2010 is maybe still his defining effort ten years later. They are showing this in theaters now again for said tenth anniversary and I happily took the chance to give it another watch, my third in fact and it definitely was not worse than my first or second. This is the kind of film that is indeed a lot better to be seen on the big screen, not only, but also because of the special effects. This movie won four Oscars, so also a big success with awards bodies, especially because it took home 150 more awards and over 200 more nominations and that is just what is listed here on imdb. Still I remember many people outraged back then because the one thing it did not get was an Oscar nomination for Nolan himself as director despite getting in at pretty much every important precursor. However, now in 2020, he also has his director nod and for this film here he got the writing nomination at least and that is absolutely alright because I think that the writing is the film's best aspect probably. Utter genius involved here and even more impressive if it was Nolan all on his own apparently.\n\nNo Oscar nominations for the cast here. I think the only one who was slightly considered was Marion Cotillard and I would have liked it. She was really good, but then again I am a fan of her anyway. But it wasn't meant to happen and that is perfectly fine. She has one trophy already anyway, also did back then, which maybe helped her also in terms of getting cast here. She is one of several cast members that have worked with Nolan on other occasions before or after this movie, even if I think her portrayal in the final Batman film did not receive such positive acclaim overall. Oh well, others would be Murphy, Hardy and of course Michael Caine, who only has very little screen time here, two scenes and his second scene only lasts for a few seconds, but the first is really nice when his character meets the protagonist. Then there's a few actors whose star has gone down a bit in the last 10 years since this movie was made. Murphy may fit the description too to some extent, but I mostly mean the younger folks like Joseph Gordon-Levitt and Ellen Page. And Pete Postlethwaite is already dead for a few years, a bit sad knowing that now with how we see his character here dying too. May he rest in peace. But speaking of JGL, his role here is a bit of an example why he would never make it big in Hollywood. His character so plays second fiddle to Leonardo DiCaprio that it was a bit embarrassing almost here and there and among the weaker components of the film. Take the very early part already how he is trying so hard to convince Watanabe's character, while Leo knows his value and is all smooth and cool. Or how JGL is the one being caught and used to put pressure on Cobb (Leo) and even gets a bullet in the head. Or how he falls from the chair, kicked by Hardy I think, to elaborate on another phenomenon how people wake up from dreams. Oh yes, Watanabe I mentioned. Him I liked and like in general as an actor. I wish his character could have had more screen time to be honest, but his injury got in the way, but as we were sliding down the spheres, he gets better again. Still a bit strange how he so effortlessly turns into good guy and part of the team while being the antagonist before that and also with no real knowledge on the subject accompanies the thieves in their crucial endeavor involving Murphy's character. He was not really needed though.\n\nAnother character who becomes part of the gang is Ellen Page's. She had some good moments and some not so good moments. Definitely not on par with the one other significant female character here, namely Cotillard's, but overall she is alright. The conscience scene with the \"people\" looking at her with angry faces is among the most memorable of the entire film. How she pushes these huge mirrors in position to show us the concept of going deeper and deeper into the mind, layer by layer, was also really good. But the idea that she really joins the gang too is already difficult to believe, but her return and talk about utter creation make me almost forget about it. What I cannot forget, however, is her final idea to step down to the bottom layer where Watanabe's character is lost. They acted as if this layer was simply too tough to take and then minutes later they are like okay well no biggie, let's go there and fix everything. The real final antagonist, namely Hal (Cotillard), waiting there alone sure cannot justify their initial thoughts about that layer and its impact. As for Cotillard's character, of course the French music was a pretty telling inclusion again linked to her previous Oscar-winning movie for sure. Everybody who saw that one, must have made the connection. Anyway, speaking of Page's character again, kinda telling that she gets an implied romantic relationship with the kiss moment between her character and JGL's. That was one of the very few funny moments and that is fine. It was okay, but no need to stretch it or turn it into a romance movie. Nolan has many other, bigger strengths and I am glad he focused on these.\n\nAlso in my showing, some people laughed at everything they got the chance to laugh at. It was pretty embarrassing. They knew nothing about movie quality. Anyway, Nolan's biggest strength here is the attention to detail. As good as the overall concept may be, the best thing is what he did with these small moments, such as the carpet having the wrong material and we realize it is just a dream within a dream. There are many other examples, such as everything involving Hardy's character too. He also brought in some comedy, like when he is that lady or when he guns down the enemy and tells JGL's character to think big. But the overall concept is just as good, the idea of how being killed in a dream makes you wake up, all the layers, or the idea how we do not remember the beginning of a dream (how did the two get there?) and a lot more. Nolan's script really oozes brilliance and creativity here and I would have been totally fine with it winning a fifth Oscar. Or even with the film winning Best Picture, which it admittedly never had a shot at. But the concept of dreaming and how little we and science know about it now in the 21st century is something that has fascinated me for a long time really, especially because I am a very heavy and intense dreamer myself. So exactly my cup of tea this movie and maybe people with little interest in the overall idea will like it less. Or maybe not, if we take a look at the really high rating here on imdb and this really high ranking up in the top250. Not undeserving. Nolan created a world of genius.\n\nAt the same time, away from all the sci-fi, he also managed to create a touching story between Cobb and Hal. The scene when she jumps down from the roof is of course especially haunting, but also how we never see their children's faces in the dream because Cobb refuses to until he sees them in reality. And does so in the end. Happy end? Maybe. But to me it all felt so rushed with how he meets the old self of Watanabe's character (by the way the quote about how he simply bought the airline was another great comedic moment, maybe Nolan is not as bad as I thought and should finally make a 100% comedy movie), turns him into a young man again within seconds and they all wake up inside the plane and even Murphy's character makes his peace again with his old man. And finally Cobb can, thanks to the Asian's help, get back to America and see his kids and then we see the swirling totem. Hal's totem. Does that mean we are indeed in her dream still. It could be with Nolan poking fun at unrealistic (in the truest sense of the word) rushed endings and nothing we saw was reality. Was Hal right all along? That's the good thing here. There is no 100% right or wrong. No 100% true or false and even if you watch this film ten times, you will still find something new you have not come across before, something new that can help you develop new creative approaches to the film and the reality depicted therein. Also have you ever asked yourself if you are in a dream yourself because when you are dreaming, then you usually don't know, so who says it couldn't be one we are all in right now. Anyway, this should be almost enough now with the review. You hopefully understood how much I liked this film.\n\nJust a few more snippets of information: 2010 was an amazing year for DiCaprio because he also appeared in Scorsese's \"Shutter Island\", another brilliant movie about the distorted human mind. I just mentioned the idea of totems. That I like as well, also with the additional idea that you should not let anybody touch your totem and how Cobb puts Page's character to a bit of a test there. Oh yes, another really smart reference the 1:10 proportion. One hour of dreaming equals ten hours of action in our dreams, which is why reality got slower and slower the further they dove down and how they showed it to us with the car crashing down the cliff (another happy ending that they are all saved) in fragments of 10% of a second maybe with all that has been going on underneath in the meantime was another stroke of genius for sure. There is so much to like here, it is pretty unreal. I am generally not a huge action film fan, but the very action-packed sequence in the icy region was good too. What can I say? I just like snow. Even if they had preferred an island in the sun or so. Another comedic moment. Alright. I think I'll leave it at that, even if there are another dozen moments at least so full of wit and creativity (just like myself) that they deserve elaboration on, but I won't because you need to watch it yourself instead!",
+		"reviewTitle": "A deep dive into the human mind, Nolan at his finest",
+		"spoiler": true,
+		"submissionDate": "2020-08-18",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "claudio_carvalho",
+			"userId": "/user/ur2488512/"
+		},
+		"authorRating": 6,
+		"helpfulnessScore": 0.350385649677828,
+		"id": "/title/tt1375666/userreviews/rw2351749",
+		"interestingVotes": {
+			"down": 105,
+			"up": 76
+		},
+		"languageCode": "eng",
+		"reviewText": "In the future, the industrial spy Cobb (Leonardo DiCaprio) has the ability to steal secrets from the dreams of executives. When his beloved wife committed suicide in the past, he was falsely accused of murder and now he is an international fugitive that can not return to USA to be with his children. When Cobb meets the powerful Saito (Ken Watanabe), the executive offers a unique chance to him to clear his records. In return, Cobb shall plant an inception in the mind of the heir Robert Fischer (Cillian Murphy) to avoid that the company he had inherited from his father becomes a monopoly in energy in the future. Cobb lost the capability to build dreams and together with his partner Arthur (Joseph Gordon-Levitt), they team up with the trainee in architecture Ariadne (Ellen Page); with the expert Eames (Tom Hardy); and with the chemistry Yusuf (Dileep Rao) to enter in different levels of Robert's dream and plant the inception.\n\n\"Inception\" is an overrated mess and my greatest deception in 2011. I do not understand the hype surrounding this film, probably the fruit of the market campaign of smart producers that lure naive viewers that seem that does not think and understand how flawed and stupid this story is. The plot is developed in fast pace to force the viewer to not think, with incoherent rules that do no make sense and that change in each layer of the dream in accordance with the intention of the writer. The best part of this film is the hilarious IMDb User Rating that reflects how brainless the Hollywood cinema has become in the contemporary days. My vote is six.\n\nTitle (Brazil): \"A Origem\" (\"The Inception\")",
+		"reviewTitle": "Overrated Mess",
+		"spoiler": false,
+		"submissionDate": "2010-12-12",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "bob the moo",
+			"userId": "/user/ur1002035/"
+		},
+		"helpfulnessScore": 0.42424516578127175,
+		"id": "/title/tt1375666/userreviews/rw2289446",
+		"interestingVotes": {
+			"down": 50,
+			"up": 54
+		},
+		"languageCode": "eng",
+		"reviewText": "The important thing to start out with is to distance yourself from the hype about this film because it will not help you when watching it, nor is any of it totally justified. It seems that any mainstream film (especially at summertime) that manages to at least do something different or clever will be hailed as a masterpiece simply because it is not Transformers 2. So watching it expecting to be amazed is probably the wrong state of mind to be in. Likewise it is probably not great to be expecting something impossible to follow, because again the film is very clearly constructed and even when action is occurring across several \"levels\" at once, I still found it easy to follow.\n\nThe film is a thriller and, like many great thrillers it is one that is built on an imaginative and clever concept. The world of dream infiltration is well constructed and is also well delivered to the audience; some people near me were muttering and asking confused questions throughout, but personally I found it easy to follow for the most part \u2013 and not because I'm smart but because the film does a good job of bringing the viewer into the ideas and concept. In terms of being an action movie, the second half of the film does pick this up well and the race against time across all of the dream levels, with the editing bringing it all together well so that you don't lose what is happening and indeed the movement of time and the importance of the relative events are clearly understood to produce tension. Although the dream worlds are a bit too \"ordinary\" at times (most of our dreams are filled with things that don't make any sense or have echoes of things, rather than detailed cityscapes and gun battles) there is creativity in the visual design and in particular a Matrix-esquire battle in a spinning corridor is thrilling to watch.\n\nTo its credit the stepping up of the action aspect does not mean that the ideas that got us here are abandoned because they are not. The importance of Cobb's subconscious and in particular his own gnawing guilt over the death of his wife initially appears to be just a way of having a repeatable \"baddie\" turning up in various places throughout the film, but actually she is well used to introduce doubt and alternative interpretations to the film. As everywhere else, the ending of the film was met with groans that there would not a confirmation of the ending. Personally I think that \"was the real level actually a dream\" is just an idea planted by the director to keep the audience from simply finishing the film and walking away from it and that the presented reality was actual reality. I can understand why some have disliked this because it could appear like Nolan is going \"or was it?\" without providing much more than the question, but I choose to see this as just another tease, which he is perfectly allowed to do since the whole film is about trying to get others to doubt their reality and change their own minds by themselves (although not really).\n\nThe cast deliver well. DiCaprio manages to produce an engaging character who emotionally makes sense and it is his performance that helps the deeper material in his subconscious work well and be more accessible to the viewer. Gordon-Levitt is memorable for his action scenes but he is also a good presence generally even if he has a lot less to do. Page provides the viewer with someone to \"come in\" with and she works that angle well. Hardy, Watanabe and Rao round out the team well. Some of the bigger names had the potential to be distractions by virtue of \"oh look its x\" but Caine, Berenger, Haas and Postlethwaite didn't really do that even if their actual screen times were minimal compared to the recognisability of their faces. Cotillard works very well to have her character vary across levels and contexts and I liked her better than I thought I would.\n\nI'm not in agreement that Inception is a classic perfect film but it is a very good one. If anything the elevation of this film is more to do with how average and uninspiring the vast majority of films released are, but I suppose that the success of this one is a good thing in some ways to maybe counter that. The concept and ideas are well constructed and presented to the audience and the film itself is not hard to follow but does challenge the viewer to do the one thing that a blockbuster normally doesn't \u2013 pay attention. Doesn't quite live up to the hype but it is still a very good and engaging film.",
+		"reviewTitle": "Not all the hype suggests but still an enjoyable action thriller built on a good concept and encourages thought afterwards",
+		"spoiler": false,
+		"submissionDate": "2010-08-02",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "nogodnomasters",
+			"userId": "/user/ur77881167/"
+		},
+		"authorRating": 10,
+		"helpfulnessScore": 0.3538016610372913,
+		"id": "/title/tt1375666/userreviews/rw4247707",
+		"interestingVotes": {
+			"down": 4,
+			"up": 7
+		},
+		"languageCode": "eng",
+		"reviewText": "If you didn't like the Matrix, you might skip this one. Dicaprio is man who is an expert at entering dreams and extracting information for corporate espionage. He has a problem in that there is a price on his head. He is a wanted man. A Japanese business man wants Dicaprio to enter the mind of a competitor and place an idea in his head to break up his empire. In exchange Dicaprio (Dom Cobb) would be allowed to go home to his family. Cobb first gets an architect (Ellen Page) who can design a complex location, such as a dungeon master creating the stage. He then must assemble a team of people with different skills to navigate through the dream world.\n\nThe beginning of the movie is a bit confusing as you don't know what is real and what is a dream. However this shortly clears up. Dom Cobb has a lot of issues concerning his past life and dreamworld which jeopardizes the mission. His dead wife keeps showing up to foil his plans and he just hasn't the heart to kill her. The dreamworld works like a narcotic. Once you go into it, reality becomes boring. This movie is more brilliant in its complexity and script than it is in entertainment, but it worked for me.",
+		"reviewTitle": "Matrix light",
+		"spoiler": true,
+		"submissionDate": "2018-07-21",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "kosmasp",
+			"userId": "/user/ur5876717/"
+		},
+		"authorRating": 10,
+		"helpfulnessScore": 0.1018208580212966,
+		"id": "/title/tt1375666/userreviews/rw2328426",
+		"interestingVotes": {
+			"down": 12,
+			"up": 4
+		},
+		"languageCode": "eng",
+		"reviewText": "So is it the most clever movie ever made or is it all just bogus? Don't expect me to answer that. Don't expect the movie to be everything. It can not be. And don't assume, just because you liked/hated the movie, everyone else should feel the same way. Nor just assume that you can pinpoint every viewer or put everybody in 3 categories. People are far too complex to analyze and put into one category.\n\nWhat I mean by that, is that you can like this and Transformers. Or hate both. You can also over-analyze this movie and list it's flaws (yes it has them as every movie has them and depending on your view of it, you might spot them and care or not), but apart from being visually stunning, it has a breathtaking story. And an ending that has been spoofed (at various internet sites), but that works very fine for the movie. Of course you could also feel that the end is a cheat. But again, I cannot tell you how to feel about this movie (or any other movie for that matter), I can only tell you, that it looks amazing and it made me chuckle for quite a few minutes in a breath-taking sequence.\n\nAnd no I did not get everything when I first watched it. I watched it a second time and there are still questions unanswered. Does or would something like that bother you? I didn't bother and the movie fully matched the expectations I had (this was my number 1 expected movie for 2010, the second most expected being \"Wall Street 2\"). To me, Nolan is more than just a visionary filmmaker. He's a great artist.",
+		"reviewTitle": "(De-)Constructing",
+		"spoiler": false,
+		"submissionDate": "2010-10-23",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "classicsoncall",
+			"userId": "/user/ur2707735/"
+		},
+		"authorRating": 10,
+		"helpfulnessScore": 0.21271306370567028,
+		"id": "/title/tt1375666/userreviews/rw2484538",
+		"interestingVotes": {
+			"down": 6,
+			"up": 5
+		},
+		"languageCode": "eng",
+		"reviewText": "Unless you're willing to commit and remain fully engaged, it's best to put off watching this film until those conditions are met. That's because the picture moves across various levels and back again over the course of the story, and though it may seem confusing, you'll be OK if you keep in mind the premises offered by the inception team - DiCaprio, Levitt, Hardy, Page and Rao. I'm purposely leaving off Watanabe because he was by his own admission a 'tourist' and had a stake in the outcome.\n\nIn a movie universe that's virtually impossible to crack with something original, this is the most creative picture I've seen in a long time. Like an intriguing time-travel story, this one grabs hold of the imagination and allows one to consider the possibilities of an alternate reality. The closer technology brings us to these cutting edge barriers of time, space and mind, the more fantastic becomes the possibility of turning virtual reality into the real thing.\n\nThe movie's strongest feature is it's exposition. The characters both show and tell the viewer what to expect, quite unusual when it comes to the 'tell' part, because we usually rely on the development of the characters and the events they experience to bring us along for the ride. The concepts here are much more esoteric, especially when attempting to layer the events of the story in a 'dream within a dream' construct. For the most part, I think this was all done quite cleverly, but again, you have to pay attention.\n\nIt would be tough to come up with the most interesting concept touched on by director Nolan, but the one that intrigued me the most was the idea of the dreamer having the ability to block an extraction. In Fischer's (Cillian Murphy) case, his training foresaw the need to 'militarize' his subconscious against attack, thereby creating 'projections' that in turn attacked the inception team. Another clever idea involved the zero gravity effects of participants in the Level Two dream during the Fischer inception. This is all done with such frenetic skill that it's sometimes tough to keep up with, although repeat viewings clear up what may have been missed the first time around. Another hint - use the captions on your DVD to capture all the dialog. The players tell you a lot of what you need to know to follow the story.\n\nI don't want to go too far out on a limb and tell you this is the greatest thing since sliced bread, because I know the film won't appeal to everyone. However enthusiasts of good science fiction will find a lot to like here, as it invites the viewer to expand one's consciousness and dream of the possibilities. Seriously folks, no one had to plant the idea, it just came out like that.",
+		"reviewTitle": "\"...it's never just a dream, is it\"?",
+		"spoiler": true,
+		"submissionDate": "2011-09-05",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "lee_eisenberg",
+			"userId": "/user/ur4888011/"
+		},
+		"authorRating": 8,
+		"helpfulnessScore": 0.1730974631387088,
+		"id": "/title/tt1375666/userreviews/rw2280993",
+		"interestingVotes": {
+			"down": 11,
+			"up": 6
+		},
+		"languageCode": "eng",
+		"reviewText": "So far, Christopher Nolan has not disappointed me as a director, and \"Inception\" is another good one. Leonardo DiCaprio plays Dom Cobb, who has the technology to enter people's dreams to obtain secret information. The climax comes when Cobb and his cohorts enter the dream of an executive, going deeper and deeper into his subconscious.\n\nDespite the high action, \"Inception\" is not really an action movie, but more of a psychological thriller. The movie has a slightly nonlinear plot, similar to \"Memento\" and \"The Prestige\". This helps to stress the dreamlike state that the movie depicts. If in fact the movie has any problem, it's that it's sometimes hard to tell when the characters are dreaming and when it's real life. But on the other hand, this also shows how smoothly Nolan lets the story flow. Watching the movie, I came to realize things about my own dreams that I had never previously thought about. The apparent descent into insanity and links to Cobb's past bring to mind \"Insomnia\".\n\nMuch like how Nolan put a new spin on the Batman franchise, \"Inception\" takes psychological thrillers to the next step. It even goes beyond \"The Matrix\". All in all, I certainly recommend it.\n\nAlso starring Ken Watanabe, Joseph Gordon-Levitt, Marion Cotillard, Ellen Page, Tom Hardy, Cillian Murphy, Dileep Rao, Tom Berenger and Michael Caine (who has so far starred in every one of Nolan's movies since \"Batman Begins\").",
+		"reviewTitle": "I have a dream",
+		"spoiler": false,
+		"submissionDate": "2010-07-17",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "gavin6942",
+			"userId": "/user/ur1234929/"
+		},
+		"authorRating": 8,
+		"helpfulnessScore": 0.010460430894396036,
+		"id": "/title/tt1375666/userreviews/rw2365579",
+		"interestingVotes": {
+			"down": 16,
+			"up": 1
+		},
+		"languageCode": "eng",
+		"reviewText": "As I type this, \"Inception\" is sitting at #6 on IMDb's Top 250 and has a firm 9 out of 10 voting average. That is unheard of. Not to say it is not a great film, but I am a little shocked by this. I give it an 8...\n\nLong story short, Christopher Nolan is a genius. He has a ton of films on the top 250 list, and still has along career ahead of him. This film was both written and directed by him, and the story and visuals are striking. Some of the story I think is a bit iffy (if you are too critical it might have major holes) but if you are accepting its basic premise, it is a solid concept that has not been explored before.\n\nLeonardo DiCaprio plays Cobb, and Leo is always a good lead. The family issues here tread close to where \"Shutter Island\" tread, but this only shows where that other film fell short (as much as I enjoyed both).\n\nJoseph Gordon-Levitt plays Arthur, and was for me the most pleasant surprise of the film. I still have a hard time accepting him as a legitimate actor and not just a cheesy, comedic character. But here I was moved. He did his own stunts during what was by far my favorite scene of the film, and although he still looks twenty (he was 29 at the time this film came out) he has lots of potential.\n\nEllen Page was a decent Ariadne (her most adult role yet), and it was nice to see Nolan veterans Cillian Murphy and Michael Caine back for more. And a special shout-out to Pete Postlethwaite (Maurice Fischer) in what was one of his very final roles.\n\nAnyway, a must-see if ever there was one in the last few years. 9 out of 10? Maybe. 6th greatest film ever? I don't know... but definitely one of those rare gems of the last decade.",
+		"reviewTitle": "Christopher Nolan is the Modern Directing Genius",
+		"spoiler": false,
+		"submissionDate": "2011-01-07",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "jboothmillard",
+			"userId": "/user/ur4248714/"
+		},
+		"authorRating": 8,
+		"helpfulnessScore": 0.061500447566485525,
+		"id": "/title/tt1375666/userreviews/rw2287305",
+		"interestingVotes": {
+			"down": 22,
+			"up": 4
+		},
+		"languageCode": "eng",
+		"reviewText": "From BAFTA and Golden Globe nominated director Christopher Nolan (Memento, Insomnia, The Dark Knight), this to me and I'm sure millions of other people was a much anticipated summer blockbuster, and I wasn't going to miss it. Basically, Dominic 'Dom' Cobb (Leonardo DiCaprio) is a skilled thief who steals valuable secrets in dangerous extraction, he enters a person's subconscious in their dreams, when the mind is most vulnerable. He is troubled man however, haunted by the memory's of his past with wife Mallorie 'Mal' (Marion Cotillard) and their subconscious experiences, and he is dying to change his past via the dream state. Saito (Batman Begins' Ken Watanabe) is offering him the chance of redemption by carrying out one last job using the subconscious entry, an impossible mission called inception. This would involve entering the mind of Robert Fischer Jr. (Cillian Murphy), who has gained control of the company his recently deceased father Maurice (Pete Postlethwaite) owned, and placing in his mind the idea to shut down this company. So Cobb assembles a crack team of experts in the field of dream extraction and knowledge of inception, including Arthur ((500) Days of Summer's Joseph Gordon-Levitt), Ariadne (Juno's Ellen Page), Eames (Tom Hardy) and Yusuf (Dileep Rao). To make sure the mission can succeed they plan to go into a dream lasting ten hours, the length of Fischer's regular plane journey, and they will be going through three layers of dream state, i.e. Dream within a dream within a dream. So the main dream is Fischer and his assistant Peter Browning (Platoon's Tom Berenger) caught as hostages, and Fischer is convinced Browning is keeping something about his father from him. Then the next dream is Fischer convinced by Cobb that someone is trying to get into his head for this big secret, and he agrees to go into a dream to find out what the big secret is. Of course the dream states collide with each other, so the main dream sees some car chases as distractions in the big maze, so gravity for example of the characters in sleep will come into play in the other dreams too. But also the big problem with Cobb being in the dream is that his thoughts are being projected into the dream as well, such as the appearance of his wife and kids, his wife even kills Fischer when they need him most, forcing Cobb to go into his own memory of dream. In the end, the big secret placed into Fischer's mind is that his father wanted him to go his own way and create another company, and Cobb manages to come out with Saito as themselves, and the past is changed for Cobb for the better. Also starring Sir Michael Caine as Miles and Witness's Lukas Haas as Nash. There is a thought hanging over you when you watch that you really have to concentrate, but at the same time it is quite easy to keep up with where you are. If you can keep up with it, like I did manage to, you are completely taken in by the great action sequences, the well chosen cast, the imaginative concept, and the brilliant special effects to make it all possible, a fantastic and cool science-fiction action thriller. It won the Oscars for Best Cinematography, Best Sound Editing, Best Sound Mixing, and Best Visual Effects, and it was nominated for Best Motion Picture of the Year, Best Art Direction, Best Music, Original Score for Hans Zimmer, and Best Writing, Screenplay Written Directly for the Screen, it won the BAFTAs for Best Special Visual Effects, Best Production Design, and Best Sound, and it was nominated for Best Film, the Anthony Asquith Award for Film Music, Best Cinematography, Best Editing, and Best Original Screenplay, and it was nominated the Golden Globes for Best Motion Picture - Drama, Best Original Score, and Best Screenplay. Leonardo DiCaprio was number 94 on The 100 Greatest Movie Stars. Very good!",
+		"reviewTitle": "Inception",
+		"spoiler": true,
+		"submissionDate": "2010-07-29",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "rmax304823",
+			"userId": "/user/ur0819382/"
+		},
+		"authorRating": 2,
+		"helpfulnessScore": 0.38190007871458,
+		"id": "/title/tt1375666/userreviews/rw2445568",
+		"interestingVotes": {
+			"down": 54,
+			"up": 49
+		},
+		"languageCode": "eng",
+		"reviewText": "Around 750, the renowned poet of the Tang dynasty, Li Po, is supposed to have asked, \"Last night I dreamed I was a butterfly. Today, am I a butterfly dreaming I am a man?\" Marcus Aurelius, the late Roman emperor and philosopher, wrote, \"Life is a dream, a little more coherent than most.\" Freud concluded that dreams were the fulfillment of unconscious wishes that had managed to sneak past the dozing censor. Aboriginal Australians believed in a real parallel universe called The Dream Time in which everything and everyone who ever existed, still existed, and anybody could enter this place during sleep.\n\nModern psychology believes that dreams are nothing more than random cortical bombardment caused by a lot of activity in sub-cortical structures associated with the filing of memories, and the cortex goes into overdrive trying to make narrative sense of them. \n\nSex dreams are pleasant enough except when the furry little animals show up, but statistics demonstrate that the majority of dreams are truly lousy, the kind we can easily live without. Don't you get tired of running in slow motion through a swamp while being chased by an ogre? \n\nDoes all this sound like pointless rambling to you? Well, then you're not going to enjoy \"Inception\" because it meanders at lightning speed all over the place and lives by no rules that human beings have ever known.\n\nOn the other hand, if you find these adventitious allusions in some way interesting, then you should see this dark and muddled movie. You get a bonus too, because in its style it closely resembles an action movie from the 1980s. Everything is happening all at once -- or maybe not all at once. Who cares? The point is that people get shot in the forehead and buildings comes toppling down for no reason and slow-motion explosions take place at irregular but short intervals.\n\nI'm getting pretty tired of seeing films that use some bewildering metaphysical scheme as an excuse to show off still more CGIs. I couldn't watch this thing through.",
+		"reviewTitle": "Mind Boggling.",
+		"spoiler": true,
+		"submissionDate": "2011-06-18",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "Tweekums",
+			"userId": "/user/ur13977076/"
+		},
+		"authorRating": 10,
+		"helpfulnessScore": 0.031019595022675685,
+		"id": "/title/tt1375666/userreviews/rw2413797",
+		"interestingVotes": {
+			"down": 16,
+			"up": 2
+		},
+		"languageCode": "eng",
+		"reviewText": "Often when one is told that a film is amazing it is a disappointment even if it is a decent film; that isn't the case here though; for me this film really did live up to the hype! Leonardo DiCaprio plays Cobb, a man who goes into other people's dreams to steal their secrets. One day a man approaches him with a far more difficult proposition; he wants an idea planted in the mind of a business rival; an idea the man must think was his own. Cobb is initially less than keen to do the job but the man has promise that he can arrange for him to get home to his children; something he can't currently do because he is suspected of killing his wife. To do the job he must assemble a team and take his target into a dream designed my new recruit Ariadne. This is no ordinary dream though; it requires the team to enter a dream within a dream within a dream! It is complicated further by the facts that his dead wife haunts Cobb and that if any of them die in the dream they will be trapped in a limbo.\n\nDirector Christopher Nolan ably demonstrates that a big blockbuster film doesn't need to be in 3D these days nor does it need to be devoid of complicated ideas to succeed. DiCaprio did a fine job as Cobb and it was nice to see the excellent Ellen Page playing somebody who wasn't still a schoolgirl! While this film was about ideas that doesn't mean it wasn't full of spectacular special effects; while many of them were clearly computer generated they looked real enough to enable the viewer to suspend their disbelief in a way that often isn't possible. The idea of dreams within dreams could have been very confusing but each dream was very different so the viewer doesn't forget which layer of the dream is which once the action begins. If you have being putting off watching this film because you have been put off by the hype don't worry and watch it now; it is great.",
+		"reviewTitle": "Dreams within dreams",
+		"spoiler": true,
+		"submissionDate": "2011-04-15",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "ma-cortes",
+			"userId": "/user/ur3270789/"
+		},
+		"authorRating": 7,
+		"helpfulnessScore": 0.09453148796027493,
+		"id": "/title/tt1375666/userreviews/rw7597302",
+		"interestingVotes": {
+			"down": 1,
+			"up": 1
+		},
+		"languageCode": "eng",
+		"reviewText": "This stunnning sci-fi thriller Inception (2010) was competent and splendorously made . Bizarre and fantastic movie about a man with psychic powers who attempts his redemption . A good thriller with chills , thills , intrigue , twists , turns and lots of imaginative FX recreating the dream worlds . Dealing with Dom Cobb is (Leonardo DiCaprio) a genious with special abilities . Cobb's rare skill has made him a coveted player in this treacherous new world of corporate espionage, but it has also made him an international fugitive and cost him everything he has ever loved . Now Cobb is being offered a chance at redemption. One last job could give him his life back but only if he can accomplish the impossible, inception. Instead of the perfect heist, Cobb and his team of specialists (Joseph Gordon-Levitt , Elliot Page , Tom Hardy , Dileep Rao) have to pull off the reverse : their task is not to steal an idea, but to plant one. As Cobb is hired by a strange man named Mr. Saito (Ken Watanabe) wants Dom to implant something, a process called \"inception\", which is not easy to do. If they succeed, it could be the perfect crime. But no amount of careful planning or expertise can prepare the team for the dangerous enemy that seems to predict their every move. An enemy that only Cobb could have seen coming . Enter a world beyond you wildest imagination where anything can happen ! . Mind is the scene of the crime . The dream is real . Whatever goes on in your dreams is no longer for your eyes only ! . This is beyond you wildest nightmare ! .\n\nA complex and breathtaking but overlong film with frenetic action , thrills , emotion , suspense and impressive special effects . As FX were above average and far more convincing than the twisted and hard script . This splendid movie is amazing in many aspects and blends appropriately various genres. The picture gets it all : suspense , mystery drama, plot twists, shootouts , tragedy and supernatural illusions Here Christopher Nolan captivated audiences , which he directed and produced from his own original screenplay and featuring an excellent casting. The thought-provoking drama was a worldwide blockbuster, earning more than $800,000,000 and becoming one of the most discussed and debated films of the year . Among its many honors, Inception received four Academy Awards and eight nominations, including Best Picture and Best Screenplay. Nolan was recognized by his peers with D. G. A. And P. G. A. Award nominations, as well as a W. G. A. Award for his work on the film. Main and support actors are pretty well . Awesome , as always , Leonardo DiCaprio as Dom Cobb , a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state, when the mind is at its most vulnerable. Accompanied by great actors giving magnificent performances , such as : Marion Cotillard, Joseph Gordon-Levitt , Elliot Page or Ellen Page , Tom Hardy , Ken Watanabe , Cillian Murphy , Tom Berenger . And other notorious secondaries as Pete Postlethwaite , Michael Caine and Lukas Haas.\n\nIt displays thrilling and rousing musical score by Hans Zimmer . As well as luxurious and glamorous cinematography by Wally Pfister , Nolan's regular ; including colorful dream images . The motion picture was perfectly written and directed by innovator director Christopher Nolan, author of various masterpieces: \u00a8 Insomnia\u00a8, \u00a8Memento\u00a8 , \u00a8The Prestige\u00a8 , \u00a8Batman begins\u00a8, \u00a8The Dark Knight\u00a8 , \u00a8The Dark Knight Rises\u00a8, \u00a8Dunkirk\u00a8, among others . Rating : Above average 7.5/10 , it was throughly entertaining and exciting, and no as predictable as you would think . The film results to be a complete pleasure to watch these actors at this work , it's highly recommended and keep you guessing until final .",
+		"reviewTitle": "Overwhelming and impressive movie with frantic action , suspenseful and state-of-art special effects",
+		"spoiler": false,
+		"submissionDate": "2021-11-29",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "paul_haakonsen",
+			"userId": "/user/ur22654354/"
+		},
+		"authorRating": 8,
+		"helpfulnessScore": 0.05668228460165682,
+		"id": "/title/tt1375666/userreviews/rw2371797",
+		"interestingVotes": {
+			"down": 8,
+			"up": 2
+		},
+		"languageCode": "eng",
+		"reviewText": "I finally caved in to the hype about this movie and sat down to watch it. And now I know what all the fuzz was about.\n\n\"Inception\" is simply put a groundbreaking movie for our times, just like \"Matrix\" was back in 1999.\n\nThe story told in \"Inception\" is very captivating and you get really caught up in the events as they unfold. The story is the type that grips you tight and takes you on one amazing thrill ride. I will not go into depth about the actual storyline, but the notion about going into another person's subconscious and dreams is quite interesting. And going in there to plant the seed of a new idea is even more interesting. Enough said.\n\nAs for the cast in \"Inception\", well that was simply phenomenal. Lots of really good performances done here, but of course, we are dealing with good actors and established names here. Of course Leonardo DiCaprio in the lead role as Cobb. I haven't been much fond of his previous work, but since \"Shutter Island\", he has really started to become noticeable (for me at least). And his performance in \"Inception\" was right on the money, very nice indeed. Of course, he wasn't the sole carrier of the movie, he was well helped along by Joseph Gordon-Levitt, playing Arthur, and he was really standing out on the screen. He did such a super job with his character, and I think he was the one actually carrying the heavy load of the movie. Then there was Ellen Page, playing Ariadne, which was quite an interesting role to see her in. Actually, the list goes on and on with really good actors here, such as Ken Watanabe, Michael Caine, Cillian Murphy, and so on.\n\nWhat appealed to me about the movie was the concept of the entire story. Of being able to go into a person's mind and influence his dreams and thoughts. However unlikely it may be, it still came off quite nice on the screen.\n\nA movie like this is nothing without special effects. And \"Inception\" sure had a bunch of really nice effects along the way. There were some really mind-boggling CGI effects going on at places. And the effects also had a huge part to do with the final outcome of the movie.\n\nDespite it being a rather long movie, the time does fly by as you watch it, because you are so caught up in the story. And that was really great, film-making when it is best; entertainment that makes you forget all about time and space. And \"Inception\" is definitely a movie that you need to get around to watch if you haven't already seen it. This is a movie that will redefine movie making in the future.\n\nThumbs up, way up, for this impressive movie.",
+		"reviewTitle": "Mind-boggling...",
+		"spoiler": false,
+		"submissionDate": "2011-01-18",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "BA_Harrison",
+			"userId": "/user/ur0945066/"
+		},
+		"authorRating": 5,
+		"helpfulnessScore": 0.40807295382111236,
+		"id": "/title/tt1375666/userreviews/rw2408875",
+		"interestingVotes": {
+			"down": 14,
+			"up": 19
+		},
+		"languageCode": "eng",
+		"reviewText": "At what point does a film become too complicated for its own good? In the case of Inception, almost immediately: in a bid to make the ultimate 'mind-f**k' movie, writer/director Christopher Nolan starts his film at 'bloody confusing' and, over the course of 148 excruciatingly drawn-out minutes, works his way up to 'completely and utterly unfathomable' before leaving the film on a predictably ambiguous note (thus allowing endless discussion on movie forums).\n\nAlong the way, Nolan introduces many an intriguing idea, but the ones that haven't been nicked from far better movies (eXistenZ, Vanilla Sky, The Matrix, Dark City, Cypher) are so half-baked that the film inevitably becomes a frustrating mess of contradiction and contrivance which conjures up an endless stream of questions (see IMDb's FAQs), none of which seem to have any satisfying answers (despite the best efforts of Nolan's rabid fan-boys).\n\nLost in Inception's labyrinthine plot, all I could do was sit back and marvel at the special effects\u2014which are undeniably impressive\u2014whilst asking myself repeatedly how Ariadne (Ellen Page) became such a great architect despite no actual work experience, and whether such a pretty young woman would really be happy to be sedated in a grubby warehouse by a group of suspicious looking strangers. Somehow, I doubt it.\n\n5 out of 10 for its jaw-dropping effects (in particular, the awesome gravity-defying fight scene), and I reckon that's being generous.",
+		"reviewTitle": "The ultimate mind-f**k movie? Dream on.",
+		"spoiler": false,
+		"submissionDate": "2011-04-04",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "moonspinner55",
+			"userId": "/user/ur0989035/"
+		},
+		"authorRating": 7,
+		"helpfulnessScore": 0.2923718926579159,
+		"id": "/title/tt1375666/userreviews/rw2291039",
+		"interestingVotes": {
+			"down": 12,
+			"up": 11
+		},
+		"languageCode": "eng",
+		"reviewText": "Writer-director Christopher Nolan's byzantine puzzle-movie \"Inception\" is so fully engulfed in a surreal sort of Raison d'\u00eatre--while also managing to introduce a new set of rules to us, though not appearing to abide by those rules near the finale--it's easy to understand why some audiences are embracing the film as a masterpiece. These days, if a film is complexly-layered it is automatically deemed art...not popcorn entertainment ready for mass consumption, but high art. If \"small minds\" are unable to grasp the film's deeper meanings, those poor folks are disregarded as unworthy participants in the ultimate game. \"Inception\" is a game--and, at times, a grand one--but it isn't a masterpiece. It's a gun-crazy, gadget-mad, hyperactive Rubik's Cube of a movie. Leonardo DiCaprio plays the grieving Cobb, a dream extractor who enters into the sleeping minds of others to gather vital information which cannot be obtained any other way. Unfortunately, memories of his late wife (and guilt over her mysterious death) are so vivid they are permeating Cobb's subconscious; and inevitably those haunted images follow him helplessly on his jaunts into the dream-state. The movie has very little exposition, with a confusing prologue later revealed to be the starter threads to the epilogue, and doesn't really get going until we are introduced to Cobb's latest case involving a dying billionaire, his crestfallen son, and the final draft of the tycoon's will which is locked up in a safe no one knows the combination to. The other participants in the project are a brainy, adept, and engaging group of people we become quite fond of; often times, particularly in a perplexing movie such as this one, having such smart, savvy characters populating the scenario makes the ride that much more enjoyable (not forgetting of course that humans are never so vulnerable to danger as when they are asleep). What doesn't really work are the constant sniper attacks in the dreams--projections which manifest themselves as an angry militia--as well as a visual impersonation of the son's godfather, which is necessary to the plot but becomes little more than a complicated footnote. The level of dreams our heroes pass through, one more dangerous than the last, provide the picture with a visual kick, and the nonchalant manner in which the characters respond to their strange new surroundings accent \"Inception\" with a giddiness not usually found in big-budget action films. I'm not sure whether or not Christopher Nolan violates his own movie-rules in order to cap the film with an emotional bow, but he does get solid performances from his cast, a rich and delectable production design from his art department, and swirling, hallucinogenic special effects from his creative team. Is the movie a mind-blowing experience? For many audiences, it certainly will be. As with all 'summer epics' and popcorn crowd-pleasers, this one's crazy glow will probably fade in the stretch (I can't imagine the film will hold up so well once it goes the home-video route--it's a theatrical experience, after all). It is not a work of art, however that doesn't mean it isn't sheer pleasure from start to finish. *** from ****",
+		"reviewTitle": "\"Take a leap of faith...\"",
+		"spoiler": false,
+		"submissionDate": "2010-08-05",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "TxMike",
+			"userId": "/user/ur0438066/"
+		},
+		"helpfulnessScore": 0.06591612380642176,
+		"id": "/title/tt1375666/userreviews/rw2661860",
+		"interestingVotes": {
+			"down": 13,
+			"up": 3
+		},
+		"languageCode": "eng",
+		"reviewText": "Not all of us viewers are alike, in what we enjoy. Many like to see a movie once, maybe take a few calls or texts during its running time, and never feel like they miss anything. And, when it is over, they are happy with the experience. There is absolutely nothing wrong with that type of movie-watching.\n\nHowever, that type will not do well with \"Inception.\" This movie is more for those of us who like to watch every bit of every scene, hear every word of dialog, and try to piece together a fairly complex story. Some can watch 'Inception' through just once and get everything, and I applaud them for that. But I needed to see it maybe four times, over an almost two year period, to appreciate fully how good it is. \n\nLeonardo DiCaprio is in the lead role as Cobb, he has become an expert in \"extraction\", the surely illegal activity of going into dreams with others and in the process extract some secret or other information. A good use for such a talent is industrial and business espionage.\n\nBut Cobb has a new client that approaches him for the opposite task, the insertion of an idea into the target's mind, and in this case make the subject think it was his own idea. That is the process they call \"Inception.\" \n\nThe idea for the story and resultant film was an approximate 10-year process for the writer/director Nolan. Much of the details are derived from his own dream experiences, such as what may seem like a day or week in a dream might be just a fraction of a minute in real time, and a familiar sound or loss of equilibrium might bring you out of your dream. \n\nThe client that hires Cobb is Ken Watanabe as Saito. The subject is Cillian Murphy as Robert Fischer, whose industrialist father is about to die, and if the company is not forced to break into smaller units they will monopolize their market. The task is to, through inception, convince Robert that breaking the now his company into smaller units is his idea. To do that is a very complex task, and requires meticulous planning and several levels of dreams. All does not go as planned, unexpected assassins tail them, and all this provides for the drama and action.\n\nAnother layer of intrigue is added by Cobb's situation, where his wife had died some time before but he was blamed, and as a result he has not been able to travel back to his home and children in the USA. He still sees her, in dreams, often when he doesn't really want to, while she tries to convince him they are not really in a dream, but real.\n\nCobb's team members include Joseph Gordon-Levitt as Arthur, Ellen Page as Ariadne, Tom Hardy as Eames, and Dileep Rao as the chemist for the sedative drugs, Yusuf.His wife is Marion Cotillard as Mal.\n\nI like this movie a lot, there is so much in it that I see many 'new' things each time. I look forward to seeing it again several times, maybe 6 to 12 months between viewings. I have it on Blu-ray and the video and audio are just state-of-the-art. A real joy to watch this movie.",
+		"reviewTitle": "Totally novel story, I found that it took me several viewings to gain a good grasp of it.",
+		"spoiler": true,
+		"submissionDate": "2012-08-20",
+		"titleId": "/title/tt1375666/"
+	}, {
+		"author": {
+			"displayName": "blanche-2",
+			"userId": "/user/ur0342623/"
+		},
+		"authorRating": 10,
+		"helpfulnessScore": 0.1018208580212966,
+		"id": "/title/tt1375666/userreviews/rw2370512",
+		"interestingVotes": {
+			"down": 12,
+			"up": 4
+		},
+		"languageCode": "eng",
+		"reviewText": "\"Inception\" is a 2010 film that stars Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Marion Cotillard, Tom Hardy, Ken Watanabe, Cillian Murphy, and Tom Berenger.\n\nSince so many people have seen and are seeing this film and have reviewed it, I won't rehash the story.\n\nI found it an extremely well acted, fascinating, suspenseful film, and I loved the concept of going into the subconscious dream state, and the idea of dream vs. reality and which is which.\n\nThe best thing about this film for me is that, as a classic film aficionado and not being an expert at things like wormhole movies, parallel realities, etc., I actually could follow this one without having to go to the IMDb board or look online to find out what the heck it was about. After Mulholland Drive, I spent hours on the Internet, and then I had to watch it again. A great film but man was I lost.\n\nI'm sure this sounds funny to many young IMBb members, who see this kind of film all the time, but this Casablanca fan gets confused easily. For that, I thank writer/director Christopher Nolan, whose scripts for \"The Prestige,\" \"Memento,\" and \"Batman Begins,\" I absolutely loved. He's really a favorite.\n\nAnother favorite of mine is the ever-boyish Leonardo DiCaprio, who is a wonderful actor and gives a great performance in his role, ably supported by the always excellent Marion Cotillard, Cillian Murphy (a new favorite), and the rest of the cast.\n\nSomeone somewhere who hated this movie said that anyone who thought Nolan was trying to say something serious is crazy. I don't know if he was or not, but I think the whole subject of the subconscious and the dream state and creating a reality are intriguing topics. Many do question is our whole reality on earth is a dream. Not sure \"Inception\" really answers that, but it's an absorbing film.",
+		"reviewTitle": "What is reality...what is a dream",
+		"spoiler": false,
+		"submissionDate": "2011-01-16",
+		"titleId": "/title/tt1375666/"
+	}],
+	"totalReviews": 4525
+}

@@ -1,12 +1,337 @@
 {
-    "@type":"imdb.api.title.ratings",
-    "id":"/title/tt1375666/",
-    "title":"Inception",
-    "titleType":"movie",
-    "year":2010,
-    "bottomRank":9047,
-    "canRate":true,
-    "rating":8.8,
-    "ratingCount":4500,
-    "topRank":196
+	"@type": "imdb.api.title.ratings",
+	"bottomRank": 9362,
+	"canRate": true,
+	"id": "/title/tt1375666/",
+	"rating": 8.8,
+	"ratingCount": 2236006,
+	"ratingsHistograms": {
+		"Aged 18-29": {
+			"aggregateRating": 9.0,
+			"demographic": "Aged 18-29",
+			"histogram": {
+				"1": 2026,
+				"10": 154733,
+				"2": 583,
+				"3": 787,
+				"4": 1350,
+				"5": 3077,
+				"6": 7522,
+				"7": 25875,
+				"8": 70870,
+				"9": 123768
+			},
+			"totalRatings": 390591
+		},
+		"Aged 30-44": {
+			"aggregateRating": 8.8,
+			"demographic": "Aged 30-44",
+			"histogram": {
+				"1": 8847,
+				"10": 323065,
+				"2": 2442,
+				"3": 3278,
+				"4": 5219,
+				"5": 11024,
+				"6": 25343,
+				"7": 71911,
+				"8": 167003,
+				"9": 262227
+			},
+			"totalRatings": 880359
+		},
+		"Aged 45+": {
+			"aggregateRating": 8.2,
+			"demographic": "Aged 45+",
+			"histogram": {
+				"1": 3613,
+				"10": 37524,
+				"2": 1626,
+				"3": 1879,
+				"4": 2741,
+				"5": 4985,
+				"6": 9993,
+				"7": 22875,
+				"8": 40387,
+				"9": 45224
+			},
+			"totalRatings": 170847
+		},
+		"Aged under 18": {
+			"aggregateRating": 9.0,
+			"demographic": "Aged under 18",
+			"histogram": {
+				"1": 11,
+				"10": 454,
+				"2": 2,
+				"3": 3,
+				"4": 9,
+				"5": 9,
+				"6": 23,
+				"7": 86,
+				"8": 227,
+				"9": 362
+			},
+			"totalRatings": 1186
+		},
+		"Females": {
+			"aggregateRating": 8.6,
+			"demographic": "Females",
+			"histogram": {
+				"1": 2971,
+				"10": 95592,
+				"2": 1189,
+				"3": 1501,
+				"4": 2347,
+				"5": 4904,
+				"6": 10388,
+				"7": 28237,
+				"8": 60204,
+				"9": 84754
+			},
+			"totalRatings": 292087
+		},
+		"Females Aged 18-29": {
+			"aggregateRating": 8.8,
+			"demographic": "Females Aged 18-29",
+			"histogram": {
+				"1": 406,
+				"10": 29204,
+				"2": 173,
+				"3": 255,
+				"4": 464,
+				"5": 1061,
+				"6": 2331,
+				"7": 7279,
+				"8": 16790,
+				"9": 24962
+			},
+			"totalRatings": 82925
+		},
+		"Females Aged 30-44": {
+			"aggregateRating": 8.6,
+			"demographic": "Females Aged 30-44",
+			"histogram": {
+				"1": 1728,
+				"10": 52962,
+				"2": 598,
+				"3": 807,
+				"4": 1256,
+				"5": 2648,
+				"6": 5670,
+				"7": 15148,
+				"8": 31877,
+				"9": 45423
+			},
+			"totalRatings": 158117
+		},
+		"Females Aged 45+": {
+			"aggregateRating": 8.1,
+			"demographic": "Females Aged 45+",
+			"histogram": {
+				"1": 727,
+				"10": 6073,
+				"2": 355,
+				"3": 351,
+				"4": 479,
+				"5": 855,
+				"6": 1585,
+				"7": 3454,
+				"8": 5953,
+				"9": 6720
+			},
+			"totalRatings": 26552
+		},
+		"Females Aged under 18": {
+			"aggregateRating": 8.8,
+			"demographic": "Females Aged under 18",
+			"histogram": {
+				"1": 4,
+				"10": 70,
+				"2": 2,
+				"3": 2,
+				"4": 3,
+				"5": 3,
+				"6": 5,
+				"7": 15,
+				"8": 38,
+				"9": 64
+			},
+			"totalRatings": 206
+		},
+		"IMDb Staff": {
+			"aggregateRating": 8.7,
+			"demographic": "IMDb Staff",
+			"histogram": {
+				"1": 0,
+				"10": 27,
+				"2": 0,
+				"3": 0,
+				"4": 0,
+				"5": 0,
+				"6": 4,
+				"7": 18,
+				"8": 20,
+				"9": 42
+			},
+			"totalRatings": 111
+		},
+		"IMDb Users": {
+			"aggregateRating": 8.8,
+			"demographic": "IMDb Users",
+			"histogram": {
+				"1": 19963,
+				"10": 777880,
+				"2": 7519,
+				"3": 9259,
+				"4": 14293,
+				"5": 28769,
+				"6": 65317,
+				"7": 188778,
+				"8": 444965,
+				"9": 679263
+			},
+			"totalRatings": 2236006
+		},
+		"Males": {
+			"aggregateRating": 8.8,
+			"demographic": "Males",
+			"histogram": {
+				"1": 11850,
+				"10": 455541,
+				"2": 3634,
+				"3": 4687,
+				"4": 7390,
+				"5": 15184,
+				"6": 34947,
+				"7": 100499,
+				"8": 239523,
+				"9": 381117
+			},
+			"totalRatings": 1254372
+		},
+		"Males Aged 18-29": {
+			"aggregateRating": 9.0,
+			"demographic": "Males Aged 18-29",
+			"histogram": {
+				"1": 1565,
+				"10": 121017,
+				"2": 394,
+				"3": 512,
+				"4": 836,
+				"5": 1914,
+				"6": 4927,
+				"7": 17626,
+				"8": 51358,
+				"9": 94604
+			},
+			"totalRatings": 294753
+		},
+		"Males Aged 30-44": {
+			"aggregateRating": 8.8,
+			"demographic": "Males Aged 30-44",
+			"histogram": {
+				"1": 7010,
+				"10": 265332,
+				"2": 1799,
+				"3": 2416,
+				"4": 3882,
+				"5": 8202,
+				"6": 19191,
+				"7": 55420,
+				"8": 131923,
+				"9": 212078
+			},
+			"totalRatings": 707253
+		},
+		"Males Aged 45+": {
+			"aggregateRating": 8.2,
+			"demographic": "Males Aged 45+",
+			"histogram": {
+				"1": 2827,
+				"10": 30559,
+				"2": 1234,
+				"3": 1501,
+				"4": 2215,
+				"5": 4037,
+				"6": 8218,
+				"7": 18892,
+				"8": 33478,
+				"9": 37413
+			},
+			"totalRatings": 140374
+		},
+		"Males Aged under 18": {
+			"aggregateRating": 9.0,
+			"demographic": "Males Aged under 18",
+			"histogram": {
+				"1": 6,
+				"10": 333,
+				"2": 0,
+				"3": 0,
+				"4": 5,
+				"5": 6,
+				"6": 16,
+				"7": 61,
+				"8": 163,
+				"9": 259
+			},
+			"totalRatings": 849
+		},
+		"Non-US users": {
+			"aggregateRating": 8.7,
+			"demographic": "Non-US users",
+			"histogram": {
+				"1": 7243,
+				"10": 287378,
+				"2": 2510,
+				"3": 3317,
+				"4": 5026,
+				"5": 10882,
+				"6": 25380,
+				"7": 71709,
+				"8": 165131,
+				"9": 251699
+			},
+			"totalRatings": 830275
+		},
+		"Top 1000 voters": {
+			"aggregateRating": 8.2,
+			"demographic": "Top 1000 voters",
+			"histogram": {
+				"1": 25,
+				"10": 224,
+				"2": 12,
+				"3": 16,
+				"4": 8,
+				"5": 30,
+				"6": 68,
+				"7": 124,
+				"8": 178,
+				"9": 210
+			},
+			"totalRatings": 895
+		},
+		"US users": {
+			"aggregateRating": 8.7,
+			"demographic": "US users",
+			"histogram": {
+				"1": 4612,
+				"10": 93447,
+				"2": 1221,
+				"3": 1548,
+				"4": 2562,
+				"5": 4620,
+				"6": 9231,
+				"7": 23543,
+				"8": 48905,
+				"9": 69859
+			},
+			"totalRatings": 259548
+		}
+	},
+	"title": "Inception",
+	"titleType": "movie",
+	"topRank": 13,
+	"year": 2010
 }
