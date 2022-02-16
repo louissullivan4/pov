@@ -17,8 +17,9 @@ import { IconButton } from 'react-native-paper';
 
 
 function userSearch(navigation, searchPhrase, categoryPhrase){
-  let category = categoryPhrase.toLowerCase();
-  if ((searchPhrase == "")||(category == "")){
+  let category = categoryPhrase.toLowerCase().trim();
+  let search = searchPhrase.trim();
+  if ((search == "")||(category == "")){
     Alert.alert(
       "Search Error!",
       "Please enter a value in the search bar and select a category from the dropdown menu",
@@ -29,7 +30,7 @@ function userSearch(navigation, searchPhrase, categoryPhrase){
   }
   else {
     navigation.push('Results', {
-      searchTerm: searchPhrase, 
+      searchTerm: search, 
       searchCategory: category,
     })
   }
@@ -47,13 +48,13 @@ export default function HomeScreen({ navigation }) {
   const [ref, setRef] = useState(null);
   const [categoryValue, setCategoryValue] = useState(null);
   const [items, setItems] = useState([
-    {label: 'Celebrities', value: 'celebrities'},
-    {label: 'Games', value: 'game'},
-    {label: 'Movies ', value: 'movie'},
+    {label: 'Celebrity', value: 'celebrities'},
+    {label: 'Game', value: 'game'},
+    {label: 'Movie ', value: 'movie'},
     {label: 'Music ', value: 'music'},
     {label: 'Politics ', value: 'politics'},
     {label: 'Product', value: 'product'},
-    {label: 'Sports ', value: 'sport'},
+    {label: 'Sport ', value: 'sport'},
     {label: 'Travel ', value: 'travel'}
   ]);
 
