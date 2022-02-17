@@ -1,5 +1,5 @@
-import { View, Text, SafeAreaView, Button } from 'react-native';
-import React, { useState } from 'react';
+import { View, SafeAreaView, Button } from 'react-native';
+
 import styles from "./styles";
 
 import AppText from '../../components/general/appText';

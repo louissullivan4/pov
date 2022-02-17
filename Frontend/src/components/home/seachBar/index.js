@@ -1,5 +1,6 @@
-import { View, TextInput, Button, Keyboard, SafeAreaView } from "react-native";
+import { View, TextInput } from "react-native";
 import React from "react";
+
 import styles from "./styles";
 
 import { IconButton } from 'react-native-paper';

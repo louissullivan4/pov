@@ -20,7 +20,6 @@ const styles = StyleSheet.create({
     text: {
         paddingTop: 10,
         fontSize: 15,
-
     },
     textlist:{
         paddingTop: 5,

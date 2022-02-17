@@ -1,18 +1,15 @@
-import { View, SafeAreaView, Button, Alert, Text, LogBox, Keyboard} from 'react-native';
+import { View, SafeAreaView, Alert, Text, LogBox, Keyboard} from 'react-native';
 import React, { useState, useEffect  } from 'react';
 import styles from "./styles";
 
 import SearchBar from '../../components/home/seachBar';
 
 import CarouselCards from '../../components/home/carouselCards';
-import CategoryMenu from '../../components/home/categoryMenu';
 
 import AppTitle from '../../components/general/appTitle';
-import AppText from '../../components/general/appText';
 
 import PickerBox from 'react-native-picker-box';
 
-import { IconButton } from 'react-native-paper';
 import { useFonts, BebasNeue_400Regular } from '@expo-google-fonts/bebas-neue';
 
 

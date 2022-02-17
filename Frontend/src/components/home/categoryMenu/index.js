@@ -1,7 +1,9 @@
-import { View, Text } from 'react-native';
 import React, { useState }from 'react';
+
 import DropDownPicker from 'react-native-dropdown-picker';
+
 import styles from "./styles";
+
 export default function CategoryMenu(props) {
 
   const [open, setOpen] = useState(false);

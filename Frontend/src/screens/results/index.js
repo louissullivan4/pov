@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, ScrollView, Image, Button, ActivityIndicator, Linking  } from 'react-native';
+import { View, Text, ScrollView, ActivityIndicator, Linking  } from 'react-native';
 import { IconButton } from 'react-native-paper';
 
 import styles from "./styles";
@@ -7,22 +7,20 @@ import styles from "./styles";
 import ResultsWheel from '../../components/results/resultWheel';
 import AppTitle from '../../components/general/appTitle';
 import AppText from '../../components/general/appText';
-import SearchBar from '../../components/home/seachBar';
-import LineGraph from '../../components/results/LineGraph';
+
 import ErrorScreen from '../error';
 
 export default function ResultsScreen({ navigation, route }) {
   const [isLoading, setLoading] = useState(true);
   const [rating, setRating] = useState(0);
-  const [popularComment, setPopularComment] = useState("This movie was lack luster... ");
-  const [recentComment, setRecentComment] = useState("I think people are harsh on this movie, give it a go!")
+  const [popularComment, setPopularComment] = useState("null");
+  const [recentComment, setRecentComment] = useState("null")
   const [voteCount, setVoteCount] = useState(0);
   const [rank, setRank] = useState(0)
-  const [isError, setIsError] = useState(false)
+  const [isError, setIsError] = useState(false)  
 
   const { searchTerm, searchCategory } = route.params;
-  // const searchTerm = "Dune"
-  // const searchCategory = "game"
+
   const category_list = ['celebrities', 'game', 'music', 'politics', 'sport']
   
   const apiURL = "http://team15.pythonanywhere.com/pov/results/"+searchTerm+"/"+searchCategory+"";
@@ -46,6 +44,7 @@ export default function ResultsScreen({ navigation, route }) {
             let recentJson = json.reviews[3].charAt(0).toUpperCase() + json.reviews[3].slice(1);
             let ratingCountJson = json.rating_count;
             let rankJson = json.peak_rank;
+
             setRating(parseFloat(json.rating))
             setPopularComment(popluarJson)
             setRecentComment(recentJson)
@@ -53,22 +52,19 @@ export default function ResultsScreen({ navigation, route }) {
             setRank(parseInt(rankJson))
           }
           else if (category_list.includes(searchCategory)){
-            //navigation.push('Error')
             setIsError(true)
           }
           else {
-            //navigation.push('Error')
             setIsError(true)
 
           }
         }
         else {
-          //navigation.push('Error')
           setIsError(true)
 
         }
       })
-      // .catch((error) => navigation.push('Error'))
+      // .catch((error) => setIsError(true))
       .catch((error) => alert(error))
       .finally(() => setLoading(false));
   })
@@ -96,13 +92,13 @@ export default function ResultsScreen({ navigation, route }) {
         </View>
         <View style={styles.rowContainer}>
           <View style={{justifyContent:'flex-start', padding:10}}>
-          <AppText>Most popular comment:</AppText>
+          <AppText>User's most popular comment:</AppText>
             <Text style={styles.text}>"{popularComment}"</Text>
           </View>
         </View>
         <View style={styles.rowContainer}>
           <View style={{justifyContent:'flex-start', padding:10}}>
-          <AppText>Most recent comment:</AppText>
+          <AppText>User's most recent comment:</AppText>
             <Text style={styles.text}>"{recentComment}"</Text>
           </View>
         </View>
