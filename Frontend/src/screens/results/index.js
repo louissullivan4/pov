@@ -9,6 +9,7 @@ import AppTitle from '../../components/general/appTitle';
 import AppText from '../../components/general/appText';
 import SearchBar from '../../components/home/seachBar';
 import LineGraph from '../../components/results/LineGraph';
+import ErrorScreen from '../error';
 
 export default function ResultsScreen({ navigation, route }) {
   const [isLoading, setLoading] = useState(true);
@@ -17,6 +18,7 @@ export default function ResultsScreen({ navigation, route }) {
   const [recentComment, setRecentComment] = useState("I think people are harsh on this movie, give it a go!")
   const [voteCount, setVoteCount] = useState(0);
   const [rank, setRank] = useState(0)
+  const [isError, setIsError] = useState(false)
 
   const { searchTerm, searchCategory } = route.params;
   // const searchTerm = "Dune"
@@ -51,14 +53,19 @@ export default function ResultsScreen({ navigation, route }) {
             setRank(parseInt(rankJson))
           }
           else if (category_list.includes(searchCategory)){
-            navigation.push('Error')
+            //navigation.push('Error')
+            setIsError(true)
           }
           else {
-            navigation.push('Error')
+            //navigation.push('Error')
+            setIsError(true)
+
           }
         }
         else {
-          navigation.push('Error')
+          //navigation.push('Error')
+          setIsError(true)
+
         }
       })
       // .catch((error) => navigation.push('Error'))
@@ -67,7 +74,9 @@ export default function ResultsScreen({ navigation, route }) {
   })
   if (isLoading) {
     return (<ActivityIndicator/>);
-  } else {
+  } else if (isError) {
+    return (<ErrorScreen navigation={navigation}/>);
+  }else {
       return (
       <ScrollView style={{backgroundColor: '#FFF'}} showsVerticalScrollIndicator={false} contentContainerStyle={{flexGrow:1}} >
       <View style={styles.container}>

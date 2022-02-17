@@ -76,7 +76,7 @@ export default function HomeScreen({ navigation }) {
       <View style={styles.title}>
         <Text style={[styles.titleText, {fontFamily: fontsLoaded ? 'BebasNeue_400Regular': fontOS}]}>Trending</Text>
       </View>
-      <CarouselCards/>
+      <CarouselCards navigation={navigation}/>
       <PickerBox
           ref={ setRef }
           data={ items }
