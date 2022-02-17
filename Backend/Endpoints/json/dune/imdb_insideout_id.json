@@ -1,36 +1,52 @@
 {
-	"@meta": {
-		"operation": "Search",
-		"requestId": "73b250c6-c51f-4ed9-bf1c-6af149587ce0",
-		"serviceTimeMs": 184.785467
+	"disambiguation": "I",
+	"id": "/title/tt2096673/",
+	"image": {
+		"height": 1609,
+		"id": "/title/tt2096673/images/rm3662344960",
+		"url": "https://m.media-amazon.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_.jpg",
+		"width": 1086
 	},
-	"@type": "imdb.api.find.response",
-	"query": "Inside Out",
-	"results": [{
-		"id": "/title/tt2096673/",
-		"image": {
-			"height": 755,
-			"id": "/title/tt2096673/images/rm2910452737",
-			"url": "https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
-			"width": 509
-		},
-		"runningTimeInMinutes": 155,
-		"title": "Inside Out",
-		"titleType": "movie",
-		"year": 2015,
-		"principals": [{
-			"id": "/name/nm3154303/",
-			"legacyNameText": "Chalamet, Timothée",
-			"name": "Timothée Chalamet",
-			"billing": 1,
-			"category": "actor",
-			"characters": [
-				"Paul Atreides"
-
-			],
-			"roles": [{
-				"character": "Paul Atreides"
-			}]
+	"principals": [{
+		"attr": ["voice"],
+		"billing": 1,
+		"category": "actress",
+		"characters": ["Joy"],
+		"id": "/name/nm0688132/",
+		"legacyNameText": "Poehler, Amy",
+		"name": "Amy Poehler",
+		"roles": [{
+			"character": "Joy",
+			"characterId": "/character/ch0411388/"
 		}]
-	}]
+	}, {
+		"attr": ["voice"],
+		"billing": 4,
+		"category": "actor",
+		"characters": ["Fear"],
+		"id": "/name/nm0352778/",
+		"legacyNameText": "Hader, Bill",
+		"name": "Bill Hader",
+		"roles": [{
+			"character": "Fear",
+			"characterId": "/character/ch0446044/"
+		}]
+	}, {
+		"attr": ["voice"],
+		"billing": 5,
+		"category": "actor",
+		"characters": ["Anger"],
+		"disambiguation": "I",
+		"id": "/name/nm0085400/",
+		"legacyNameText": "Black, Lewis (I)",
+		"name": "Lewis Black",
+		"roles": [{
+			"character": "Anger",
+			"characterId": "/character/ch0478517/"
+		}]
+	}],
+	"runningTimeInMinutes": 95,
+	"title": "Inside Out",
+	"titleType": "movie",
+	"year": 2015
 }

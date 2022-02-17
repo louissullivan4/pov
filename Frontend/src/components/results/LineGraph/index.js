@@ -1,4 +1,3 @@
-import { View, Text } from 'react-native';
 import React from 'react';
 import {LineChart} from "react-native-chart-kit"
 import chartConfig from './config';
@@ -19,11 +18,10 @@ const data = {
 export default function LineGraph() {
   return (
     <LineChart
-  data={data}
-  width={screenWidth*0.9}
-  height={150}
-  chartConfig={chartConfig}
-  style={{borderRadius:20}}
-/>
+      data={data}
+      width={screenWidth*0.9}
+      height={150}
+      chartConfig={chartConfig}
+      style={{borderRadius:20}}/>
   );
 }

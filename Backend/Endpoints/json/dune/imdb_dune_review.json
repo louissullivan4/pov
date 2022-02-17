@@ -1,0 +1,466 @@
+{
+	"@type": "imdb.api.userreviews.userreviewsfortitle",
+	"base": {
+		"id": "/title/tt1160419/",
+		"image": {
+			"height": 755,
+			"id": "/title/tt1160419/images/rm2910452737",
+			"url": "https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+			"width": 509
+		},
+		"title": "Dune",
+		"titleType": "movie",
+		"year": 2021
+	},
+	"paginationKey": "g4xolermtiqhejcxxxgs753i36t52q343qmdb4pib7a6qp4o4455vq7ipwfimtk2uou4vrg4",
+	"reviews": [{
+		"author": {
+			"displayName": "MartinHafer",
+			"userId": "/user/ur2467618/"
+		},
+		"authorRating": 7,
+		"helpfulnessScore": 0.38053957946296785,
+		"id": "/title/tt1160419/userreviews/rw7552521",
+		"interestingVotes": {
+			"down": 456,
+			"up": 323
+		},
+		"languageCode": "eng",
+		"reviewText": "\"Dune\" is a great book and it, along with its sequels, are compelling reading. However, they are NOT short nor light reading and to make a decent version of the first book, it's hard to imagine doing anything other than making a mini-series. This was one of several reasons why I hated the David Lynch version from 1984. It crammed so much stuff into such a short film that it often was confusing....and the director himself hated the film. Apparently, the studio took the movie away from him and hacked it to pieces...thus making it so confusing. Because of this, I was not interested in seeing this 2021 version....until I learned it was only part one and the second film would complete the first \"Dune\" book.\n\nSo, from the outset, this film can't help but be better than the 1984 version. BUT, it manages to do something I didn't expect...it's actually TOO long...or so it felt due to the pacing and ridiculous number of big scenes were not much happens but you see a lot of eye candy...along with very moody music. In many ways, it reminded me of the first \"Star Trek\" movie...which was so long and tedious...and had too many scenes where you just see a ship flying through space! And, in \"Dune: Part One\" there are too many scenes like this and not enough emotion and dialog. In other words, it seems to need a more personal and human tough to make it a truly great film. Now I am not saying it's bad or to avoid it. But the film could have been tightened up a bit and paced better.\n\nFortunately, if you have never read \"Dune\", this film is approachable and does follow the book closely.",
+		"reviewTitle": "A big improvement over the first film, but it still doesn't quite hit the mark.",
+		"spoiler": false,
+		"submissionDate": "2021-11-16",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "SnoopyStyle",
+			"userId": "/user/ur2898520/"
+		},
+		"authorRating": 8,
+		"helpfulnessScore": 0.4891648757008131,
+		"id": "/title/tt1160419/userreviews/rw7466621",
+		"interestingVotes": {
+			"down": 520,
+			"up": 561
+		},
+		"languageCode": "eng",
+		"reviewText": "Denis Villeneuve directs this remake of the Frank Herbert classic sci-fi. It's the first part of two movies. Timoth\u00e9e Chalamet is the lead as Paul Atreides. The emperor has given his family the desert planet Arrakis where the most important spice is mined. It's a trap and everyone knows it.\n\nI've never read the book. I have seen the David Lynch version and the Sci Fi movies. I do miss some of the Lynchian weirdness. This version feels more Earth-bound without the weirdness. Arrakis has a lot more middle eastern influences. House Atreides is more Scottish. I do wish that they get rid of the damn bagpipes. One hopes that they would get rid of that noise in a few thousand years. As for Chalamet, he is the perfect prettiness for the role. He looks too pretty to be believed as a fighter which is exactly what every other character comments on about him. He has the ethereal look of an angelic hero in an ancient classical Greek story. I'm not sure if newbies could get lost in this labyrinthian world. It's not really that complicated. I think Villeneuve has made the right movie. He puts his skills into the epic feel of this franchise. It feels right... coming from a non-book-reader.",
+		"reviewTitle": "Villeneuve epic",
+		"spoiler": true,
+		"submissionDate": "2021-10-21",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "Hitchcoc",
+			"userId": "/user/ur0278527/"
+		},
+		"authorRating": 8,
+		"helpfulnessScore": 0.5136792411492865,
+		"id": "/title/tt1160419/userreviews/rw7468495",
+		"interestingVotes": {
+			"down": 469,
+			"up": 560
+		},
+		"languageCode": "eng",
+		"reviewText": "Having read the book a hundred years ago, it took some time to begin to understand what was going on. If there is a criticism that many share, it is the pacing of the first part of the film. It needed something to set the scene for us, to show us who the strong and the weak were. I'm not much for narration (show me, don't tell me), but it may not have been a bad idea. The scenes are magnificent with special effects off the chart. Many desert travel scenes are quite endless. How do you spruce up a desert. I thought the sand worms were a little one dimensional. I know there is another film down the road.",
+		"reviewTitle": "The Beginning",
+		"spoiler": false,
+		"submissionDate": "2021-10-22",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "Kirpianuscus",
+			"userId": "/user/ur61197531/"
+		},
+		"helpfulnessScore": 0.2895096636206968,
+		"id": "/title/tt1160419/userreviews/rw7478502",
+		"interestingVotes": {
+			"down": 219,
+			"up": 112
+		},
+		"languageCode": "eng",
+		"reviewText": "It is not a simple film. But an adaptation of one of real difficult to adapt at his standards novel. And, honestly, this Dune: Part One is just seductive at visual level. But, I admitt, I am far to be very enthusiastic about it. Maybe, I am to attached to old adaptations - first 2000 one - , maybe I feel the novel in different way than the director, maybe I am too old at 45 year old, maybe I am tired or too far by contemporary cinematographic taste. Yes, the image is completed by inspired performances, the poetry of desert is well reflected , the cliches are at fair place , the relation mother - son has its charme in Oedip - like manner and the portrait of Baron Vladimir Harkonnen is more than wise crafted. And the young Chalamet proves his real skills as admirable actor, Jason Momoa surviving to his character in very nice manner. No doubts, the film represents a generous gift to public from an ambitious director. Is it enough ? Maybe .",
+		"reviewTitle": "inspired sketch",
+		"spoiler": false,
+		"submissionDate": "2021-10-24",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "Horst_In_Translation",
+			"userId": "/user/ur3914439/"
+		},
+		"authorRating": 6,
+		"helpfulnessScore": 0.21347983171289822,
+		"id": "/title/tt1160419/userreviews/rw7383859",
+		"interestingVotes": {
+			"down": 1611,
+			"up": 484
+		},
+		"languageCode": "eng",
+		"reviewText": "\"Dune\" is a really new American movie from 2021 that just got released and I saw that people really liked it, so I got curious and decided to check it out myself. It is a pretty long movie at slightly under 2.5 hours and the director is Denis Villeneuve, perhaps one of the most influential filmmakers right now and maybe number one from Canada. He is also one of the writers and the writing staff also includes an Oscar winner. You can check out the names there yourself. I shall instead elaborate a little more on the cast. Villeneuve being in charge resulted in many big names becoming a part of this project. The lead actor here is Timoth\u00e9e Chalamet, definitely a rising star, but I must say I am not the biggest fan of him really. This is a bit of a problem as he is basically in this movie from beginning to end, but luckily, the supporting cast includes more than a handful actors that I like quite a bit. These would be Oscar Isaac, Josh Brolin and Javier Bardem. With Brolin and Bardem, it felt like a bit of a reunion from No Country for Old Men, especially during the one brief scene/moment in which they clash to some extent. And as we are already talking Coen Bros movies, Isaac's Inside Llewyn Davis deserves a mention as well for sure. So you will find a few actors in here who have worked with the maybe most famous filmmaking brothers duo in the past. Brolin is featured heavily in the first half of the film, but then vanishes completely. Isaac also has more screen time early on. Bardem has a brief scene when his character is introduced, but appears in the last 30 minutes again. I personally thought that he would not show up again with this film, but play a central role in the second movie. Yes, there is a sequel indeed. This already becomes clear when this film here starts as we see a \"part one\" or something and also the way this one ends makes it very obvious that this is not it.\n\nAs for the rest of the cast, Rebecca Ferguson is almost lead as well, which was okay. Zendaya I am still not buying the hype and she is only really in it near the end. Momoa is on the good side, while Skarsgard and Bautista are on the enemy team. The latter is really making himself a career now if you take a look at everything he has been in, even if it is always supporting parts. His recognition value probably helps as well. Oh yeah, Charlotte Rampling also has a memorable scene in here. I will get to that/her later. Of course, people will immediately think of the David Lynch Dune movie from decades earlier. I will not talk about parallels or differences now with that one because I have not seen it. Let's just focus on this one here instead from a standalone perspective. There is enough to elaborate on anyway. I must still say that I struggle with seeing Chalamet as some kind of hero or chosen character. I don' think he has the props to really pull it off. Of course, this is the idea that he does not look like Hulk or Thor or something, but when I see him show his dedication like how he really wants to join Momoa's character or how he can defeat Brolin's character in a duel or how he leads his mother in the desert and knows exactly how his items and uniform work because he is such a natural or how he in the end says his path leads through the desert, it is difficult to believe. Also how he of course wins the battle against this fella near the end who challenges him. And he has to kill in the process, which also shows us how much of a kindred spirit he is that he has never killed somebody before.\n\nDeath is a crucial component in here. Still I must say seeing how literally every single good guy, be it Isaac's character, be it Momoa's, be it the seer, goes out in a heroic manner that puts harm to the enemy side was a bit much and eventually also repetitive. There were other issues I struggled with here in terms of the plot. Take a look at the idea of Chalamet's character playing a real hero. Basically he is the future. And yet, his own folk (Rampling's character) were ready to kill him immediately with this poisonous needle if he pulls out his hand from this box that caused so much pain to him. Or his dreams and premonitions linked to Zendaya's character were also not exactly new or inspired the way they were put on display here. I could go on by saying that for example the introduction did feel too long and this movie could have been (or should have been) half an hour shorter perhaps. What I cannot say anything negative about is really the way in which the bad guys attack. When they come for Isaac's character and the others, it is really spectacular and this is when this film is at its very best and an incredibly tense thrill ride. In the middle of the film. Unfortunately, when this is over and the bad guys have won for the moment, it gets a bit weaker again and here and there it drags a bit and has some lengths. What also can be said is that this film is never really intended for comedic purpose. The way you could see it a lot on another Bautista fantasy/sci-fi movie. There was this one moment when Momoa's character talks about Chalamet's character's muscles that was a bit on the playful comedic site and maybe one or two other inclusions as the film went on, but yeah this is not a movie to pick for light relief or something. It takes itself very seriously. Does it have the right to? I am not sure.\n\nOf course, there is absolutely nothing wrong with sets, cinematography, costumes and all other visual/audible production fields, but this is pretty much a given now with a film of this dimension, even if we maybe should not see it as a given. With the likes of Zimmer, Roberts and West in charge, however, there is at least as much competence available in \"minor\" departments as there is in front of the camera. If not more. But back to the action itself: With the spectacular visuals, this is definitely a movie you'd rather want to check out at a theater than at home on a small screen. Unless you have a home theater of course. Oh yeah, another moment that will maybe make you smile is how Isaac's character tries to get Brolin's grumpy character to smile really early on. The latter reminds me a bit of the man Brolin played on Sicario. Anyway, I guess we will see more from Brolin's character in the sequel here as well. As for Villeneuve, I must say I liked his earlier stuff like Prisoners, but his recent take on Blade Runner did almost nothing for me unfortunately. Quality-wise, this movie here is somewhere in-between. It's not a revelation or anything and I think the reception is way too positive (I even saw people consider Chalamet for an Oscar nomination, like come on!), but it is worth seeing if you like the genre and some of the cast members I suppose. Not a must-see by any definition though. Seems as if Villeneuve really enjoys giving us his take on some films that are considered classics. It certainly could have turned out worse here, but I hope that with whatever he does in the future, also after this sequel here, he can manage to be a bit more essential again. The pathos felt a bit much at times and did not always ring true. This maybe also could have had to do with Chalamet for me though. If you like him more, you will maybe not see it.\n\nThe attention to detail at times was still pretty good. I liked Brolin's words during the training sequence linked to Chalamet's character expressing he is not in the mood for fighting or so and how he has to fight when the time is right and how this felt connected to his battle with one character near the end. Completely aside from that, I initially struggled with the sand component, but in the second half they turned the background and location into something special and you could feel the endless desert element finally. Also the idea of these sandworms was depicted nicely. Or how a ring is used to print a seal or signature. Or these helicopters that look like insects. Or the little drone, so it is not just the big spectacular inclusions where you can see all the talent that was included in the making of this film. Unfortunately, there were also many struggles. I mentioned most of them, but while I already stated that the introduction felt too long, the real introduction at the very start felt incredibly rushed and it was impossible to remember all they mentioned there. Pretty much a no-go for a film with this running time. All in all, I still give it a thumbs-up and I think the good is more frequent than the weak, but there's no way I would say that this is among the very best films of the year 2021 so far. Maybe the better, but not the best and I hope that Villeneuve can step things up with the second film, but given the lead actor I kinda doubt it. Anyway, if you like this one, you can probably keep watching. Maybe said sequel is out already once you read this review of mine and then you can decide for yourself anyway. (tt1160419)",
+		"reviewTitle": "If this film was a planet, then it could be fine for temporary stay, permanent not really though",
+		"spoiler": true,
+		"submissionDate": "2021-09-26",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "nogodnomasters",
+			"userId": "/user/ur77881167/"
+		},
+		"authorRating": 8,
+		"helpfulnessScore": 0.29894389225335366,
+		"id": "/title/tt1160419/userreviews/rw7442943",
+		"interestingVotes": {
+			"down": 467,
+			"up": 233
+		},
+		"languageCode": "eng",
+		"reviewText": "The Duke (Oscar Isaac) is sent by the empire to take control of the spice operations on Arrakis, which sounds like Iraqis. It is inhospitable and the locals have seen empires come and go who try to rule over them. (Reminded me of Afghanistan.) The Duke wants to have peace. The Duke's son Paul (Timoth\u00e9e Chalamet) is the main character and has too much of his mother (Rebecca Ferguson) in him. She comes from a long line of witches and he has some of their powers such as \"The Voice\" and \"The Sight\" which is similar to \"The Force.\" He dreams of a girl (who doesn't?) and of things to come. As it turns out, the empire was quite honest with them.\n\nI have never read the book. Three of us watched the first one on VHS and fell asleep during the film. The machines looked like they came out of \"Star Wars.\" They needed some good music background.\n\nGuide: No swearing, sex, or nudity.",
+		"reviewTitle": "The Desert takes the weak",
+		"spoiler": true,
+		"submissionDate": "2021-10-15",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "Sleepin_Dragon",
+			"userId": "/user/ur15311310/"
+		},
+		"authorRating": 10,
+		"helpfulnessScore": 0.6127243559770881,
+		"id": "/title/tt1160419/userreviews/rw7475243",
+		"interestingVotes": {
+			"down": 669,
+			"up": 1164
+		},
+		"languageCode": "eng",
+		"reviewText": "It's been amazing being back in cinemas after last year, I have seen some good films, and some shockers, this though, is the first great film of the year for me.\n\nThe story is somehow easier to follow than in the last adaptation, motives and actions are easier to see and follow. I felt as though the book had come to life here, even if there are a couple of changes.\n\nThe acting is impressive, as is the music, the visuals however are the most incredible thing about this film, it looks awe inspiring. The battles are epic, the staging is impressive, you almost feel close to the action, I cannot praise that element highly enough.\n\nWhen I saw Part one, I was a little surprised, I was a little more surprised by the ending, I only hope the wait isn't too long.\n\nPacing, considering where the film ends, it never felt slow or drawn out, I was captivated from start to finish.\n\nTruly, I was blown away, 10/10.",
+		"reviewTitle": "My movie of 2021, so far.",
+		"spoiler": false,
+		"submissionDate": "2021-10-23",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "kosmasp",
+			"userId": "/user/ur5876717/"
+		},
+		"authorRating": 10,
+		"helpfulnessScore": 0.43994576850991157,
+		"id": "/title/tt1160419/userreviews/rw7604825",
+		"interestingVotes": {
+			"down": 93,
+			"up": 97
+		},
+		"languageCode": "eng",
+		"reviewText": "I just reviewed the 1984 movie - based on the same source/novel. As I wrote in that other review: I have not read that book. I did watch the \"original\" movie to have an idea what Villeneuve did. Denis Villeneuve is a director who I adore a lot. His weird and very strange movies that are like a punch in the gut and warrant multiple viewings to understand are one thing - but he has proven that he can also do blockbuster movies too.\n\nLike this one - there is not much left from the campy feeling of the first one. There may be some things still here that people may feel offended by. But in this day and age it's impossible to do something without sparking outrage and trigger at least one group or the other (whatever side of the spectrum they belong to).\n\nWhile the camp is gone, the movie is also much clearer. The original needed a monologue in the beginning and even that muddled things up rather than made them clearer. What both movies have in common is the cast in front of the camera is superb to say the least. While the original had issues with the costumes but even more so the special effects, this one thrives in both. Excellent work, from everyone included.\n\nI chose the summary line because this may very well be one of the best Science Fiction movies (larger scale that is) to date. No offense meant to any Lord of the Rings fans of course. Rather meant to be a compliment. Like the Rings movies this also is supposed to be a trilogy if I understood what was being said right. The thing I know is that we will get a sequel. When this hit cinemas, it was only called Dune. Now it is Dune Part one. And I am happy to say the least to come back and revisit this world. If possible on an Imax screen again of course.\n\nThe scale of the movie is immense and while there was one annoying bag pipe moment (you know who you are!), the music/sound design and the cinematography worked hand in hand. I can only recommend this so much - if you are into Science Fiction movies I am quite certain you will like this too. A friend of mine who has read the books loved this too - so there seems to be no one who is excluded (apart from those wondering about who takes their clothes off - there are statements that are beyond my understanding - on the other hand they may be trolling so there's that) ...",
+		"reviewTitle": "Lord of the Dune sand",
+		"spoiler": false,
+		"submissionDate": "2021-12-01",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "classicsoncall",
+			"userId": "/user/ur2707735/"
+		},
+		"authorRating": 9,
+		"helpfulnessScore": 0.5484023148570926,
+		"id": "/title/tt1160419/userreviews/rw7469852",
+		"interestingVotes": {
+			"down": 375,
+			"up": 520
+		},
+		"languageCode": "eng",
+		"reviewText": "It's been some time since I've read the Frank Herbert novel, and I had already forgotten much of the story. However it wasn't a problem picking things up as characters and situations presented themselves in this film, so I'd have to say that was a plus for this viewer. The scope of this picture is quite outstanding, spanning as it does a complex and fragmented universe of worlds and kingdoms. Central to the story is the valued importance placed on a spice that's a preferred hallucinogenic for some, and for the elite, an important component required for interstellar travel. In the novel I believe it was something as common as cinnamon, but on the planet Arrakis, required an intensive mining operation to reclaim it from the barren desert soil in which it's found.\n\nThe entire story is veiled with a mystical sort of ambiance in which the protagonist, Paul Atreides (Timoth\u00e9e Chalamet), learns of his destiny while obliquely being referred to as 'The One' of legend, a person who will come into great power. Quite honestly, the setting, costuming, characterizations and palace intrigue is all quite reminiscent of 'Star Wars', even if the original novel was written over a decade before George Lucas arrived on the scene. Even the hostile environment of Arrakis has the feel of Tatooine, with the appearance of the Shai-Hulud recalling the Sarlacc, one of Jabba the Hutt's favorite pets.\n\nWhat surprised me with this first installment of the Dune saga was how well director Denis Villeneuve managed to condense the epic scope of a massive novel onto film, even if half of the story is yet to be told. The movie incorporates the most critical elements of the novel into a narrative that works really well. Even though I actually did enjoy the 1984 version directed by David Lynch, this one proves to be more inclusive of events in the novel, and I look forward to a successful conclusion to the saga in due time.",
+		"reviewTitle": "\"He shall know your ways as though born to them.\"",
+		"spoiler": true,
+		"submissionDate": "2021-10-22",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "lee_eisenberg",
+			"userId": "/user/ur4888011/"
+		},
+		"authorRating": 8,
+		"helpfulnessScore": 0.43421161413370474,
+		"id": "/title/tt1160419/userreviews/rw7485290",
+		"interestingVotes": {
+			"down": 117,
+			"up": 116
+		},
+		"languageCode": "eng",
+		"reviewText": "I've never read Frank Herbert's novel or seen any other adaptation of \"Dune\", so I have to take Denis Villeneuve's adaptation as the guide. It's an impressive movie. Not just the visuals, but in the story's complexity. Timoth\u00e9e Chalamet continues to reaffirm himself as one of the greatest actors of his generation.\n\nI'm eager to see part 2, as well as David Lynch's adaptation.",
+		"reviewTitle": "destiny will come",
+		"spoiler": false,
+		"submissionDate": "2021-10-27",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "jboothmillard",
+			"userId": "/user/ur4248714/"
+		},
+		"authorRating": 7,
+		"helpfulnessScore": 0.308992126223523,
+		"id": "/title/tt1160419/userreviews/rw7501173",
+		"interestingVotes": {
+			"down": 73,
+			"up": 47
+		},
+		"languageCode": "eng",
+		"reviewText": "The 1984 David Lynch movie was a box office flop and has been garnered with mixed to negative reviews over the years, but the trailer for the new movie, based on the cult book by Frank Herbert, looked like it would be much better, directed by Denis Villeneuve (Prisoners, Arrival, Blade Runner 2049). Basically, in the distant future, the year, 10,191, in the known universe, Duke Leto of House Atreides (Oscar Isaac), ruler of the ocean planet Caladan, is assigned by the Padishah Emperor Shaddam Corrino IV to replace House Harkonnen as fief rulers of Arrakis. The planet Arrakis is a barren desert planet populated by gigantic sandworms, better known as Dune. It is the universe's only source of the spice called melange, a drug that extends life and expands consciousness. The Spice is also critical for safe instantaneous interstellar travel to any distance in space. Shaddam intends to have House Harkonnen stage a coup to retake the planet with aid of the Emperor's Sardaukar troops, eradicating House Atreides, who threaten Shaddam's control. Leto is apprehensive but sees the political advantages of controlling the spice planet, and an alliance with its native population, skilled fighters known as the Fremen. Leto's concubine Lady Jessica (Rebecca Ferguson) is part of the Bene Gesserit, an exclusively female order with advanced physical and mental abilities. Although Jessica was instructed by the Bene Gesserit to bear a daughter to descend and become the Kwisatz Haderach (\"one who can be many places at once\"), she instead gave birth to a son, Paul (Timoth\u00e9e Chalamet). Throughout his life, Paul has been trained by Leto's aides, Duncan Idaho (Jason Momoa), Gurney Halleck (Josh Brolin) and the Mentat Thufir Hawat (Stephen McKinley Henderson), while Jessica trains Paul in disciplines of the Bene Gesserit. Paul talks to Jessica and Duncan about troubling visions he has had of the future. Due to these visions, the Reverend Mother Gaius Helen Mohiam (Charlotte Rampling) visits Caladan and subjects Paul to a deadly test. He is subjected to experience excruciating pain to his hand, to assess his impulse control, which he passes. Later, Mohiam instructs House patriarch Baron Vladimir Harkonnen (Stellan Skarsg\u00e5rd) to not kill Paul and Jessica during his coup. He agrees not to harm them but intends to cause their deaths indirectly to end their bloodline. House Atreides arrives at Arrakeen, capital city and fortress stronghold on Arrakis, where Duncan and an advance party have been learning about the world and the Fremen. Leto negotiates with the Fremen's chieftain Stilgar (Javier Bardem) and meets planetologist and imperial judge Dr. Liet-Kynes (Sharon Duncan-Brewster). Kynes explains the dangers of spice harvesting to Leto, Paul, and Halleck, including the giant sandworms. During a flight, they spot a sandworm approaching an active spice harvester with a stranded crew. Leto and his team rescue the workers moments before the sandworm swallows it. Paul's exposure to spice-laden air triggers intense premonitions. Following an attempt by a Harkonnen agent to kill Paul, Leto's soldiers are put on high alert. Suk doctor Wellington Yueh (Chang Chen) disables Arrakeen's critical protective shields, allowing Harkonnen and Sardaukar troops to overwhelm the Atreides forces. Yueh incapacitates Leto and tells him he made a deal with the Baron to deliver him in exchange for freeing his captive wife. Yueh poisons Leto with a gas capsule and is killed after delivering the Duke. Leto releases the poison gas, killing himself and members of the Baron's court, but the Baron survives. Duncan escapes and steals an ornithopter (an aircraft with rapidly flapping wings). Harkonnens capture Paul and Jessica and intend to drop them in the desert to perish. Paul and Jessica overpower and kill their captors using a Bene Gesserit power called \"The Voice\" to control others verbally. Finding a survival kit left for them by Yueh, Paul and Jessica spend the night in a tent. Paul experiences visions of a \"holy war\" spreading across the universe and him leading it. The Baron hands over command of Arrakis to his brutish nephew Rabban aka \"Beast\" (Dave Bautista) and orders him to sell spice reserves and restart production to recover the cost of the coup. Paul and Jessica are found by Duncan and Kynes and head to an old research station but are soon tracked down by Sardaukar. Jessica, Paul and Kynes are allowed to escape the facility when Duncan and various Fremen sacrifice themselves. Kynes, ambushed by Sardaukar troops, lures a sandworm that devours them along with her. Paul and Jessica reach the deep desert and meet the Fremen, among them are Stilgar and young warrior Chani (Zendaya), who Paul has seen in his visions. Their admission into the tribe is protested by Fremen warrior Jamis (Babs Olusanmokun), so they have a ritual duel to the death, and Paul is victorious. Against Jessica's wishes, Paul states they will remain on Arrakis with the Fremen to reclaim the planet. Also starring David Dastmalchian as Piter de Vries, Benjamin Cl\u00e9mentine as Herald of the Change, Golda Rosheuvel as Shadout Mapes, and Roger Yuan as Lieutenant Lanville. I'm not going to pretend I understood everything going on, with all the stuff involving religion and politics, just the main plot that everyone wants the spice. Chalamet makes for a good young hero, Skarsg\u00e5rd is good at being the nasty and grotesque villain, and the all-star cast, including Isaac, Brolin, Rampling, Zendaya, and Bardem all get their moments as well. The visuals and special effects are fantastic, from the spaceships and alien creatures to the interior and exterior locations and large-scale battle scenes, so it doesn't matter if you don't understand it all, it is a great spectacle, and hopefully the second part will be as exciting, a worthwhile epic science-fiction adventure. Very good!",
+		"reviewTitle": "Dune",
+		"spoiler": true,
+		"submissionDate": "2021-11-01",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "paul_haakonsen",
+			"userId": "/user/ur22654354/"
+		},
+		"authorRating": 6,
+		"helpfulnessScore": 0.2801574319712688,
+		"id": "/title/tt1160419/userreviews/rw7456844",
+		"interestingVotes": {
+			"down": 1455,
+			"up": 622
+		},
+		"languageCode": "eng",
+		"reviewText": "Sure, I was looking forward to getting to watch director Denis Villeneuve's take on Frank Herbert's iconic story \"Dune\". And yeah, I did also enjoy the 1984 version of the tale, so of course this 2021 version was something that had to be watched.\n\nAnd yes, I did enjoy the 2021 rendering of \"Dune\", of course I did. I mean, how could I not? Despite of running for a bit more than two and a half hours, the movie was entertaining and enjoyable. And this was just the first part of the story, so we are in for more.\n\nVisually then \"Dune\" was just spectacular, having pretty amazing special effects that brought the world of Arrakis to life on the screen. And if you enjoy CGI effects and great special effects, then \"Dune\" doesn't disappoint.\n\nIn terms of casted performers, then the majority of the cast were actually nicely cast for the various roles and characters. Now, I am not familiar with Timoth\u00e9e Chalamet (playing Paul Atreides), but he was no Kyle MacLachlan (playing the same character in the 1984 movie). This 2021 version of \"Dune\" also have the likes of Rebecca Ferguson, Oscar Isaac, Jason Momoa, Josh Brolin and Stellan Skarsg\u00e5rd on the cast list. I was really impressed with Stellan Skarsg\u00e5rd in the movie.\n\nAnd while \"Dune\" is watchable and entertaining, I must admit that I was left with a sense of 'was this really a necessary remake?' once the movie ended. And then my thoughts went on to \"will it be remade again in 40 years, with whatever technology is available then?'. So there was that whole whether this remake was a necessary thing or not looming over it.\n\nAnd I also feel that the character gallery was a bit underdeveloped, as I felt most of the characters were only given superficial characteristics and personalities, never letting the audience really get to know the characters backgrounds, motivations and such. It just felt a bit too shallow in terms of character development and growth.\n\nIf you have the chance to watch \"Dune\", then do so. By all means do so, because it is an entertaining movie.\n\nMy rating of \"Dune\" lands on a six out of ten stars, like the 1984 movie. Sure, this 2021 movie was more pleasing to look at, but of course almost 40 years have done lots to the development of CGI in the movie business. But the 2021 version is held back by an inferior character gallery and that overwhelming sense of this being essentially just a massive waste of money and effort in terms of remaking something that didn't really need to be remade.",
+		"reviewTitle": "Visually impressive, but rather unnecessary remake...",
+		"spoiler": false,
+		"submissionDate": "2021-10-18",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "Gordon-11",
+			"userId": "/user/ur0035842/"
+		},
+		"helpfulnessScore": 0.24387994490155585,
+		"id": "/title/tt1160419/userreviews/rw7353221",
+		"interestingVotes": {
+			"down": 304,
+			"up": 121
+		},
+		"languageCode": "eng",
+		"reviewText": "The visuals are pretty impressive. Even though the colour palette is monotonous, the visuals are beautiful and captivating. The story is ending, albeit slow at times. I really like Timothee Chamalet's character. Overall, I liked it.",
+		"reviewTitle": "I liked it",
+		"spoiler": false,
+		"submissionDate": "2021-09-17",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "zardoz-13",
+			"userId": "/user/ur2079400/"
+		},
+		"authorRating": 10,
+		"helpfulnessScore": 0.5161979581559765,
+		"id": "/title/tt1160419/userreviews/rw7492940",
+		"interestingVotes": {
+			"down": 162,
+			"up": 212
+		},
+		"languageCode": "eng",
+		"reviewText": "Watching director Denis Villeneuve's groundbreaking adaptation of Frank Herbert's classic science fiction novel \"Dune\" is like feasting on an all-you-can-eat buffet. You can gorge yourself on combatants and conspiracies galore during its spartan 156-minute runtime. Unlike its ill-fated predecessor, David Lynch's critically reviled \"Dune\" (1984), which shoehorned Herbert's gargantuan magnum opus into a procrustean 136-minute escapade, Villeneuve has the good sense not to pile everything into one film. Instead, this $165 million reboot delivers only half of the chronicle, while we must bide our time until the sequel. Some sci-fi fans may cringe at this prospect, but Warner Brothers refused to bank roll the sequel before \"Dune\" generated some box office traction. Mind you, sitting for two-hours and thirty-six minutes requires not only purpose but also patience. Meantime, Villeneuve retreads several Lynch scenes, but does it with greater scope and spontaneity. You cannot help but be caught up by the rollercoaster blend of white-knuckled cliffhanger heroics and Byzantine political intrigue. Although classified as science fiction, \"Dune\" never degenerates into a juvenile \"Buck Rogers\" space opera. \"Star Wars: Rogue One\" lenser Greg Fraser depicts these larger-than-life characters against surreal landscapes in sprawling picturesque murals. Surrounding Timoth\u00e9e Chalamet, who toplines as the hero, is a formidable cast consisting of Oscar Isaac, Josh Brolin, Rebecca Ferguson, Jason Momoa, Javier Bardem, Dave Bautista, and Stellan Skarsgard. Overall, \"Dune\" raises the standards for sci-fi blockbusters. Nevertheless, the filmmakers don't bewilder the audience with narrative overload. Clearly, Villeneuve has surpassed his earlier outing \"Blade Runner 2049\" (2017), and one can only wish him greater success with this sequel.\n\nImagine a mash-up of \"Star Wars\" and \"Game of Thrones,\" and you'll have a clue about what ensues. Specifically, \"Dune\" takes place in the year 10,191. This tour de force saga of clashing empires unfolds on the bleak desert planet of Arrakis. This savage, sun-scorched world is the only source in the universe for a unique mineral called spice. Not only does interstellar space travel hinge on spice, but it also is a psychedelic drug that heightens awareness and lengthens life. The evil Baron Vladimir (Stellan Skarsg\u00e5rd of \"Good Will Hunting\") of the House of Harkonnen, who amounts to a smaller version of Jabba the Hutt, has reaped an obscene fortune in spice from Arrakis over the last 80 years. Now, the Padishah Emperor Shaddam IV removes the Baron and replaces him with a rival, Duke Leto Atreides (Oscar Isaac of \"Ex-Machina\") of the mighty House of Atreides, who hails from the ocean planet of Caladan. Accompanied by his consort Lady Jessica (Rebecca Ferguson of \"Doctor Sleep\") and their teenage son, Paul (Timoth\u00e9e Chalamet of \"Lady Bird\"), the Duke arrives on Arrakis with his aide, Gurney Halleck (Josh Brolin of \"Sicario\"), and a vast army. Leto suspects the corrupt Emperor may be setting him up for failure.\n\nPandemonium erupts soon after Leto has taken over the spice mining operation. Earlier, the Duke had vowed to forge an alliance with the natives. Known as the Fremen, this disgruntled nomadic race resides in Arrakis's deep caverns and conducts campaigns like guerrilla warriors against the spice miners. Suffering dreadfully under the Baron, the Fremen expect similar treatment from Leto. The Duke dispatches a scout, Duncan Idaho (Jason Momoa of \"Aquaman\"), to embed himself among them and win their hearts and minds. Swathed in hooded white cloaks, this mahogany-skinned tribe has dazzling cobalt blue eyes from using spice. A blue-eyed babe haunts Paul's dreams. Meantime, the mining equipment Leto inherited from the Baron is in rough shape. If the broiling temps on the surface weren't bad enough, prodigious sandworms--some as long as 13-hundred feet--cruise beneath the shifting sands like great white sharks. These leviathans can wrap their elastic mouths, bristling with zillions of wicked, razor-sharp fangs, around an entire spice harvesting machine. Eventually, treachery within Leto's palace topples his rule, and the Baron's soldiers annihilate Atreides' army. Miraculously managing to escape, young Paul takes refuge with the Fremen and ponders a rebellion against the Baron.\n\nComparisons between \"Dune\" and \"Star Wars\" are inevitable. Indeed, both films share certain formulaic scenes which seem virtually interchangeable. An empire-building yarn with anti-colonial sentiments, \"Dune\" takes itself far more seriously than \"Star Wars.\" When Paul watches his mentor perish, our hero suffers as tragically as Luke when he witnessed the demise of Obi-wan Kenobi. \"Dune\" differs, too, because it is a sword and sandal saga about supernatural critters. Arrakis makes Tatooine seem like a beach resort. Villeneuve and \"Prometheus\" writer Jon Spaihts and \"A Star Is Born\" scripter Eric Roth don't overwhelm the audience with volumes of exposition that cluttered up the Lynch film. Instead, they parcel out exposition and use it to foreshadow events. The warfare is conducted with ancient as well as futuristic weapons, with emphasis on ancient weapons. The dragonfly helicopters-known as ornithopters-look exciting. The crisp dialogue is both pointed and compelling. Villeneuve and company never cut our underdog heroes any slack in this initial bloodthirsty chapter, and the evil Baron maintains the upper hand despite minor setbacks like a near-death experience. As villains go, the grotesquely fat Baron makes an admirable but unscrupulous adversary. Josh Brolin and Jason Momoa wield their weapons like old hands. Unlike Lynch, Villeneuve doesn't rub our noses in unsavory violence. Nonetheless, the battles are savage without being sadistic. Hans Zimmer's brawling orchestral score with native choral interludes enhances the atmosphere. Altogether, \"Dune\" qualifies as the first truly great science fiction classic of the 21st century with a coming-of-age hero driven by prophetic dreams he cannot fathom.",
+		"reviewTitle": "Villeneuve's Greatest Sci-Fi Film",
+		"spoiler": true,
+		"submissionDate": "2021-10-29",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "evanston_dad",
+			"userId": "/user/ur4532636/"
+		},
+		"authorRating": 4,
+		"helpfulnessScore": 0.5676761170282173,
+		"id": "/title/tt1160419/userreviews/rw7528639",
+		"interestingVotes": {
+			"down": 313,
+			"up": 474
+		},
+		"languageCode": "eng",
+		"reviewText": "At the very end of \"Dune,\" Denis Villeneuve's attempt to make a screen version of the novel that isn't a disaster, a character says, \"This is only the beginning.\" The line is meant to be an enticing promise of what's yet to come. To me it sounded like a threat. I knew this was only the first of a two-part movie, and yet this bit of news still managed to be one of the most demoralizing things I've heard in a long time.\n\nThe creators of \"Dune\" clearly love the source material and have attempted to make something true to it with much care and love. But they've somehow still managed to make a lifeless, dramatically inert bungle of it. I didn't feel a single thing during this nearly three-hour movie, except the urge to pee, which I knew would happen given the size of the Modelo I bought at the concession. Seriously, you should have seen this Modelo. I paid $13 dollars for it, which was almost as much as the amount I paid for the movie ticket and parking combined. At first I was astounded, but then I saw the can they were handing to me. It was like I got my own personal keg of beer. This is the first time I've ever had a movie end and realize that I still had beer to drink, which I chugged during the closing credits.\n\nWait...did I wander away from the subject of \"Dune?\" That's because the story of my beer is more interesting than this movie. Have you ever seen the musical \"Urinetown?\" If you have, you know that there's a song at the beginning about how the characters don't want to overload the audience with too much exposition right off the bat. The creators of \"Dune\" should have watched \"Urinetown.\" This movie is nothing but exposition. We have to have someone explaining something to us in every scene. At one point, there's even a five minute scene where one character literally tells the other characters how their suits work. It's like a mechanic explaining to you how a car engine works when you're not that into cars. There's an audience for it, but I'm not it.\n\nOne brown, ponderous scene follows another, while Hans Zimmer's screeching score drones on and on. At first it was just there, but by the end of the movie the music had me wanting to climb the walls. It becomes a parody of itself. By the time a bunch of female vocalists came on the soundtrack wailing in something resembling a Middle Eastern way, I had decided that this might be one of the worst scores Zimmer has ever composed.\n\nThe movie never changes tone. I mean never. It never changes pace. I mean never. I suppose during some action scenes the editing literally gets faster, but the scenes still somehow manage to remain lifeless and unexciting. I never felt a sense of adventure, which is odd for a movie about a young man who gets the opportunity to leave his home planet and experience something new. I never cared about anything. None of the actors seem to be having any fun being in this movie. Timothee Chalamet is pretty as a postcard, but he has exactly one facial expression. Oscar Isaac is in this. So is Jason Mamoa. So is Josh Brolin. So is Javier Bardem. Lots of good talent. All of it swamped by colorless production design.\n\nThis is the kind of movie with rabid fans who will tell you that there's something wrong with you for not liking it. I can just hear them saying things like \"Stick to 'The Fast and the Furious' you nincompoops who are too stupid to understand such profound things as 'Dune',\" as if they have any idea who I am or what my movie tastes are. Let those people get their knickers in a twist, and let those who also thought this movie was a boring slog join me for a keg-sized Modelo. Cheers!\n\nGrade: C-",
+		"reviewTitle": "Lifeless, Emotionless, and Dull",
+		"spoiler": true,
+		"submissionDate": "2021-11-08",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "neil-476",
+			"userId": "/user/ur7813355/"
+		},
+		"authorRating": 8,
+		"helpfulnessScore": 0.3487456433988031,
+		"id": "/title/tt1160419/userreviews/rw7482879",
+		"interestingVotes": {
+			"down": 93,
+			"up": 68
+		},
+		"languageCode": "eng",
+		"reviewText": "Spice, a substance mined only from the deserts of planet Arrakis, is the most valuable commodity in the galaxies since it enables interstellar transport. The violent and sadistic Harkonnen family have help the spice mining franchise for 40 years, becoming immensely wealthy in the process, alienating Arrakis natives the Fremen in the process. The Emperor abruptly appoints the Atreides family instead, infuriating the Harkonnens who sabotage equipment left behind, and plan a violent takeback. This results in heir apparent Paul Atreides and mother Jessica being abandoned in the desert, where they need to fall in with desert experts the Fremen in order to survive. Trouble is, after 40 years of the Harkonnens, the Fremen aren't very keen on offworlders.\n\nAnd.... end of part one. We are halfway through the story, with a part two which may never be greenlit if box office doesn't justify it which, in this post-covid world sounds somewhat unlikely. So what's part one like?\n\nMy history of Dune and director Denis Villeneuve meant I was not hopeful. I read the novel in my teens in the 1960s and found it dense and impenetrable. David Lynch's movie had its moments, but got hacked about by the studio. The later TV series was more lucid, but suffered from some really poor casting and acting. And I had problems with Glade Runner 2049 and Arrival, both of which were a bit too cerebral for me, and less clear than I would have liked from a narrative stanndpoint.\n\nDune (part one) 2021 is a fine film. It looks amazing, which one would expect these days. The casting - and acting - is excellent. And the script/adaptation is first rate. The power games which underlie the main plot are clear and obvious, the interplay of character dynamics is solid, subtle story points come through, all the little bits you need to understand are explained organically without huge obvious information dumps, and the story flows easily throughout the two and a half hours.\n\nI have two reservations. One, the film isn't as significant as it sometimes seems to think it is. And, two, Hans Zimmer's score is dissonant, intrusive and aggressive and I actively disliked it.\n\nBut I liked the film very much, and I greatly hope there will be a part two.",
+		"reviewTitle": "At last",
+		"spoiler": true,
+		"submissionDate": "2021-10-26",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "ferguson-6",
+			"userId": "/user/ur0806494/"
+		},
+		"authorRating": 7,
+		"helpfulnessScore": 0.3958537929963176,
+		"id": "/title/tt1160419/userreviews/rw7466167",
+		"interestingVotes": {
+			"down": 129,
+			"up": 109
+		},
+		"languageCode": "eng",
+		"reviewText": "Greetings again from the darkness. It's been nearly 40 years since David Lynch directed DUNE (1984). The film received an Oscar nomination for Best Sound, and has since been a cult favorite, though not one I'm particularly drawn to. All these years later, Frank Herbert's 1965 novel (there are 5 sequel novels) has been re-made by acclaimed writer-director Denis Villeneuve (ARRIVAL, 2016) and his co-writers Eric Roth (Oscar winner, FORREST GUMP, 1994) and Joe Spaihts (PROMETHEUS, 2012). The new version looks absolutely fantastic, even if the story is a bit convoluted and the characters don't always make the best, or even logical, decisions.\n\nThe year is 10191, likely the most futuristic movie we've seen. Oscar Isaac is Duke Letto Atreides and Rebecca Ferguson is Lady Jessica Atreides, though the story mostly focuses on the son, Paul, played by Timothy Chalamet. The story revolves around the protection of spice, the most valuable resource in the universe/galaxy. However the real focus is on politics and power plays ... so I guess not much really changes over the next 8170 years - except, of course, the colonization and travel between multiple planets (surprisingly, none of these planets is named Elon or Bezos). There is much talk of \"the plan\" with emphasis on whether young Paul is \"the one\" mentioned in their legends. Paul does have some special abilities, but Chalamet's understated (and mostly monotone) portrayal makes everyone, even Lady Jessica, a bit unsure of whether he's the leader they need.\n\nThe supporting cast is impressive and all do their part to drive the action and story forward. Jason Mamoa is Duncan Idaho, the warrior who humorously belittles Paul's fragile physical frame. Josh Brolin is Gurney Halleck, the bodyguard to the noble family, and Charlotte Rampling plays the Reverend Mother (a creepy nun). Oscar winner Javier Bardem is under-utilized as Stilgar, while Zendaya shines as Chani, one who bonds with Paul. Of course the most outrageous role finds Stellan Skarsgard (with some heavy make-up and special effects) as the grand emperor of Harkonnen, with Dave Bautista as his brother, the Beast.\n\nFor me, the movie's technical aspects are what stand out. It deserves awards consideration in multiple categories, especially Sound, Visual Effects, Cinematography, and Score. Oscar winner Hans Zimmer really delivers a score that compliments and enhances what we see on screen. Cinematographer Greig Fraser has been involved in numerous high profile projects, like ROGUE ONE: A STAR WARS STORY (2016) and the highly anticipated THE BATMAN (coming in 2022). The effects are special and include the sandworms, as well as dragonfly choppers that are quite impressive. It was a bit annoying to see the desert sand blowing constantly, yet goggles and masks are hardly ever used. I guess these faces are too expensive to cover up!\n\nFamiliarity abounds as some bits recall MAD MAX, EDWARD SCISSORHANDS, STAR WARS, and THE MATRIX. Director Villeneuve shot the film in Norway and Jordan, and to answer the question from fans of the original ... no, Sting does not make a cameo appearance. The film looks stunning and will likely satisfy the target audience. Whether it's enough to expand the audience is something we will know soon enough. The film ends with \"This is only the beginning\", and Mr. Villeneuve has Dune Part Two in the planning stages.\n\nThe film will be released October 22, 2021 in theaters, on IMAX, and streaming on HBO Max.",
+		"reviewTitle": "stunning visuals",
+		"spoiler": false,
+		"submissionDate": "2021-10-21",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "morrison-dylan-fan",
+			"userId": "/user/ur5424352/"
+		},
+		"authorRating": 10,
+		"helpfulnessScore": 0.37655932721158814,
+		"id": "/title/tt1160419/userreviews/rw7586288",
+		"interestingVotes": {
+			"down": 54,
+			"up": 48
+		},
+		"languageCode": "eng",
+		"reviewText": "Buying a bundle of Sci-Fi and Horror books on eBay shortly after the first Lockdown started in the UK, one of the books in the selection was Frank Herbert's Dune. Hearing over the years about it being a heavy-going novel, I was happily caught by surprised, when from the \"Fear is the mind-killer\" set-piece on page 19, I became completely gripped by this epic tale.\n\nIntroduced after reading the novel by a friend to auteur film maker Denis Villeneuve's mesmerizing Arrival (2016-also reviewed) I started to look forward to his upcoming adaptation, leading to me booking a ticket for at The Printworks IMAX in Manchester (the second largest screen in Europe) to see the spice flow.\n\nView on the film:\n\nBuilding upon the cartel land desert of Sicario (2015-also reviewed) and the high granite walls of the alien spaceship in Arrival canvas, co-writer/ directing auteur Denis Villeneuve is joined by Foxcatcher (2014-also reviewed) cinematographer Greig Fraser to walk across the sand dunes with Villeneuve disincentive long establishing shots, which unleash an immerse atmosphere as long panning shots glide on the seamless blend of CGI and the real scotching hot heat from the Jordan and UAE locations.\n\nOpening up the aspect ratio to 1.43:1 for 60 minutes of the runtime, Villeneuve & his regular editor Joe Walker intelligently use the contrasting ratio to bring the startling visions of Paul, (played with a fitting dreamy haziness by Timothee Chalamet) into harsh, startling wide-shot white light focus, which melts into Hans Zimmer's excellent burning score engulfing the Atreides family in up-close realistic depictions of violence (a major recurring motif of Villeneuve.)\n\nGreeting Paul, Duke Leto and Lady Jessica (played with superb gravitas by Oscar Isaac and Rebecca Ferguson) as they land on Arrakis, the screenplay by Villeneuve, Doctor Strange (2016-also reviewed) co-writer Jon Spaihts and Eric Roth lovingly captures the vast universe Frank Herbert created, from the shadowy figures of the Baron (played by a chilling Stellan Skarsgard) and the Bene Gesserit Shakespearean witches, to the anti-Heroes Journey Paul goes on towards the mirage of Chani.\n\nThe writers brilliantly bind all who inhabit Frank Herbert's world with the graves and recordings about other families who have tried to tame Arrakis for the Spice, only to discover that Arrakis is the graveyard of empires.",
+		"reviewTitle": "\"Fear is the mind-killer.\"",
+		"spoiler": true,
+		"submissionDate": "2021-11-26",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "deloudelouvain",
+			"userId": "/user/ur58525162/"
+		},
+		"authorRating": 8,
+		"helpfulnessScore": 0.364599295177663,
+		"id": "/title/tt1160419/userreviews/rw7517932",
+		"interestingVotes": {
+			"down": 60,
+			"up": 50
+		},
+		"languageCode": "eng",
+		"reviewText": "I barely remembered anything from the 1984 Dune movie, only that I liked it at that time. But this remake is certainly something else. The progress we made now, technologically speaking, is just from another world. The visuals in Dune: Part One are just stunning with amazing spaceships and other tech. That alone is worth watching this movie. If you're a sci-fi fan you really can't go wrong with this one, it's all very mindblowing. The story itself is also entertaining. I can't wait to watch the second part to be honest. As for the acting, the whole cast did its best, they all gave convincing performances. At first I thought did we really need another remake of a 37 year old movie? Can't they come with something new? But I was wrong, this movie is totally worth watching, just for the visuals alone it's already worth it.",
+		"reviewTitle": "I can't wait for part two, and hope for more parts after that if they're of the same quality as this one.",
+		"spoiler": false,
+		"submissionDate": "2021-11-06",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "siderite",
+			"userId": "/user/ur3146136/"
+		},
+		"authorRating": 8,
+		"helpfulnessScore": 0.4193217760087125,
+		"id": "/title/tt1160419/userreviews/rw7470823",
+		"interestingVotes": {
+			"down": 238,
+			"up": 207
+		},
+		"languageCode": "eng",
+		"reviewText": "I am one of those few people who thought Lynch's 1984 Dune was great. It was terribly edited and had other flaws, but it captured what I feel is the essence of the book. Of course it wasn't exactly like the book, it couldn't have been. Enter Denis's Dune, 2021, everything can be done on a computer, actors have had decades to refine the craft, films are not forced to be one hour and a half anymore, the budgets are astronomical. So how is it? I liked it, but I feel that it was something closer to what someone does after thinking for a long about how they would fix 1984 Dune rather than a reinterpretation of the book or even a very dry rerendering of it like the 2000 miniseries.\n\nThere are two things I really didn't like. One of them is the flat refusal to do anything that might be considered R-rated. The film is butchered to blandness, even when it features vicious knife fights, large scale warfare and sadistic Harkonnen. Second is Jessica's character, who is portrayed as a weakling, rather than the incredibly resourceful Bene Gesserit who has been trained for years that she is. I love Rebecca Ferguson, but she is not right in this film and nor is her character.\n\nThe visuals, while impressive, were kind of subdued, too. The mutated Navigators don't even make an appearance, the Harkonnen look big and fearsome, but clean and not really vile, the worms are shown with restraint, the colors are muted, the clothes and overall attire are simple, functional and uninteresting.\n\nBottom line: I am sorry to say that I think Lynch's film would have probably been better if the same resources and artistic freedom would have been awarded to him. This Dune doesn't really show as much an improvement as 37 years of thinking about it should have warranted. And it is tame and lame, refusing to take the artistic risks that should have been taken to portray with today's technology and knowledge a world 8000 years into the future and described with so much care and attention in Herbert's books.\n\nWell, back to reading all the books again and dreaming for the next 40 years of an adaptation of God Emperor of Dune...",
+		"reviewTitle": "More of a remake of Lynch's film, rather than an adaptation of the book",
+		"spoiler": false,
+		"submissionDate": "2021-10-22",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "blanbrn",
+			"userId": "/user/ur9927546/"
+		},
+		"authorRating": 8,
+		"helpfulnessScore": 0.20493317255969692,
+		"id": "/title/tt1160419/userreviews/rw7650186",
+		"interestingVotes": {
+			"down": 29,
+			"up": 14
+		},
+		"languageCode": "eng",
+		"reviewText": "Some science fiction films don't hold up as many are not as good as \"Star Wars\", however after finally watching \"Dune\" I was pleased and liked it as the film was in depth and entertaining, interesting and compelling. With themes of drama, love, and uprising that involves assets on a galaxy all surrounded by myths and sand this movie had me drawn and wrapped in. Based on a Frank Herbert novel this movie is emotional set in the far future of 10191 with a Duke Atreides(Oscar Isaac) with his longtime love Jessica(Rebecca Ferguson) and their special son Paul(Tim Chalamet) who oversee planet Arrakis while living for their special Spice dust which is mined by Fremans. However to foreshadow and make things interesting Paul sees strange visions(from Zendaya) as all of them know the enemy is on the rise and perhaps Paul is a chosen one. This film becomes a test a strange journey a tease of hope as it's Paul and his spirit that have a destiny. While watching you feel this story to be real with well shot scenes and a haunting score with helicopters, sand, and water and battle is on site, also Jessica(Rebecca Ferguson is tied up and gagged having a damsel in distress scene). Thru it all it's about free will while wanting to settle in a free world. \"Dune\" is a unique event with an origin story that can continue as this film is one fine feel good space opera saga.",
+		"reviewTitle": "Tense compelling space sci-fi opera of uprising, journey, and it involves a chosen one!",
+		"spoiler": false,
+		"submissionDate": "2021-12-16",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "DKosty123",
+			"userId": "/user/ur4067661/"
+		},
+		"authorRating": 8,
+		"helpfulnessScore": 0.17167042978303007,
+		"id": "/title/tt1160419/userreviews/rw7641209",
+		"interestingVotes": {
+			"down": 30,
+			"up": 12
+		},
+		"languageCode": "eng",
+		"reviewText": "Here is a serious attempt to do a Science Fiction drama which after so many of the Star Wars Popcorn films is refreshing. It is a remake, but Dune deserves remaking and frankly it might still fall short of the novel. Regardless it is the link that fills in the back ground to Star Wars episode 4 reference to the Sand People.\n\nOne of the things I thought was nicely done was the way they snuck in the props of the galaxy far away so I could see they were there but they were kept as background. Money usually tempts film makers to try and harness another box office bonanza to make money for yourself too often.\n\nThe film keeps focused on the story. They avoid other traps like throwing in relationships which are usually not even in novels to try and spice things up, or put in some Hollywood plot device to try to sell tickets. Here we find the story of the sand people. Getting this done better should have been a goal all along and here it is. Avoided also is speeding up the story to get it in in the traditional 2 hours.\n\nThe story is set out dramatically at a pace which indeed is a bit slow, but allows the viewer time to make sense of the characters, and the atmosphere around them. I will not go into the details as it would be impossible to take enough space to describe all of it. Note this is part 1, and in this case I think you need to see this before part 2 comes out so it will make sense. I am hopeful part 2 will stick with this formula because as o b one said in Star Wars - \"Sand People, gone for now but they will return in greater numbers.\"",
+		"reviewTitle": "Sand People",
+		"spoiler": false,
+		"submissionDate": "2021-12-13",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "lasttimeisaw",
+			"userId": "/user/ur3967726/"
+		},
+		"authorRating": 8,
+		"helpfulnessScore": 0.18565952095141805,
+		"id": "/title/tt1160419/userreviews/rw7632678",
+		"interestingVotes": {
+			"down": 27,
+			"up": 12
+		},
+		"languageCode": "eng",
+		"reviewText": "\"Villeneuve is a visionary in its purest sense, his magnificently streamlined, expansively otherworldly ideation of a distant galaxy is veritable ASMR-triggering, in accordance to his previous two Sci-Fi humdingers ARRIVAL (2016) and BLADE RUNNER 2049 (2017), but more ambitious. Assimilating the former's extraterrestrial sophistication and the latter's cyberpunk frigidity, DUNE operates on a more massive, rivetingly mystical level, and what belongs to Villeneuve's own is his lack of pretension and showboating, something feels wanting in most of other mainstream filmmakers, the bang-up special effects are thoroughly in service to the plot and they never distract audience with their swaggering of extraordinariness. Quietly astonishing is a proper epithet, like the money shots of the Brobdingnagian sand worms (one diurnal, one nocturnal), without neither the succor of persisting long takes nor benumbing auditory assault (Hans Zimmer's score is uncharacteristically unobtrusive and organically coalesced into the lifeworld on show), they are simply there to be contemplated, all particulars in plain sight, the audience is awestruck in the most thrilling manner, not just by what we see, but also by what we cannot see, can you image the whole conformation of the sand worm? That is how to keep audience dangling for part two, which has been officially green-lit for a 2023 release.\"\n\nread my full review on my blog: Cinema Omnivore, thanks.",
+		"reviewTitle": "Cinema Omnivore - Dune (2021) 8.4/10",
+		"spoiler": false,
+		"submissionDate": "2021-12-10",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "thesar-2",
+			"userId": "/user/ur17825945/"
+		},
+		"authorRating": 4,
+		"helpfulnessScore": 0.3824137960602322,
+		"id": "/title/tt1160419/userreviews/rw7508325",
+		"interestingVotes": {
+			"down": 247,
+			"up": 185
+		},
+		"languageCode": "eng",
+		"reviewText": "I'm so obsessed with going completely cold into a movie, I read nothing, watch no trailers/vids, observe anything to do with a movie prior to seeing the movie. In the case of DUNE PART ONE, that plan backfired.\n\nHad I known this was only Part ONE of what appears to be a 5+ hour SLOOOOOOOOOOOOOOOOOOOOOOW film, I wouldn't have bothered. Yes, in the opening couple of minutes, it actually does say: DUNE PART ONE. But, I read that as JUSTICE LEAGUE's Part 1 of 6, as in chapters, not actual movies.\n\nThat all said, this movie deserves 4/10 stars for its incredible cinematography, visuals, special effects and score. Those should absolutely be nominated for Academy Awards. But, the rest, including another convoluted DUNE script, was pretty much crap.\n\nThe technology they showed in this movie felt more like 8 years into the future vs. The 8,000 they want us to believe. But, on the flipside, the certainly not Tatooine planet had too much of...everything. How on that planet do they have any supplies or creatures or \"humans\" when there doesn't appear to be a drop of water on the planet's entire surface? If it's underground, how did they drill with no natural materials to build anything on the planet?\n\nI was also obsessed with that planet and how anyone could live there. But, that's besides the point. I hate this plot and barely made it through, even turning it off at about 48 minutes, but I was interested just enough to come back to it in about 10 minutes.\n\nAgain, had I known this was just PART ONE, I definitely wouldn't have returned.\n\n***\n\nFinal Thoughts: Just saw both DUNE films for the first time within the last 2 months and I have to say, if you loved the book or just curious about the film-format, I'd probably recommend this one over the David Lynch one. You can't go wrong with this score and these visuals. I understand the other movie was from the mid-80s, but frankly, I've even seen way better FX long before DUNE (1984) came out.",
+		"reviewTitle": "Long, Over-Dune",
+		"spoiler": false,
+		"submissionDate": "2021-11-04",
+		"titleId": "/title/tt1160419/"
+	}, {
+		"author": {
+			"displayName": "cherold",
+			"userId": "/user/ur0011762/"
+		},
+		"authorRating": 3,
+		"helpfulnessScore": 0.4473198754172146,
+		"id": "/title/tt1160419/userreviews/rw7499480",
+		"interestingVotes": {
+			"down": 312,
+			"up": 296
+		},
+		"languageCode": "eng",
+		"reviewText": "I wasn't a big fan of Dune when I read it. It was like a sci-fi/fantasy take on an old sword-and-sandal political intrigue thing, complete with dull characters and dumb story.\n\nOn the other hand, it had this wonderfully anthropological creation of a desert world and its people. That was the only reason I got through it.\n\nDune Part One is the first part without the second part. The characters are still dull, the plot still dumb, and the sci-fi world-building almost non-existent. The scenery and special effects are quite good, but nothing is interesting; even action scenes are listless.\n\nWill Dune Part Two offer the world-building that was the only good part of the book? Doubt it. Anyway, I certainly can't take any more of this.",
+		"reviewTitle": "painfully tedious adaptation of an overrated novel",
+		"spoiler": false,
+		"submissionDate": "2021-10-31",
+		"titleId": "/title/tt1160419/"
+	}],
+	"totalReviews": 5136
+}

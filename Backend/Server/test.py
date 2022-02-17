@@ -1,7 +1,14 @@
 import requests
 import json
 
-response = requests.get("https://louissullivcs.pythonanywhere.com/amazon/reviews/B08H95Y452")
-api_response = response.json()
-reviews = api_response["total_reviews"]
+term="inception"
+
+result=[]
+response = requests.get("https://louissullivcs.pythonanywhere.com/imdb/review/{}".format(str("tt1160419")))
+response_json = response.json()
+i = 0
+reviews = []
+while i < len(response_json['reviews']):
+    reviews.append(response_json["reviews"][i]["reviewTitle"])
+    i += 1
 print(reviews)

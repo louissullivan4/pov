@@ -1,12 +1,338 @@
 {
-    "@type":"imdb.api.title.ratings",
-    "id":"/title/tt2096673/",
-    "title":"Inside Out",
-    "titleType":"movie",
-    "year":2015,
-    "bottomRank":9047,
-    "canRate":true,
-    "rating":8.1,
-    "ratingCount":410,
-    "topRank":196
+	"@type": "imdb.api.title.ratings",
+	"bottomRank": 9115,
+	"canRate": true,
+	"disambiguation": "I",
+	"id": "/title/tt2096673/",
+	"rating": 8.1,
+	"ratingCount": 675815,
+	"ratingsHistograms": {
+		"Aged 18-29": {
+			"aggregateRating": 8.3,
+			"demographic": "Aged 18-29",
+			"histogram": {
+				"1": 755,
+				"10": 27929,
+				"2": 283,
+				"3": 510,
+				"4": 952,
+				"5": 2450,
+				"6": 7368,
+				"7": 20592,
+				"8": 38178,
+				"9": 34073
+			},
+			"totalRatings": 133090
+		},
+		"Aged 30-44": {
+			"aggregateRating": 8.1,
+			"demographic": "Aged 30-44",
+			"histogram": {
+				"1": 1558,
+				"10": 40080,
+				"2": 578,
+				"3": 912,
+				"4": 1713,
+				"5": 4658,
+				"6": 14036,
+				"7": 39460,
+				"8": 68231,
+				"9": 58742
+			},
+			"totalRatings": 229968
+		},
+		"Aged 45+": {
+			"aggregateRating": 7.9,
+			"demographic": "Aged 45+",
+			"histogram": {
+				"1": 511,
+				"10": 6410,
+				"2": 259,
+				"3": 378,
+				"4": 643,
+				"5": 1359,
+				"6": 3513,
+				"7": 8550,
+				"8": 13294,
+				"9": 10525
+			},
+			"totalRatings": 45442
+		},
+		"Aged under 18": {
+			"aggregateRating": 7.9,
+			"demographic": "Aged under 18",
+			"histogram": {
+				"1": 3,
+				"10": 149,
+				"2": 0,
+				"3": 6,
+				"4": 12,
+				"5": 24,
+				"6": 53,
+				"7": 156,
+				"8": 211,
+				"9": 132
+			},
+			"totalRatings": 746
+		},
+		"Females": {
+			"aggregateRating": 8.2,
+			"demographic": "Females",
+			"histogram": {
+				"1": 755,
+				"10": 23578,
+				"2": 329,
+				"3": 556,
+				"4": 1031,
+				"5": 2446,
+				"6": 6790,
+				"7": 17300,
+				"8": 30036,
+				"9": 27104
+			},
+			"totalRatings": 109925
+		},
+		"Females Aged 18-29": {
+			"aggregateRating": 8.3,
+			"demographic": "Females Aged 18-29",
+			"histogram": {
+				"1": 227,
+				"10": 8630,
+				"2": 100,
+				"3": 177,
+				"4": 356,
+				"5": 793,
+				"6": 2237,
+				"7": 5804,
+				"8": 10409,
+				"9": 9045
+			},
+			"totalRatings": 37778
+		},
+		"Females Aged 30-44": {
+			"aggregateRating": 8.2,
+			"demographic": "Females Aged 30-44",
+			"histogram": {
+				"1": 357,
+				"10": 10534,
+				"2": 149,
+				"3": 240,
+				"4": 438,
+				"5": 1099,
+				"6": 3217,
+				"7": 8276,
+				"8": 14165,
+				"9": 13119
+			},
+			"totalRatings": 51594
+		},
+		"Females Aged 45+": {
+			"aggregateRating": 8.0,
+			"demographic": "Females Aged 45+",
+			"histogram": {
+				"1": 113,
+				"10": 1517,
+				"2": 47,
+				"3": 83,
+				"4": 126,
+				"5": 253,
+				"6": 610,
+				"7": 1366,
+				"8": 2185,
+				"9": 1918
+			},
+			"totalRatings": 8218
+		},
+		"Females Aged under 18": {
+			"aggregateRating": 8.0,
+			"demographic": "Females Aged under 18",
+			"histogram": {
+				"1": 1,
+				"10": 61,
+				"2": 0,
+				"3": 2,
+				"4": 2,
+				"5": 6,
+				"6": 9,
+				"7": 38,
+				"8": 46,
+				"9": 26
+			},
+			"totalRatings": 191
+		},
+		"IMDb Staff": {
+			"aggregateRating": 8.3,
+			"demographic": "IMDb Staff",
+			"histogram": {
+				"1": 0,
+				"10": 10,
+				"2": 0,
+				"3": 0,
+				"4": 0,
+				"5": 1,
+				"6": 3,
+				"7": 10,
+				"8": 21,
+				"9": 18
+			},
+			"totalRatings": 63
+		},
+		"IMDb Users": {
+			"aggregateRating": 8.1,
+			"demographic": "IMDb Users",
+			"histogram": {
+				"1": 5046,
+				"10": 124864,
+				"2": 2106,
+				"3": 3311,
+				"4": 6118,
+				"5": 15126,
+				"6": 42657,
+				"7": 114227,
+				"8": 196702,
+				"9": 165670
+			},
+			"totalRatings": 675827
+		},
+		"Males": {
+			"aggregateRating": 8.1,
+			"demographic": "Males",
+			"histogram": {
+				"1": 2277,
+				"10": 58272,
+				"2": 891,
+				"3": 1420,
+				"4": 2587,
+				"5": 6817,
+				"6": 20281,
+				"7": 57228,
+				"8": 100048,
+				"9": 85516
+			},
+			"totalRatings": 335337
+		},
+		"Males Aged 18-29": {
+			"aggregateRating": 8.3,
+			"demographic": "Males Aged 18-29",
+			"histogram": {
+				"1": 520,
+				"10": 18583,
+				"2": 174,
+				"3": 311,
+				"4": 567,
+				"5": 1575,
+				"6": 4849,
+				"7": 14083,
+				"8": 26498,
+				"9": 24038
+			},
+			"totalRatings": 91198
+		},
+		"Males Aged 30-44": {
+			"aggregateRating": 8.1,
+			"demographic": "Males Aged 30-44",
+			"histogram": {
+				"1": 1177,
+				"10": 28812,
+				"2": 416,
+				"3": 656,
+				"4": 1237,
+				"5": 3484,
+				"6": 10531,
+				"7": 30494,
+				"8": 52843,
+				"9": 44579
+			},
+			"totalRatings": 174229
+		},
+		"Males Aged 45+": {
+			"aggregateRating": 7.9,
+			"demographic": "Males Aged 45+",
+			"histogram": {
+				"1": 391,
+				"10": 4755,
+				"2": 211,
+				"3": 284,
+				"4": 507,
+				"5": 1072,
+				"6": 2845,
+				"7": 6974,
+				"8": 10828,
+				"9": 8377
+			},
+			"totalRatings": 36244
+		},
+		"Males Aged under 18": {
+			"aggregateRating": 7.9,
+			"demographic": "Males Aged under 18",
+			"histogram": {
+				"1": 2,
+				"10": 80,
+				"2": 0,
+				"3": 4,
+				"4": 9,
+				"5": 18,
+				"6": 41,
+				"7": 97,
+				"8": 148,
+				"9": 95
+			},
+			"totalRatings": 494
+		},
+		"Non-US users": {
+			"aggregateRating": 8.1,
+			"demographic": "Non-US users",
+			"histogram": {
+				"1": 1262,
+				"10": 38850,
+				"2": 622,
+				"3": 987,
+				"4": 1901,
+				"5": 5070,
+				"6": 15390,
+				"7": 42834,
+				"8": 73512,
+				"9": 60091
+			},
+			"totalRatings": 240519
+		},
+		"Top 1000 voters": {
+			"aggregateRating": 7.7,
+			"demographic": "Top 1000 voters",
+			"histogram": {
+				"1": 27,
+				"10": 87,
+				"2": 14,
+				"3": 11,
+				"4": 17,
+				"5": 27,
+				"6": 52,
+				"7": 133,
+				"8": 177,
+				"9": 158
+			},
+			"totalRatings": 703
+		},
+		"US users": {
+			"aggregateRating": 8.2,
+			"demographic": "US users",
+			"histogram": {
+				"1": 996,
+				"10": 13402,
+				"2": 257,
+				"3": 364,
+				"4": 714,
+				"5": 1676,
+				"6": 4421,
+				"7": 11063,
+				"8": 19159,
+				"9": 17028
+			},
+			"totalRatings": 69080
+		}
+	},
+	"title": "Inside Out",
+	"titleType": "movie",
+	"topRank": 176,
+	"year": 2015
 }

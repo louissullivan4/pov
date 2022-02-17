@@ -1,19 +1,25 @@
-import { View, SafeAreaView, Button, Alert  } from 'react-native';
-import React, { useState } from 'react';
-import SearchBar from '../../components/home/seachBar';
+import { View, SafeAreaView, Alert, Text, LogBox, Keyboard} from 'react-native';
+import React, { useState, useEffect  } from 'react';
 import styles from "./styles";
+
+import SearchBar from '../../components/home/seachBar';
+
 import CarouselCards from '../../components/home/carouselCards';
-import CategoryMenu from '../../components/home/categoryMenu';
 
 import AppTitle from '../../components/general/appTitle';
 
+import PickerBox from 'react-native-picker-box';
+
+import { useFonts, BebasNeue_400Regular } from '@expo-google-fonts/bebas-neue';
+
+
 function userSearch(navigation, searchPhrase, categoryPhrase){
-  const searchTerm = searchPhrase;
-  const category= categoryPhrase;
-  if ((searchPhrase == "")||(categoryPhrase == "")){
+  let category = categoryPhrase.toLowerCase().trim();
+  let search = searchPhrase.trim();
+  if ((search == "")||(category == "")){
     Alert.alert(
       "Search Error!",
-      "Please enter a value in the search bar and select a category from the dropdown menu",
+      "Please enter a value in the search bar.",
       [
         { text: "OK"}
       ]
@@ -21,7 +27,7 @@ function userSearch(navigation, searchPhrase, categoryPhrase){
   }
   else {
     navigation.push('Results', {
-      searchTerm: searchTerm, 
+      searchTerm: search, 
       searchCategory: category,
     })
   }
@@ -29,9 +35,30 @@ function userSearch(navigation, searchPhrase, categoryPhrase){
 
 export default function HomeScreen({ navigation }) {
 
+  let fontOS = Platform.OS === "android" ? "sans-serif-thin" : "Arial"
+  let [fontsLoaded] = useFonts({
+      BebasNeue_400Regular,
+  });
+
+  useEffect(() => {
+    LogBox.ignoreLogs(['Animated: `useNativeDriver`']);
+  }, [])
+
   const [clicked, setClicked] = useState(false);
   const [searchPhrase, setSearchPhrase] = useState("");
-  const [categoryPhrase, setCategoryPhrase] = useState("");
+
+  const [ref, setRef] = useState(null);
+  const [categoryValue, setCategoryValue] = useState(null);
+  const [items, setItems] = useState([
+    {label: 'Celebrity', value: 'celebrities'},
+    {label: 'Game', value: 'game'},
+    {label: 'Movie ', value: 'movie'},
+    {label: 'Music ', value: 'music'},
+    {label: 'Politics ', value: 'politics'},
+    {label: 'Product', value: 'product'},
+    {label: 'Sport ', value: 'sport'},
+    {label: 'Travel ', value: 'travel'}
+  ]);
 
   return (
     <SafeAreaView style={styles.container}>
@@ -41,17 +68,19 @@ export default function HomeScreen({ navigation }) {
         setSearchPhrase = {setSearchPhrase}
         clicked = {clicked}
         setClicked = {setClicked}
-      /> 
-      <View style={styles.buttonContainer}>
-          <CategoryMenu
-              categoryPhrase = {categoryPhrase}
-              setCategoryPhrase = {setCategoryPhrase}
-          />
-          <View>
-            <Button color="black" title="Search" onPress={() => {userSearch(navigation, searchPhrase, categoryPhrase)}} styles={styles.button}/> 
-          </View>
+        setFunction = {() => {ref.openPicker(), Keyboard.dismiss()}}
+      />
+      <View style={styles.title}>
+        <Text style={[styles.titleText, {fontFamily: fontsLoaded ? 'BebasNeue_400Regular': fontOS}]}>Trending</Text>
       </View>
-      <CarouselCards/>
+      <CarouselCards navigation={navigation}/>
+      <PickerBox
+          ref={ setRef }
+          data={ items }
+          onValueChange={categoryValue => (userSearch(navigation, searchPhrase, categoryValue))}
+          selectedValue={ categoryValue }
+          prevTextColor={ "#37dba9" }
+      />
     </SafeAreaView>
   );
 }

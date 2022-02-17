@@ -1,34 +1,32 @@
 {
 	"totalProducts": "356",
 	"category": "aps",
-	"result": [
-		{
-			"position": {
-				"page": 1,
-				"position": 1,
-				"global_position": 1
-			},
-			"asin": "B007XR2IOE",
-			"price": {
-				"discounted": false,
-				"current_price": 0,
-				"currency": "GBP",
-				"before_price": 0,
-				"savings_amount": 0,
-				"savings_percent": 0
-			},
-			"reviews": {
-				"total_reviews": 5729,
-				"rating": 4.6
-			},
-			"url": "https://www.amazon.co.uk/Pot-Noodle-Chicken-Mushroom-King/dp/B007XR2IOE",
-			"score": "75999.00",
-			"sponsored": false,
-			"amazonChoice": false,
-			"bestSeller": false,
-			"amazonPrime": false,
-			"title": "Pot Noodle Chicken and Mushroom Flavour",
-			"thumbnail": "https://m.media-amazon.com/images/I/71PMC4DWWFL._AC_UY218_.jpg"
-		}
-	]
+	"result": [{
+		"amazonChoice": false,
+		"amazonPrime": false,
+		"asin": "B007XR2IOE",
+		"bestSeller": true,
+		"position": {
+			"global_position": 1,
+			"page": 1,
+			"position": 1
+		},
+		"price": {
+			"before_price": 0,
+			"currency": "GBP",
+			"current_price": 0,
+			"discounted": false,
+			"savings_amount": 0,
+			"savings_percent": 0
+		},
+		"reviews": {
+			"rating": 4.6,
+			"total_reviews": 5826
+		},
+		"score": "26799.60",
+		"sponsored": false,
+		"thumbnail": "https://m.media-amazon.com/images/I/8142wqblqeL._AC_UL320_.jpg",
+		"title": "Pot Noodle Chicken and Mushroom Flavour, King Pot Size, Quick Filling Food, Instant Pot, Suitable for Vegeterians, Large P...",
+		"url": "https://www.amazon.co.uk/dp/B007XR2IOE"
+	}]
 }

@@ -1,47 +1,24 @@
 import { StyleSheet } from "react-native";
-import { Platform } from "react-native";
-
-// const styles = StyleSheet.create({
-
-//     container: {
-//         flex:1,
-//         flexDirection: "column",
-//         justifyContent: "center",
-//         alignItems: "center",
-//         backgroundColor: "#FFF",
-//     },
-//     navigationContainer: {
-//         flexDirection: "row"
-//     },
-//     category: {
-//     },
-//     button: {
-//     }
-// })
-// export default styles;
 
 const styles = StyleSheet.create({
-
     container: {
         flex:1,
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: "#FFF"
     },
-    buttonContainer: {
-        flexDirection: 'row',
-        flex:1,
-        justifyContent: "flex-start",
-        alignItems: "center",
-        ...(Platform.OS !== 'android' && {
-            zIndex: 10
-          }),
+    title: {
+        top: 48,
+        right: 100,
+        color: '#6e867f',
+        
+    },
+    titleText: {
+        fontSize: 30,
+        fontStyle: 'italic',
+        color: '#6e867f',
+        textDecorationLine: "underline",
     
     },
-    button: {
-        backgroundColor: "#c8e8df",
-        borderRadius: 20,
-        padding: 5
-    }
-})
+});
 export default styles;

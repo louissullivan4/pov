@@ -1,12 +1,337 @@
 {
-    "@type":"imdb.api.title.ratings",
-    "id":"/title/tt1160419/",
-    "title":"Dune",
-    "titleType":"movie",
-    "year":2021,
-    "bottomRank":9047,
-    "canRate":true,
-    "rating":8.1,
-    "ratingCount":458594,
-    "topRank":196
+	"@type": "imdb.api.title.ratings",
+	"bottomRank": 9072,
+	"canRate": true,
+	"id": "/title/tt1160419/",
+	"rating": 8.1,
+	"ratingCount": 486284,
+	"ratingsHistograms": {
+		"Aged 18-29": {
+			"aggregateRating": 8.2,
+			"demographic": "Aged 18-29",
+			"histogram": {
+				"1": 619,
+				"10": 12939,
+				"2": 268,
+				"3": 388,
+				"4": 602,
+				"5": 1352,
+				"6": 3697,
+				"7": 9950,
+				"8": 19187,
+				"9": 17757
+			},
+			"totalRatings": 66759
+		},
+		"Aged 30-44": {
+			"aggregateRating": 8.1,
+			"demographic": "Aged 30-44",
+			"histogram": {
+				"1": 1274,
+				"10": 24933,
+				"2": 650,
+				"3": 900,
+				"4": 1456,
+				"5": 3281,
+				"6": 7885,
+				"7": 21292,
+				"8": 39458,
+				"9": 35068
+			},
+			"totalRatings": 136197
+		},
+		"Aged 45+": {
+			"aggregateRating": 7.9,
+			"demographic": "Aged 45+",
+			"histogram": {
+				"1": 604,
+				"10": 8247,
+				"2": 356,
+				"3": 511,
+				"4": 633,
+				"5": 1395,
+				"6": 2821,
+				"7": 6196,
+				"8": 11360,
+				"9": 10788
+			},
+			"totalRatings": 42911
+		},
+		"Aged under 18": {
+			"aggregateRating": 8.3,
+			"demographic": "Aged under 18",
+			"histogram": {
+				"1": 19,
+				"10": 154,
+				"2": 5,
+				"3": 6,
+				"4": 6,
+				"5": 21,
+				"6": 31,
+				"7": 74,
+				"8": 161,
+				"9": 184
+			},
+			"totalRatings": 661
+		},
+		"Females": {
+			"aggregateRating": 8.1,
+			"demographic": "Females",
+			"histogram": {
+				"1": 460,
+				"10": 9411,
+				"2": 253,
+				"3": 314,
+				"4": 475,
+				"5": 1013,
+				"6": 2413,
+				"7": 5974,
+				"8": 10580,
+				"9": 9553
+			},
+			"totalRatings": 40446
+		},
+		"Females Aged 18-29": {
+			"aggregateRating": 8.1,
+			"demographic": "Females Aged 18-29",
+			"histogram": {
+				"1": 112,
+				"10": 2471,
+				"2": 75,
+				"3": 87,
+				"4": 124,
+				"5": 277,
+				"6": 701,
+				"7": 1720,
+				"8": 2934,
+				"9": 2661
+			},
+			"totalRatings": 11162
+		},
+		"Females Aged 30-44": {
+			"aggregateRating": 8.1,
+			"demographic": "Females Aged 30-44",
+			"histogram": {
+				"1": 195,
+				"10": 4224,
+				"2": 94,
+				"3": 121,
+				"4": 223,
+				"5": 460,
+				"6": 1103,
+				"7": 2846,
+				"8": 5077,
+				"9": 4449
+			},
+			"totalRatings": 18792
+		},
+		"Females Aged 45+": {
+			"aggregateRating": 8.0,
+			"demographic": "Females Aged 45+",
+			"histogram": {
+				"1": 73,
+				"10": 1490,
+				"2": 53,
+				"3": 61,
+				"4": 77,
+				"5": 167,
+				"6": 356,
+				"7": 760,
+				"8": 1359,
+				"9": 1317
+			},
+			"totalRatings": 5713
+		},
+		"Females Aged under 18": {
+			"aggregateRating": 8.2,
+			"demographic": "Females Aged under 18",
+			"histogram": {
+				"1": 7,
+				"10": 25,
+				"2": 2,
+				"3": 0,
+				"4": 1,
+				"5": 6,
+				"6": 6,
+				"7": 16,
+				"8": 27,
+				"9": 24
+			},
+			"totalRatings": 114
+		},
+		"IMDb Staff": {
+			"aggregateRating": 8.5,
+			"demographic": "IMDb Staff",
+			"histogram": {
+				"1": 0,
+				"10": 8,
+				"2": 0,
+				"3": 0,
+				"4": 0,
+				"5": 0,
+				"6": 1,
+				"7": 7,
+				"8": 17,
+				"9": 16
+			},
+			"totalRatings": 49
+		},
+		"IMDb Users": {
+			"aggregateRating": 8.1,
+			"demographic": "IMDb Users",
+			"histogram": {
+				"1": 6749,
+				"10": 103483,
+				"2": 3084,
+				"3": 3816,
+				"4": 5558,
+				"5": 11555,
+				"6": 26800,
+				"7": 68294,
+				"8": 130657,
+				"9": 126288
+			},
+			"totalRatings": 486284
+		},
+		"Males": {
+			"aggregateRating": 8.1,
+			"demographic": "Males",
+			"histogram": {
+				"1": 2314,
+				"10": 41598,
+				"2": 1111,
+				"3": 1636,
+				"4": 2446,
+				"5": 5440,
+				"6": 13030,
+				"7": 34309,
+				"8": 65275,
+				"9": 60078
+			},
+			"totalRatings": 227237
+		},
+		"Males Aged 18-29": {
+			"aggregateRating": 8.2,
+			"demographic": "Males Aged 18-29",
+			"histogram": {
+				"1": 463,
+				"10": 9589,
+				"2": 171,
+				"3": 273,
+				"4": 438,
+				"5": 989,
+				"6": 2769,
+				"7": 7638,
+				"8": 15106,
+				"9": 14042
+			},
+			"totalRatings": 51478
+		},
+		"Males Aged 30-44": {
+			"aggregateRating": 8.1,
+			"demographic": "Males Aged 30-44",
+			"histogram": {
+				"1": 1039,
+				"10": 19920,
+				"2": 531,
+				"3": 754,
+				"4": 1194,
+				"5": 2716,
+				"6": 6584,
+				"7": 17926,
+				"8": 33374,
+				"9": 29630
+			},
+			"totalRatings": 113668
+		},
+		"Males Aged 45+": {
+			"aggregateRating": 7.9,
+			"demographic": "Males Aged 45+",
+			"histogram": {
+				"1": 502,
+				"10": 6466,
+				"2": 292,
+				"3": 433,
+				"4": 536,
+				"5": 1183,
+				"6": 2382,
+				"7": 5253,
+				"8": 9673,
+				"9": 9104
+			},
+			"totalRatings": 35824
+		},
+		"Males Aged under 18": {
+			"aggregateRating": 8.4,
+			"demographic": "Males Aged under 18",
+			"histogram": {
+				"1": 9,
+				"10": 100,
+				"2": 2,
+				"3": 6,
+				"4": 5,
+				"5": 13,
+				"6": 25,
+				"7": 49,
+				"8": 106,
+				"9": 142
+			},
+			"totalRatings": 457
+		},
+		"Non-US users": {
+			"aggregateRating": 8.0,
+			"demographic": "Non-US users",
+			"histogram": {
+				"1": 1245,
+				"10": 23566,
+				"2": 688,
+				"3": 988,
+				"4": 1623,
+				"5": 3642,
+				"6": 9044,
+				"7": 23359,
+				"8": 43112,
+				"9": 37204
+			},
+			"totalRatings": 144471
+		},
+		"Top 1000 voters": {
+			"aggregateRating": 7.6,
+			"demographic": "Top 1000 voters",
+			"histogram": {
+				"1": 12,
+				"10": 45,
+				"2": 6,
+				"3": 2,
+				"4": 16,
+				"5": 19,
+				"6": 42,
+				"7": 77,
+				"8": 128,
+				"9": 70
+			},
+			"totalRatings": 417
+		},
+		"US users": {
+			"aggregateRating": 8.1,
+			"demographic": "US users",
+			"histogram": {
+				"1": 508,
+				"10": 9617,
+				"2": 274,
+				"3": 396,
+				"4": 522,
+				"5": 1134,
+				"6": 2497,
+				"7": 6566,
+				"8": 12357,
+				"9": 11505
+			},
+			"totalRatings": 45376
+		}
+	},
+	"title": "Dune",
+	"titleType": "movie",
+	"topRank": 205,
+	"year": 2021
 }
