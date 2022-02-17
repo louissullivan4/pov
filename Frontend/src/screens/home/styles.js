@@ -11,15 +11,17 @@ const styles = StyleSheet.create({
     },
     
     title: {
-        top: 50,
+        top: 48,
         right: 100,
         color: '#6e867f',
         
     },
 
     titleText: {
-        fontSize: 25,
+        fontSize: 30,
         fontStyle: 'italic',
-    }
-})
+        color: '#6e867f',
+        textDecorationLine: "underline"
+    },
+});
 export default styles;

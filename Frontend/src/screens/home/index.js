@@ -13,7 +13,7 @@ import AppText from '../../components/general/appText';
 import PickerBox from 'react-native-picker-box';
 
 import { IconButton } from 'react-native-paper';
-
+import { useFonts, BebasNeue_400Regular } from '@expo-google-fonts/bebas-neue';
 
 
 function userSearch(navigation, searchPhrase, categoryPhrase){
@@ -37,7 +37,12 @@ function userSearch(navigation, searchPhrase, categoryPhrase){
 }
 
 export default function HomeScreen({ navigation }) {
-  
+
+  let fontOS = Platform.OS === "android" ? "sans-serif-thin" : "Arial"
+  let [fontsLoaded] = useFonts({
+      BebasNeue_400Regular,
+  });
+
   useEffect(() => {
     LogBox.ignoreLogs(['Animated: `useNativeDriver`']);
   }, [])
@@ -69,7 +74,7 @@ export default function HomeScreen({ navigation }) {
         setFunction = {() => {ref.openPicker(), Keyboard.dismiss()}}
       />
       <View style={styles.title}>
-        <Text style={styles.titleText}>Trending</Text>
+        <Text style={[styles.titleText, {fontFamily: fontsLoaded ? 'BebasNeue_400Regular': fontOS}]}>Trending</Text>
       </View>
       <CarouselCards/>
       <PickerBox
