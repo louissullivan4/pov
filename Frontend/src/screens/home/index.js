@@ -22,7 +22,7 @@ function userSearch(navigation, searchPhrase, categoryPhrase){
   if ((search == "")||(category == "")){
     Alert.alert(
       "Search Error!",
-      "Please enter a value in the search bar and select a category from the dropdown menu",
+      "Please enter a value in the search bar.",
       [
         { text: "OK"}
       ]
