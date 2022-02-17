@@ -29,9 +29,12 @@ const styles = StyleSheet.create({
         color: "#FFF",
         fontSize: 35,
         fontWeight: "bold",
-        position: 'absolute',
-        justifyContent: 'center',
-        alignItems: 'center',
+        position: "absolute",
       },
+      titleContainer: {
+        bottom: "55%",
+        alignItems: "center",
+        justifyContent:'center'
+      }
 })
 export default styles;

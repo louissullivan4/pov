@@ -17,7 +17,9 @@ export default function CarouselCardItem(props) {
               source={props.item.imgUrl}
               style={styles.image}
             />
-            <Text style={styles.header}>"{props.item.title}"</Text>
+            <View style={styles.titleContainer}>
+              <Text style={styles.header}>"{props.item.title}"</Text>
+            </View>
           </Pressable>
       </View>
 

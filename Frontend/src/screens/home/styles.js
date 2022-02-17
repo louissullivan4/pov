@@ -1,5 +1,4 @@
 import { StyleSheet } from "react-native";
-import { Platform } from "react-native";
 
 const styles = StyleSheet.create({
 
@@ -21,7 +20,8 @@ const styles = StyleSheet.create({
         fontSize: 30,
         fontStyle: 'italic',
         color: '#6e867f',
-        textDecorationLine: "underline"
+        textDecorationLine: "underline",
+    
     },
 });
 export default styles;
