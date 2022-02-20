@@ -64,8 +64,8 @@ export default function ResultsScreen({ navigation, route }) {
 
         }
       })
-      // .catch((error) => setIsError(true))
-      .catch((error) => alert(error))
+      .catch((error) => setIsError(true))
+      // .catch((error) => alert(error))
       .finally(() => setLoading(false));
   })
   if (isLoading) {
