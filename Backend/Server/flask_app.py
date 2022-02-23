@@ -2,6 +2,7 @@ from flask import Flask
 import json
 from apis.amazon_api import AmazonData
 from apis.imdb_api import ImdbData
+from apis.reddit_api import reddit_search
 
 app = Flask(__name__)
 @app.route('/')
@@ -34,6 +35,8 @@ def results(term: str, category: str):
     if category in category_list or status == "503":
         #HERE WE WILL USE TWITTER OR REDDIT
         variables = {"status" : "200", "msg" : "Here we will use twitter or reddit"}
+        tryApi = reddit_search(term)
+        status = tryApi["status"]
     elif status == "200":
         variables = tryApi
     else:
