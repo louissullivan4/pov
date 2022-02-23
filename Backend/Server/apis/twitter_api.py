@@ -4,11 +4,17 @@ import json
 # export 'BEARER_TOKEN'='<your_bearer_token>'
 bearer_token = os.environ.get("BEARER_TOKEN")
 
-search_url = "https://api.twitter.com/2/tweets/search/recent"
-
+# search_url = "https://api.twitter.com/2/tweets/search/recent"
 # Optional params: start_time,end_time,since_id,until_id,max_results,next_token,
 # expansions,tweet.fields,media.fields,poll.fields,place.fields,user.fields
-query_params = {'query': '#xbox','tweet.fields': 'author_id'}
+# query_params = {'query': 'xbox lang:en',
+#                 #'tweet.fields': 'author_id',
+#                 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source',
+#                 'place.fields': 'full_name,id,country,country_code,geo,name,place_type',
+#                 'max_results': 10,
+#                 'expansions': 'author_id,in_reply_to_user_id,geo.place_id',
+#                 'user.fields': 'id,name,username,created_at,description,public_metrics,verified'
+#                 }
 
 
 def bearer_oauth(r):
@@ -27,9 +33,19 @@ def connect_to_endpoint(url, params):
     return response.json()
 
 
-def main():
+def main(searchterm):
+    query_params = {'query': '%s lang:en' %searchterm,
+                #'tweet.fields': 'author_id',
+                'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source',
+                'place.fields': 'full_name,id,country,country_code,geo,name,place_type',
+                'max_results': 10,
+                'expansions': 'author_id,in_reply_to_user_id,geo.place_id',
+                'user.fields': 'id,name,username,created_at,description,public_metrics,verified'
+                }
+    search_url = "https://api.twitter.com/2/tweets/search/recent"
     json_response = connect_to_endpoint(search_url, query_params)
-    print(json.dumps(json_response, indent=4, sort_keys=True))
+    # print(json.dumps(json_response, indent=4, sort_keys=True))
+    return json.dumps(json_response, indent=4, sort_keys=True)
 
 def csv_anal():
     import pandas as pd
@@ -49,6 +65,6 @@ def csv_anal():
 
 
 
-if __name__ == "__main__":
-    #csv_anal()
-    main()
+# if __name__ == "__main__":
+#     #csv_anal()
+#     main('xbox')
