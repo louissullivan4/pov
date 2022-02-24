@@ -1,7 +1,5 @@
 import json
 # from turtle import up, update
-from itsdangerous import json
-from matplotlib.font_manager import json_dump
 from nltk.tokenize import word_tokenize, RegexpTokenizer
 from nltk.corpus import stopwords
 from pprint import pprint
@@ -21,11 +19,19 @@ from keys import *
 # import seaborn as sns
 # sns.set(style='darkgrid', context='talk', palette='Dark2')
 
-def reddit_search(subreddit, searchterm):
+def reddit_search(searchterm, category):
     sia = SIA()
     results = []
     reddit = praw.Reddit(client_id=client_id(), client_secret=client_secret(), user_agent=user_agent())
     headlines = set()
+
+    if category == "game" or category == "Game":
+        subreddit = "gaming"
+    elif category == "Sport" or category == "sport":
+        subreddit = "sports"
+    elif category == "Travel" or category == "travel":
+        subreddit = "travel"
+
     subreddit = reddit.subreddit(subreddit)
     resp = subreddit.search(searchterm,limit=None) # num of searches returned
     json_out = {}
@@ -98,4 +104,4 @@ def reddit_search(subreddit, searchterm):
 
     return(json_dump)
 
-# reddit_search('ireland', 'cork')
+print(reddit_search('ireland', 'travel'))
