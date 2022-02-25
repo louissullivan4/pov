@@ -1,8 +1,11 @@
 from flask import Flask
 import json
+
 from apis.amazon_api import AmazonData
 from apis.imdb_api import ImdbData
 from apis.reddit_api import reddit_search
+
+from keys import *
 
 app = Flask(__name__)
 @app.route('/')
@@ -21,24 +24,18 @@ def welcome():
 
 @app.route('/pov/results/<string:term>/<string:category>')
 def results(term: str, category: str):
-    status = ""
     term = term.upper().strip()
     term = term.replace(" ", "")
-    category_list = ['celebrities', 'game', 'music', 'politics', 'sport', 'travel']
+    reddit_list = ['game', 'music', 'sport', 'travel']
+    twitter_list = ['celebrity', 'politics']
     if category == "product":
-        tryApi = AmazonData(term).getResult()
-        status = tryApi["status"]
+        variables = AmazonData(term).getResult()
     elif category == "movie":
-        tryApi = ImdbData(term).getResult()
-        status = tryApi["status"]
-
-    if category in category_list or status == "503":
-        #HERE WE WILL USE TWITTER OR REDDIT
-        variables = {"status" : "200", "msg" : "Here we will use twitter or reddit"}
-        tryApi = reddit_search(term)
-        status = tryApi["status"]
-    elif status == "200":
-        variables = tryApi
+        variables = ImdbData(term).getResult()
+    elif category in reddit_list:
+        variables = reddit_search(term, category, client_id(), client_secret(), user_agent())
+    elif category in twitter_list:
+        variables = {"status" : "503", "msg" : "Twitter has not been completed!"}
     else:
         variables = {"status" : "503", "msg" : "Unavailable on all APIs"}
     app_json = json.dumps(variables)
