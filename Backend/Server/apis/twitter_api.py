@@ -1,6 +1,5 @@
 from re import sub
 import requests
-import os
 import json
 from nltk.tokenize import word_tokenize, RegexpTokenizer
 from nltk.corpus import stopwords
@@ -9,6 +8,7 @@ import nltk
 import re
 from pprint import pprint
 import pandas as pd
+
 from keys import *
 
 bearer_token = bearer_token()
@@ -41,11 +41,12 @@ def filter_tweet(tweet):
     rt_remove = re.compile('RT @').sub('@', newline_remove, count=1)
     username_remove = re.sub('@[^\s]+', '', rt_remove)
     filtered = username_remove.strip()
-    filtered = " ".join(filtered.split())
-    return filtered
+    string_encode = filtered.encode("ascii", "ignore")
+    string_decode = string_encode.decode()
+    string_decode = " ".join(string_decode.split())
+    return string_decode
 
-
-def main(searchterm):
+def twitter_search(searchterm):
     sia = SIA()
     json_out = {}
     headlines = set()
@@ -156,4 +157,4 @@ def main(searchterm):
     return(new_json)
         
 if __name__ == "__main__":
-    print(main('russia'))
+    print(twitter_search('russia'))

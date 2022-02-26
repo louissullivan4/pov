@@ -4,6 +4,7 @@ import json
 from apis.amazon_api import AmazonData
 from apis.imdb_api import ImdbData
 from apis.reddit_api import reddit_search
+from apis.twitter_api import twitter_search
 
 from keys import *
 
@@ -35,7 +36,7 @@ def results(term: str, category: str):
     elif category in reddit_list:
         variables = reddit_search(term, category, client_id(), client_secret(), user_agent())
     elif category in twitter_list:
-        variables = {"status" : "503", "msg" : "Twitter has not been completed!"}
+        variables = twitter_search(term)
     else:
         variables = {"status" : "503", "msg" : "Unavailable on all APIs"}
     app_json = json.dumps(variables)
