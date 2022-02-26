@@ -94,10 +94,14 @@ export default function ResultsScreen({ navigation, route }) {
               onPress={() => navigation.pop()}
           />
         </View>
+        <View style={{alignSelf:'flex-start', marginLeft:'5%', marginTop:10}}>
+          <AppText >Results for: {searchTerm}</AppText>
+        </View>
         <View style={{margin:10,}}>
           <ResultsWheel rating={rating}
           />
         </View>
+        <Text style={{fontSize:12, marginTop: 5}}>Positivity rating</Text>   
         <View style={styles.rowContainer}>
           <View style={{justifyContent:'flex-start', padding:10}}>
           <AppText>User's most popular comment:</AppText>
