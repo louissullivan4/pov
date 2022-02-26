@@ -42,6 +42,8 @@ python -m nltk.downloader sentiment.vader
 ```
 Once installed, run the python file flask_app.py in the Server directory.
 
+*NOTE: to use the twitter and reddit files you must get developer tokens from their api services*
+
 ## Frontend
 You must install the most recent versions of Node.js and npm. Once installed set Frontend as current directory and run the command `npm install`. Once that is complete
 you can run the command `npm start`. You can now run the app on the expo app or on an android simulator.
