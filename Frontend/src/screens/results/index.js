@@ -20,11 +20,13 @@ export default function ResultsScreen({ navigation, route }) {
   const [isError, setIsError] = useState(false)  
 
   const { searchTerm, searchCategory } = route.params;
+  let searchspace = searchTerm.split(' ').join('+');
 
-  const category_list = ['celebrities', 'game', 'music', 'politics', 'sport']
-  
-  const apiURL = "http://team15.pythonanywhere.com/pov/results/"+searchTerm+"/"+searchCategory+"";
-  
+  const reddit_list = ['game', 'music', 'sport', 'travel']
+  const twitter_list = ['celebrities', 'politics']
+
+  const apiURL = "http://team15.pythonanywhere.com/pov/results/"+searchspace+"/"+searchCategory+"";
+  console.log(apiURL)
   useEffect(() => {
     fetch(apiURL)
       .then((response) => response.json())
@@ -34,6 +36,7 @@ export default function ResultsScreen({ navigation, route }) {
             let popluarJson = json.reviews[0].charAt(0).toUpperCase() + json.reviews[0].slice(1);
             let recentJson = json.reviews[3].charAt(0).toUpperCase() + json.reviews[3].slice(1);
             let totalJson = json.total_reviews;
+            
             setRating(parseFloat(json.rating))
             setPopularComment(popluarJson)
             setRecentComment(recentJson)
@@ -51,17 +54,22 @@ export default function ResultsScreen({ navigation, route }) {
             setVoteCount(parseInt(ratingCountJson))
             setRank(parseInt(rankJson))
           }
-          else if (category_list.includes(searchCategory)){
-            setIsError(true)
+          else if (reddit_list.includes(searchCategory)){
+            let popluarJson = json.reviews[0].charAt(0).toUpperCase() + json.reviews[0].slice(1);
+            let recentJson = json.reviews[3].charAt(0).toUpperCase() + json.reviews[3].slice(1);
+            let totalJson = json.total_reviews;
+
+            setRating(parseFloat(json.rating))
+            setPopularComment(popluarJson)
+            setRecentComment(recentJson)
+            setVoteCount(parseInt(totalJson))
           }
           else {
             setIsError(true)
-
           }
         }
         else {
           setIsError(true)
-
         }
       })
       .catch((error) => setIsError(true))
@@ -126,10 +134,28 @@ export default function ResultsScreen({ navigation, route }) {
                   </Text>
                </View>
              </View> : 
+             (reddit_list.includes(searchCategory)) ?
              <View>
-              <View style={{justifyContent:'flex-start', padding:10}}>
-                <AppText>Word Bubble</AppText>
-              </View>
+               <View style={{justifyContent:'flex-start', padding:10}}>
+                  <AppText>Stats:</AppText>
+                  <Text style={styles.textlist}>{'>'} {voteCount} number of reviews counted</Text>
+                  <Text style={styles.textlist}>
+                    <Text>{'>'} Data gathered at </Text>
+                    <Text style={styles.urltext} onPress={() => Linking.openURL('https://www.reddit.com/')}>Reddit</Text>
+                  </Text>
+               </View>
+             </View> :
+             <View>
+             <View>
+               <View style={{justifyContent:'flex-start', padding:10}}>
+                  <AppText>Stats:</AppText>
+                  <Text style={styles.textlist}>{'>'} {voteCount} number of reviews counted</Text>
+                  <Text style={styles.textlist}>
+                    <Text>{'>'} Data gathered at </Text>
+                    <Text style={styles.urltext} onPress={() => Linking.openURL('https://www.twitter.com/')}>Twitter</Text>
+                  </Text>
+               </View>
+             </View>
              </View>}
           </View>
         </View>
