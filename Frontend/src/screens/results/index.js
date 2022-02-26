@@ -23,7 +23,7 @@ export default function ResultsScreen({ navigation, route }) {
   let searchspace = searchTerm.split(' ').join('+');
 
   const reddit_list = ['game', 'music', 'sport', 'travel']
-  const twitter_list = ['celebrities', 'politics']
+  const twitter_list = ['celebrity', 'politics']
 
   const apiURL = "http://team15.pythonanywhere.com/pov/results/"+searchspace+"/"+searchCategory+"";
   console.log(apiURL)
@@ -55,6 +55,16 @@ export default function ResultsScreen({ navigation, route }) {
             setRank(parseInt(rankJson))
           }
           else if (reddit_list.includes(searchCategory)){
+            let popluarJson = json.reviews[0].charAt(0).toUpperCase() + json.reviews[0].slice(1);
+            let recentJson = json.reviews[3].charAt(0).toUpperCase() + json.reviews[3].slice(1);
+            let totalJson = json.total_reviews;
+
+            setRating(parseFloat(json.rating))
+            setPopularComment(popluarJson)
+            setRecentComment(recentJson)
+            setVoteCount(parseInt(totalJson))
+          }
+          else if (twitter_list.includes(searchCategory)){
             let popluarJson = json.reviews[0].charAt(0).toUpperCase() + json.reviews[0].slice(1);
             let recentJson = json.reviews[3].charAt(0).toUpperCase() + json.reviews[3].slice(1);
             let totalJson = json.total_reviews;
