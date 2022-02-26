@@ -24,7 +24,7 @@ Below that is a trending carousel. Each card on this carousel is a search term t
 next one or they can click on a card to search it. When a user searches something in the search bar a category pop up will appear on their screen. 
 Here the user must select the category most relevant to their search term. For example, a search for Liverpool would have much different results in the 
 Sports category versus Travel. Once selected the navigation controller will push the results screen onto the stack.
--Once the results screen will parse the results received by the backend server. A results wheel is the first component and this fills to whatever percentage 
+- Once the results screen will parse the results received by the backend server. A results wheel is the first component and this fills to whatever percentage 
 of a positive rating the search term had. There are two boxes that display user comments about the search term. Below that will also be other relevant information 
 about the search term. At the top of the screen there is a pressable home icon. When pressed the navigation controller will pop the results screen of the stack 
 and the home screen will disappear. 
