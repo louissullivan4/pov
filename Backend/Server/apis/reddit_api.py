@@ -32,6 +32,8 @@ def reddit_search(searchterm, category, id, secret, user):
         subreddit = "sports"
     elif category == "Travel" or category == "travel":
         subreddit = "travel"
+    elif category == "music" or category == "Music":
+        subreddit = "Music"
 
     try:
         subreddit = reddit.subreddit(subreddit)
@@ -146,4 +148,4 @@ def reddit_search(searchterm, category, id, secret, user):
         new_json.update({"msg": "Entry unavailable"})
     return(new_json)
 
-# print(reddit_search("italy", "travel", client_id(), client_secret(), user_agent()))
+# print(reddit_search("adele", "music", client_id(), client_secret(), user_agent()))
