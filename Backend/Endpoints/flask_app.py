@@ -129,6 +129,7 @@ def no_rating():
 def rating_val(term: str):
     term = term.lower().strip()
     term = term.replace(" ", "")
+    term = term.replace("+", "")
     if term == "tt1160419":
         json_file = open("/home/louissullivcs/mysite/json/imdb/imdb_dune_movie_rating.json")
         variables = json.load(json_file)
