@@ -72,7 +72,7 @@ function twitter(voteCount, wordCloud) {
   return (
   <View style={{width:'100%'}}>
     <View style={styles.rowContainer}>
-      <View style={{justifyContent:'flex-start', padding:10}}>
+      <View style={{justifyContent:'flex-start', padding:10, width:'100%'}}>
         <AppText>Stats:</AppText>
         <Text style={styles.textlist}>{'>'} {voteCount} number of reviews counted</Text>
         <Text style={styles.textlist}>
@@ -195,7 +195,7 @@ export default function ResultsScreen({ navigation, route }) {
       .catch((error) => setIsError(true))
       // .catch((error) => alert(error))
       .finally(() => setLoading(false));
-  })
+  }, [])
   if (isLoading) {
     return (<ActivityIndicator/>);
   } else if (isError) {
