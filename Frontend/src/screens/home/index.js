@@ -25,6 +25,9 @@ function userSearch(navigation, searchPhrase, categoryPhrase){
       ]
     );
   }
+  else if (category == 'World News'){
+    category = 'Politics'
+  }
   else {
     navigation.push('Results', {
       searchTerm: search, 
@@ -54,10 +57,10 @@ export default function HomeScreen({ navigation }) {
     {label: 'Game', value: 'game'},
     {label: 'Movie ', value: 'movie'},
     {label: 'Music ', value: 'music'},
-    {label: 'Politics ', value: 'politics'},
     {label: 'Product', value: 'product'},
     {label: 'Sport ', value: 'sport'},
-    {label: 'Travel ', value: 'travel'}
+    {label: 'Travel ', value: 'travel'},
+    {label: 'World News ', value: 'politics'}
   ]);
 
   return (

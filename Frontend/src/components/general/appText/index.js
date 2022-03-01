@@ -9,7 +9,7 @@ export default function AppText(props) {
         BebasNeue_400Regular,
     });
   return (
-    <View style={styles.container}>
+    <View>
       <Text style={[styles.text, {fontFamily: fontsLoaded ? 'BebasNeue_400Regular': fontOS}]}>{props.children}</Text>
     </View>
   );
