@@ -13,7 +13,7 @@ import ErrorScreen from '../error';
 
 function product(voteCount) {
   return (
-    <View>
+    <View style={styles.rowContainer}>
       <View style={{justifyContent:'flex-start', padding:10}}>
         <AppText>Stats:</AppText>
         <Text style={styles.textlist}>{'>'} {voteCount} number of reviews counted</Text>
@@ -28,7 +28,7 @@ function product(voteCount) {
 
 function movie(voteCount, rank) {
   return (
-    <View>
+    <View style={styles.rowContainer}>
       <View style={{justifyContent:'flex-start', padding:10}}>
         <AppText>Stats:</AppText>
         <Text style={styles.textlist}>{'>'} {voteCount} number of votes counted</Text>
@@ -44,37 +44,54 @@ function movie(voteCount, rank) {
 
 function reddit(voteCount, wordCloud) {
   return (
-    <View style={{width:'100%', height: 1000}}>
+    <View style={{width:'100%'}}>
+      <View style={styles.rowContainer}>
+        <View style={{justifyContent:'flex-start', padding:10, width:'100%'}}>
+          <AppText>Stats:</AppText>
+          <Text style={styles.textlist}>{'>'} {voteCount} number of reviews counted</Text>
+          <Text style={styles.textlist}>
+            <Text>{'>'} Data gathered at </Text>
+            <Text style={styles.urltext} onPress={() => Linking.openURL('https://www.reddit.com/')}>Reddit</Text>
+          </Text>
+        </View>
+      </View> 
+    <View style={styles.rowContainer}>
+        <View style={{width:'100%',padding: 10}}>
+          <AppText>Word Bubble</AppText>
+          <Text> Below are the most commonly used words to describe the search term  </Text>
+          <Cloud keywords={wordCloud} scale={340} largestAtCenter={false} drawContainerCircle={false} /> 
+        </View>
+    </View>
+  </View>
+
+    
+  )
+}
+
+function twitter(voteCount, wordCloud) {
+  return (
+  <View style={{width:'100%'}}>
+    <View style={styles.rowContainer}>
       <View style={{justifyContent:'flex-start', padding:10}}>
         <AppText>Stats:</AppText>
         <Text style={styles.textlist}>{'>'} {voteCount} number of reviews counted</Text>
         <Text style={styles.textlist}>
           <Text>{'>'} Data gathered at </Text>
-          <Text style={styles.urltext} onPress={() => Linking.openURL('https://www.reddit.com/')}>Reddit</Text>
+          <Text style={styles.urltext} onPress={() => Linking.openURL('https://www.twitter.com/')}>Twitter</Text>
         </Text>
       </View>
-
-    
-    <Cloud keywords={wordCloud} scale={250} largestAtCenter={true} drawContainerCircle={true} containerCircleColor={'#345678'} /> 
-
-    </View> 
-  )
-}
-
-function twitter(voteCount, wordCloud) {
-  <View>
-    <View style={{justifyContent:'flex-start', padding:10}}>
-      <AppText>Stats:</AppText>
-      <Text style={styles.textlist}>{'>'} {voteCount} number of reviews counted</Text>
-      <Text style={styles.textlist}>
-        <Text>{'>'} Data gathered at </Text>
-        <Text style={styles.urltext} onPress={() => Linking.openURL('https://www.twitter.com/')}>Twitter</Text>
-      </Text>
     </View>
 
-    <Cloud keywords={wordCloud} scale={250} largestAtCenter={true} drawContainerCircle={true} containerCircleColor={'#345678'} /> 
-
+    <View style={styles.rowContainer}>
+        <View style={{width:'100%',padding: 10}}>
+          <AppText>Word Bubble</AppText>
+          <Text> Below are the most commonly used words to describe the search term  </Text>
+          <Cloud keywords={wordCloud} scale={340} largestAtCenter={false} drawContainerCircle={false} /> 
+        </View>
+    </View>
   </View>
+  )
+  
 }
 export default function ResultsScreen({ navigation, route }) {
   const [isLoading, setLoading] = useState(true);
@@ -127,15 +144,19 @@ export default function ResultsScreen({ navigation, route }) {
             let totalJson = json.total_reviews;
 
             let wordCountJson = json.word_bubble;
-            for (let i of wordCountJson) {
-              console.log(i)
-              setWordCloud([...wordCloud, {
-                keyword: i[0],
-                frequency: i[1],
-                color: "#fff",
-              }])
+            let wordCloudList = [];
+            let new_item;
+            let colour_scheme = ['#fff','#fff100', '#ff8c00', '#e81123', '#ec008c', '#68217a', '#00188f', '#00bcf2', '#00b294', '#009e49', '#bad80a']
+            for (let i in wordCountJson) {
+              new_item = {
+                keyword: wordCountJson[i][0],
+                frequency: wordCountJson[i][1],
+                color: colour_scheme[i],
+              }
+              wordCloudList.push(new_item)
             }
-
+            wordCloudList.shift()
+            setWordCloud(wordCloudList)
             setRating(parseFloat(json.rating))
             setPopularComment(popluarJson)
             setRecentComment(recentJson)
@@ -147,15 +168,19 @@ export default function ResultsScreen({ navigation, route }) {
             let totalJson = json.total_reviews;
 
             let wordCountJson = json.word_bubble;
-            for (let i of wordCountJson) {
-              console.log(i)
-              setWordCloud([...wordCloud, {
-                keyword: i[0],
-                frequency: i[1],
-                color: "#fff",
-              }])
+            let wordCloudList = [];
+            let new_item;
+            let colour_scheme = ['#fff','#fff100', '#ff8c00', '#e81123', '#ec008c', '#68217a', '#00188f', '#00bcf2', '#00b294', '#009e49', '#bad80a']
+            for (let i in wordCountJson) {
+              new_item = {
+                keyword: wordCountJson[i][0],
+                frequency: wordCountJson[i][1],
+                color: colour_scheme[i],
+              }
+              wordCloudList.push(new_item)
             }
-
+            wordCloudList.shift()
+            setWordCloud(wordCloudList)
             setRating(parseFloat(json.rating))
             setPopularComment(popluarJson)
             setRecentComment(recentJson)
@@ -163,6 +188,7 @@ export default function ResultsScreen({ navigation, route }) {
           }
         }
         else {
+          console.log("hehehe")
           setIsError(true)
         }
       })
@@ -208,7 +234,7 @@ export default function ResultsScreen({ navigation, route }) {
             <Text style={styles.text}>"{recentComment}"</Text>
           </View>
         </View>
-          <View style={styles.rowContainer}> 
+          <View> 
               {(searchCategory == "product") ? product(voteCount) : <View/> }
               {(searchCategory == "movie") ?  movie(voteCount, rank) : <View/> }
               {(reddit_list.includes(searchCategory)) ? reddit(voteCount, wordCloud) : <View/> }
