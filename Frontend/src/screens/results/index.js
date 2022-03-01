@@ -11,6 +11,71 @@ import AppText from '../../components/general/appText';
 
 import ErrorScreen from '../error';
 
+function product(voteCount) {
+  return (
+    <View>
+      <View style={{justifyContent:'flex-start', padding:10}}>
+        <AppText>Stats:</AppText>
+        <Text style={styles.textlist}>{'>'} {voteCount} number of reviews counted</Text>
+        <Text style={styles.textlist}>
+          <Text>{'>'} Data gathered at </Text>
+          <Text style={styles.urltext} onPress={() => Linking.openURL('https://www.amazon.com/')}>Amazon</Text>
+        </Text>
+      </View>
+    </View>
+  )
+}
+
+function movie(voteCount, rank) {
+  return (
+    <View>
+      <View style={{justifyContent:'flex-start', padding:10}}>
+        <AppText>Stats:</AppText>
+        <Text style={styles.textlist}>{'>'} {voteCount} number of votes counted</Text>
+        <Text style={styles.textlist}>{'>'} {rank} was this movie's peak rank</Text>
+        <Text style={styles.textlist}>
+          <Text>{'>'} Data gathered at </Text>
+          <Text style={styles.urltext} onPress={() => Linking.openURL('https://www.imdb.com/')}>IMDB</Text>
+        </Text>
+      </View>
+    </View> 
+  )
+}
+
+function reddit(voteCount, wordCloud) {
+  return (
+    <View style={{width:'100%', height: 1000}}>
+      <View style={{justifyContent:'flex-start', padding:10}}>
+        <AppText>Stats:</AppText>
+        <Text style={styles.textlist}>{'>'} {voteCount} number of reviews counted</Text>
+        <Text style={styles.textlist}>
+          <Text>{'>'} Data gathered at </Text>
+          <Text style={styles.urltext} onPress={() => Linking.openURL('https://www.reddit.com/')}>Reddit</Text>
+        </Text>
+      </View>
+
+    
+    <Cloud keywords={wordCloud} scale={250} largestAtCenter={true} drawContainerCircle={true} containerCircleColor={'#345678'} /> 
+
+    </View> 
+  )
+}
+
+function twitter(voteCount, wordCloud) {
+  <View>
+    <View style={{justifyContent:'flex-start', padding:10}}>
+      <AppText>Stats:</AppText>
+      <Text style={styles.textlist}>{'>'} {voteCount} number of reviews counted</Text>
+      <Text style={styles.textlist}>
+        <Text>{'>'} Data gathered at </Text>
+        <Text style={styles.urltext} onPress={() => Linking.openURL('https://www.twitter.com/')}>Twitter</Text>
+      </Text>
+    </View>
+
+    <Cloud keywords={wordCloud} scale={250} largestAtCenter={true} drawContainerCircle={true} containerCircleColor={'#345678'} /> 
+
+  </View>
+}
 export default function ResultsScreen({ navigation, route }) {
   const [isLoading, setLoading] = useState(true);
   const [rating, setRating] = useState(0);
@@ -77,7 +142,24 @@ export default function ResultsScreen({ navigation, route }) {
             setVoteCount(parseInt(totalJson))
           }
           else {
-            setIsError(true)
+            let popluarJson = json.reviews[0].charAt(0).toUpperCase() + json.reviews[0].slice(1);
+            let recentJson = json.reviews[3].charAt(0).toUpperCase() + json.reviews[3].slice(1);
+            let totalJson = json.total_reviews;
+
+            let wordCountJson = json.word_bubble;
+            for (let i of wordCountJson) {
+              console.log(i)
+              setWordCloud([...wordCloud, {
+                keyword: i[0],
+                frequency: i[1],
+                color: "#fff",
+              }])
+            }
+
+            setRating(parseFloat(json.rating))
+            setPopularComment(popluarJson)
+            setRecentComment(recentJson)
+            setVoteCount(parseInt(totalJson))
           }
         }
         else {
@@ -126,59 +208,11 @@ export default function ResultsScreen({ navigation, route }) {
             <Text style={styles.text}>"{recentComment}"</Text>
           </View>
         </View>
-        <View style={styles.rowContainer}> 
-            {(searchCategory == "product") ? 
-            <View>
-               <View style={{justifyContent:'flex-start', padding:10}}>
-                  <AppText>Stats:</AppText>
-                  <Text style={styles.textlist}>{'>'} {voteCount} number of reviews counted</Text>
-                  <Text style={styles.textlist}>
-                    <Text>{'>'} Data gathered at </Text>
-                    <Text style={styles.urltext} onPress={() => Linking.openURL('https://www.amazon.com/')}>Amazon</Text>
-                  </Text>
-               </View>
-             </View> : 
-            (searchCategory == "movie") ?  
-            <View>
-               <View style={{justifyContent:'flex-start', padding:10}}>
-                  <AppText>Stats:</AppText>
-                  <Text style={styles.textlist}>{'>'} {voteCount} number of votes counted</Text>
-                  <Text style={styles.textlist}>{'>'} {rank} was this movie's peak rank</Text>
-                  <Text style={styles.textlist}>
-                    <Text>{'>'} Data gathered at </Text>
-                    <Text style={styles.urltext} onPress={() => Linking.openURL('https://www.imdb.com/')}>IMDB</Text>
-                  </Text>
-               </View>
-             </View> : 
-             (reddit_list.includes(searchCategory)) ?
-             <View>
-               <View style={{justifyContent:'flex-start', padding:10}}>
-                  <AppText>Stats:</AppText>
-                  <Text style={styles.textlist}>{'>'} {voteCount} number of reviews counted</Text>
-                  <Text style={styles.textlist}>
-                    <Text>{'>'} Data gathered at </Text>
-                    <Text style={styles.urltext} onPress={() => Linking.openURL('https://www.reddit.com/')}>Reddit</Text>
-                  </Text>
-               </View>
-               <View style={{height:400, flex: 1}}>
-                <Cloud keywords={wordCloud} scale={25} largestAtCenter={true} drawContainerCircle={true} containerCircleColor={'#345678'} />
-               </View>
-               <View style={{height:400, flex: 1}}>
-                <Cloud keywords={wordCloud} scale={25} largestAtCenter={true} drawContainerCircle={true} containerCircleColor={'#345678'} />
-               </View>
-             </View> :
-             <View>
-             <View>
-               <View style={{justifyContent:'flex-start', padding:10}}>
-                  <AppText>Stats:</AppText>
-                  <Text style={styles.textlist}>{'>'} {voteCount} number of reviews counted</Text>
-                  <Text style={styles.textlist}>
-                    <Text>{'>'} Data gathered at </Text>
-                    <Text style={styles.urltext} onPress={() => Linking.openURL('https://www.twitter.com/')}>Twitter</Text>
-                  </Text>
-               </View>
-             </View>
-             </View>}
+          <View style={styles.rowContainer}> 
+              {(searchCategory == "product") ? product(voteCount) : <View/> }
+              {(searchCategory == "movie") ?  movie(voteCount, rank) : <View/> }
+              {(reddit_list.includes(searchCategory)) ? reddit(voteCount, wordCloud) : <View/> }
+              {(twitter_list.includes(searchCategory)) ? twitter(voteCount, wordCloud) : <View/>}
           </View>
         </View>
       </ScrollView> 
