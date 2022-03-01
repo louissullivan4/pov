@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, ScrollView, ActivityIndicator, Linking  } from 'react-native';
 import { IconButton } from 'react-native-paper';
+import Cloud from 'react-native-word-cloud';
 
 import styles from "./styles";
 
@@ -18,6 +19,7 @@ export default function ResultsScreen({ navigation, route }) {
   const [voteCount, setVoteCount] = useState(0);
   const [rank, setRank] = useState(0)
   const [isError, setIsError] = useState(false)  
+  const [wordCloud, setWordCloud] = useState([])
 
   const { searchTerm, searchCategory } = route.params;
   let searchspace = searchTerm.split(' ').join('+');
@@ -58,6 +60,16 @@ export default function ResultsScreen({ navigation, route }) {
             let popluarJson = json.reviews[0].charAt(0).toUpperCase() + json.reviews[0].slice(1);
             let recentJson = json.reviews[3].charAt(0).toUpperCase() + json.reviews[3].slice(1);
             let totalJson = json.total_reviews;
+
+            let wordCountJson = json.word_bubble;
+            for (let i of wordCountJson) {
+              console.log(i)
+              setWordCloud([...wordCloud, {
+                keyword: i[0],
+                frequency: i[1],
+                color: "#fff",
+              }])
+            }
 
             setRating(parseFloat(json.rating))
             setPopularComment(popluarJson)
@@ -147,6 +159,12 @@ export default function ResultsScreen({ navigation, route }) {
                     <Text>{'>'} Data gathered at </Text>
                     <Text style={styles.urltext} onPress={() => Linking.openURL('https://www.reddit.com/')}>Reddit</Text>
                   </Text>
+               </View>
+               <View style={{height:400, flex: 1}}>
+                <Cloud keywords={wordCloud} scale={25} largestAtCenter={true} drawContainerCircle={true} containerCircleColor={'#345678'} />
+               </View>
+               <View style={{height:400, flex: 1}}>
+                <Cloud keywords={wordCloud} scale={25} largestAtCenter={true} drawContainerCircle={true} containerCircleColor={'#345678'} />
                </View>
              </View> :
              <View>
