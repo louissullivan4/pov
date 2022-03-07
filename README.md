@@ -2,6 +2,12 @@
 POV is an app that a user can search a term or topic and is then returned with data from the general public on that search. For example a user may want to search the
 term "Liverpool" to see what other people think about the club after they lose match.
 
+# FOR THIS CODE TO WORK:
+
+- Follow the steps below for installation
+- Apply for twitter and reddit developer keys.
+- It will work without these keys for endpoints in the folder Backend/Endpoints/json.
+- 
 This data includes:
 - Positive rating percentage
 - User comments
